@@ -1,5 +1,5 @@
 ---
-title: "Pg 138 right"
+title: "Pg 140 right"
 date: 2018-08-31T04:08:20-07:00
 description: ""
 tags: []
