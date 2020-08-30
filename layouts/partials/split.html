@@ -1,0 +1,9 @@
+<div class ="flex-container">
+    <div class="flex-column glas-left">
+    {{ with .Site.GetPage "glas/pg-138/left" }}{{ .Content | markdownify }}{{ end }}
+    </div>
+
+    <div class="flex-column glas-right">
+    {{ with .Site.GetPage "glas/pg-138/right" }} {{ .Content}} {{ end }}
+    </div>
+</div>
