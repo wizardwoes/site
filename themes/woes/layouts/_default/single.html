@@ -1,4 +1,12 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
+  where am i
+  i am after content in layouts/_default/single.html
+
+  {{ $paginator := .Paginator }}
+  {{ range $paginator.Pages }}
+      boy
+  {{ end }}
+  
 {{end}}

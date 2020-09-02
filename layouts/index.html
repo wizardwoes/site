@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        
+        {{- partial "header.html" . -}}
+        ok
+        <div id="main">
+            ok
+            {{ range first 10 .Data.Pages }}
+            <h1><a href={{ .Permalink }}>{{ .Title }}</a></h1>
+          {{ end }}
+        </div>
+
+        {{ $paginator := .Paginator }}
+        {{ range $paginator.Pages }}
+            boy
+        {{ end }}
+      
+        <!-- Add return to home on last page -->
+        {{ if not $paginator.HasNext }}
+        idk
+        {{ end }}
+
+        {{ partial "book_paginator.html" }}
+        ?
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

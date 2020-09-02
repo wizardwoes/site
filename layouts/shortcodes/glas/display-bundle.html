@@ -1,5 +1,5 @@
 <div class="flex-container">
-    {{$headless := .Site.GetPage (.Get 0)}}
+    {{$headless := .Site.GetPage (.Get "src")}}
     <div class="flex-column glas-left">
         {{range $headless.Resources.Match "left*"}}{{ .Content }}{{ end }}
     </div>

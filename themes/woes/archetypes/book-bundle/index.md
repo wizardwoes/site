@@ -5,4 +5,4 @@ draft: true
 type: "page"
 ---
 
-{{< glas/display >}}
+{{< img src="page.png" alt="page" >}}
