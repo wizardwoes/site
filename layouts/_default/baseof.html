@@ -4,13 +4,10 @@
 
 <body>
     {{- partial "header.html" . -}}
-    {{ .TableOfContents }}
-    <div id="main">
-        {{- partial "get-first-in-section.html" . "book" -}}
+    <div id="content">
+        {{- block "main" . }}{{- end }}
     </div>
-    {{- partial "next-prev.html" . -}}
     {{- partial "footer.html" . -}}
-
 </body>
 
 </html>

@@ -1,0 +1,38 @@
+@import 'mixins';
+
+.no-top {
+    margin-top: 0;
+    text-indent: 0;
+}
+
+.no-bottom {
+    margin-bottom: 0;
+}
+
+.inset {
+    float: right;
+    margin: 0;
+}
+
+blockquote {
+    width: 11em;
+    margin: 0;
+}
+
+.glas-left {
+    p {
+        @include font-size(0, 'small');
+    }
+}
+
+.glas-right {
+    p {
+        @include font-size(0, 'medium');
+    }
+}
+
+p.inset-p {
+    @include font-size(0, 'small');
+    text-indent: 0;
+    font-style: italic;
+}

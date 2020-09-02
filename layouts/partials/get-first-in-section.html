@@ -1,0 +1,7 @@
+
+{{ $pages := .Site.Sections }}
+{{.Type}}
+{{ range $pages.ByTitle }}
+{{ $title := last 1 (split .Title " ") }}
+    <a title="Next page in {{ .Section }}" href="{{ .Permalink }}">{{ $title }}</a>
+{{ end }}

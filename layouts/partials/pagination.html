@@ -56,10 +56,12 @@
     <nav class="pagination is-centered">
 
         {{ if $paginator.HasPrev }}
+            has prev
             <a class="pagination-previous" href="{{ $paginator.Prev.RelPermalink }}">Previous</a>
         {{ end }}
 
         {{ if $paginator.HasNext }}
+        has next
             <a class="pagination-next" href="{{ $paginator.Next.RelPermalink }}">Next page</a>
         {{ end }}
 
