@@ -1,7 +1,5 @@
-
+<!-- basically we can say that the title of a section's _index.md is a chapter or w/e -->
 {{ $pages := .Site.Sections }}
-{{.Type}}
 {{ range $pages.ByTitle }}
-{{ $title := last 1 (split .Title " ") }}
-    <a title="Next page in {{ .Section }}" href="{{ .Permalink }}">{{ $title }}</a>
+    <a title="Next page in {{ .Section }}" href="{{ .Permalink }}">{{ .Title }}</a>
 {{ end }}

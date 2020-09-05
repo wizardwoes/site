@@ -8,12 +8,12 @@
         {{.Content}}
     </article>
     <ul>
-    <!-- Ranges through content/post/*.md -->
-    {{ range .Pages }}
+        <!-- Ranges through content/post/*.md -->
+        {{ range .Pages }}
         <li>
             <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
         </li>
-    {{ end }}
+        {{ end }}
     </ul>
 </main>
 {{ end }}

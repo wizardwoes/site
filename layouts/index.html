@@ -1,3 +1,4 @@
+<!-- this is just the homepage -->
 <!DOCTYPE html>
 <html>
 {{- partial "head.html" . -}}
@@ -6,9 +7,8 @@
     {{- partial "header.html" . -}}
     {{ .TableOfContents }}
     <div id="main">
-        {{- partial "get-first-in-section.html" . "book" -}}
+        {{- partial "get-first-in-section.html" . -}}
     </div>
-    {{- partial "next-prev.html" . -}}
     {{- partial "footer.html" . -}}
 
 </body>
