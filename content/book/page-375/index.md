@@ -1,7 +1,7 @@
 ---
 title: "page 375"
 date: 2020-09-04T21:36:04-07:00
-draft: true
+draft: false
 type: "page"
 layout: "centered-single"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " }}"
 date: {{ .Date }}
-draft: true
+draft: false
 type: "page"
 layout: "centered-single"
 ---

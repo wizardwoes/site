@@ -4,7 +4,7 @@ date: {{ .Date }}
 description: ""
 tags: []
 categories: []
-draft: true
+draft: false
 ---
 
 placeholder for the left

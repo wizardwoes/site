@@ -1,7 +1,7 @@
 ---
 title: "page 666"
 date: 2020-08-30T20:04:44-07:00
-draft: true
+draft: false
 type: "page"
 layout: "centered-single"
 ---

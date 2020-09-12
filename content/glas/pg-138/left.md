@@ -4,7 +4,7 @@ date: 2018-08-31T04:08:20-07:00
 description: ""
 tags: []
 categories: []
-draft: true
+draft: false
 ---
 
 singularities, an effect and not a middle of the struggle. In the *practical* war between singular forces, the injuries must bring about
