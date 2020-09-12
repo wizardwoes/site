@@ -1,8 +1,9 @@
 ---
 title: "page 138"
-date: 2018-08-31T00:09:51-07:00
+date: 2017-08-31T00:09:51-07:00
 draft: true
 type: "page"
+chapter: "excellent"
 ---
 
 {{< glas/display >}}
