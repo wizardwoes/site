@@ -8,3 +8,4 @@ chapter: "lord"
 ---
 
 {{< img src="page.png" alt="page" >}}
+

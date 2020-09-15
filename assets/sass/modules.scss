@@ -5,11 +5,15 @@
 
 .navbar {
     @include l-navbar;
-    position: sticky;
     background-color: $bg-color;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5%;
+}
+
+.navbar a { 
+    text-decoration: none; 
 }
 
 #footer {

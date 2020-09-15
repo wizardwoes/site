@@ -1,9 +1,6 @@
-baseURL = "https://wonderful-wright-6f40c4.netlify.app/"
+baseURL = "https://wizardwoes.online/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-paginate = 10
-[params]
-  logo = "temp.png"
 
 
 [markup]
@@ -22,5 +19,5 @@ paginate = 10
       autoHeadingIDType = "github"
     [markup.goldmark.renderer]
       hardWraps = false
-      unsafe = false
+      unsafe = true
       xhtml = false

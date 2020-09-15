@@ -1,0 +1,21 @@
+<!-- basically we can say that the title of a section's _index.md is a chapter or w/e -->
+
+<!-- here we define our different groups -->
+{{ $lord_section := where .Site.RegularPages "Params.chapter" "lord" | group "lord"}}
+{{ $excellent_section := where .Site.RegularPages "Params.chapter" "excellent" | group "excellent"}}
+
+<!-- mash em all together -->
+{{$groups := slice $lord_section $excellent_section }}
+
+<!-- spit em out -->
+{{ range $groups }}
+    <h4> {{.Key | upper }} </h4>
+    {{range first 1 (.Pages.ByTitle) }}
+    <div class="chapter">
+        <a href="{{ .Permalink }}">
+            <span class="chapter-name">{{ .Section }}</span>
+            <span class="chapter-counter">{{ .Title }}</span>
+        </a>
+    </div>
+    {{ end }}
+{{ end }}

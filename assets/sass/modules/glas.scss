@@ -25,10 +25,17 @@ blockquote {
     }
 }
 
+.glass-left {
+    p {
+        @include font-size(0, 'medium');
+    }
+}
+
 .glas-right {
     p {
         @include font-size(0, 'medium');
     }
+
 }
 
 p.inset-p {

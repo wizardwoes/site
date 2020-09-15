@@ -1,10 +1,10 @@
-<div class="next-prev-wrap" style="text-align: center;">
+<div class="next-prev-wrap">
     <!-- idk why its backwards but it is -->
     {{ $pages := .Site.RegularPages }}
     {{ with $pages.ByTitle.Next . }}
-    <a title="next page" href="{{ .Permalink }}">Previous</a>
+    <a title="next page" href="{{ .Permalink }}">previous</a>
     {{ end }}
     {{ with $pages.ByTitle.Prev . }}
-    <a title="previous page" href="{{ .Permalink }}">Next</a>
+    <a title="previous page" href="{{ .Permalink }}">next</a>
     {{ end }}
 </div>
