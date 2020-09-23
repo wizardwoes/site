@@ -5,7 +5,7 @@ draft: false
 type: "page"
 description: "idk probably change it??"
 layout: "centered-single"
-chapter: "lord"
+# chapter: "lord"
 ---
 
 {{< img src="page.png" alt="page" >}}

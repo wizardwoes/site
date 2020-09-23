@@ -49,11 +49,23 @@
     p {
         @include font-size(0, 'medium');
     }
+
+    hr {
+        width: 40%;
+        text-align:center; 
+        margin: 0 auto;
+    }
 }
 
 .glas-right {
     p {
         @include font-size(0, 'medium');
+    }
+
+    hr {
+        width: 40%;
+        text-align:center; 
+        margin: 0 auto;
     }
 
 }

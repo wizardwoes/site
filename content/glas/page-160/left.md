@@ -6,6 +6,11 @@ tags: []
 categories: []
 draft: false
 ---
+Behind the anatomical measurements lay the assumption that the body was a legible text, with various keys or languages available for reading its symbolic codes...Although scientists debated which particular anatomical features carried racial meanings (skin, facial angle, pelvis, skull, brain mass, genitalia), they theory that anatomy predicted intelligence and behavior remained remarkably constant. As Nancy Stepan and Sander Gilman have noted, "The concepts within racial science were so congruent with social and political life (with power relations, that is) as to be virtually uncontested from inside the mainstream of science" (23 qtcl)
+
+Supported by the cultural authority of an ostensibly objective scientific method, these readings of the body became a powerful instrument for those seeking to justify the economic and political disenfranchisement of various racial groups within systems of slavery and colonialism. As Barbara Fields has noted, however, "Try as they would, the scientific racists of the past failed to discover any objective criterion upon which to classify people; to their chagrin, every criterion they tried varied more within so-called races than between them." Although the methods of science were considered to be outside the political and economic realm, in fact, as we know, these anatomical investigations, however professedly innocent their intentions, were driven by racial ideologies already firmly in place (23 qtcl)
+
+***
 
 Blackface was transformed from theatrical spectacle, then, to supposedly naturalistic makeup. 
 The actor and the film did everything possible to make audiences forget that they were matching a racial impersonation. 
