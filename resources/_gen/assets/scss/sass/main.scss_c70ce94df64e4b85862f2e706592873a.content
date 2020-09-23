@@ -131,7 +131,7 @@ h2, h3, h4, h5, h6 {
   float: right;
   margin: 0; }
 
-blockquote {
+.inset blockquote {
   width: 11em;
   margin: 0; }
 
@@ -139,9 +139,18 @@ blockquote {
   font-size: 14px;
   line-height: 19.5px; }
 
+.glas-left hr {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto; }
+
 .glass-left p {
   font-size: 18px;
   line-height: 23.4px; }
+
+.glass-left blockquote {
+  padding-left: 15px;
+  border-left: 3px solid #ccc; }
 
 .glas-right p {
   font-size: 18px;

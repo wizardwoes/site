@@ -14,7 +14,7 @@
     margin: 0;
 }
 
-blockquote {
+.inset blockquote {
     width: 11em;
     margin: 0;
 }
@@ -23,6 +23,26 @@ blockquote {
     p {
         @include font-size(0, 'small');
     }
+
+    hr {
+        width: 40%;
+        text-align:center; 
+        margin: 0 auto;
+    }
+}
+
+.glass-left {
+    p {
+        @include font-size(0, 'medium');
+    }
+}
+
+.glass-left blockquote {
+    // margin-top: 10px;
+    // margin-bottom: 10px;
+    // margin-left: 50px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
 }
 
 .glass-left {

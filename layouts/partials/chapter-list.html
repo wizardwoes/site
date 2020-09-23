@@ -5,7 +5,7 @@
 {{ $excellent_section := where .Site.RegularPages "Params.chapter" "excellent" | group "excellent"}}
 
 <!-- mash em all together -->
-{{$groups := slice $lord_section $excellent_section }}
+{{$groups := slice $excellent_section $lord_section }}
 
 <!-- spit em out -->
 {{ range $groups }}

@@ -1,0 +1,9 @@
+---
+title: "page 300"
+date: 2020-09-18T15:20:12-07:00
+description: "technology making us legible"
+draft: false
+type: "page"
+---
+
+{{< glas/display >}}

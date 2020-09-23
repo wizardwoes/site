@@ -2,6 +2,8 @@ baseURL = "https://wizardwoes.online/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
+[permalinks]
+  glas = "/book/:title/"
 
 [markup]
   [markup.goldmark]
