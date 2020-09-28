@@ -1,0 +1,80 @@
+---
+references:
+- id: althusserIdeologyIdeologicalState1970
+  type: book
+  author:
+  - family: Althusser
+    given: Louis
+  issued:
+  - year: 1970
+  title: Ideology and Ideological State Apparatuses
+  publisher: La Pensée
+
+- id: burnettInterviewAaronHunt2020
+  type: no-type
+  author:
+  - family: Burnett
+    given: Charles
+  issued:
+  - year: 2020
+    month: 7
+  title: Interview by Aaron E. Hunt.
+
+- id: fisherPostcapitalistDesire2020
+  type: book
+  author:
+  - family: Fisher
+    given: Mark
+  issued:
+  - year: 2020
+    month: 9
+  title: Postcapitalist Desire
+  publisher: Repeater
+
+- id: lyotardInhuman1988
+  type: book
+  author:
+  - family: Lyotard
+    given: Jean-Fran├ºois
+  issued:
+  - year: 1988
+  title: The Inhuman
+  publisher: Stanford University Press
+
+- id: QueerNihilism
+  type: book
+  title: Queer Nihilism
+
+- id: somervilleQueeringColorLine2012
+  type: book
+  author:
+  - family: Somerville
+    given: Siobhan B.
+  issued:
+  - year: 2012
+  title: 'Queering the Color Line: Race and the Invention of Homosexuality in American
+    Culture'
+  title-short: Queering the Color Line
+  publisher: Duke University Press
+
+- id: stieglerbernardSymbolicMisery2015
+  type: book
+  author:
+  - family: Stiegler
+    given: Bernard
+  issued:
+  - year: 2015
+  title: Symbolic Misery
+  publisher: Polity Press
+  volume: '2'
+
+- id: stieglerNeganthropocene2018
+  type: book
+  author:
+  - family: Stiegler
+    given: Bernard
+  issued:
+  - year: 2018
+  title: The Neganthropocene
+  publisher: Open Humanities Press
+...

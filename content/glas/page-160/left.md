@@ -12,6 +12,10 @@ Supported by the cultural authority of an ostensibly objective scientific method
 
 ***
 
+A 1909 article about Lubin referred to these films as "startlingly realistic," demonstrating the powerful ideological effects of these images. In an increasingly racially segregated culture, these cartoon images circulated among white audiences much more easily than did the actual bodies of those identified as "black." Such images, in fact, served to justify segregation by depicting and reinforcing images of black bodies as infantile, savagelike, and laughable. Moreover, the very genre of all-black films tended to reinforce and naturalize the spatial segregation of "black" and "white" bodies. (49 QtCL)
+
+***
+
 Blackface was transformed from theatrical spectacle, then, to supposedly naturalistic makeup. 
 The actor and the film did everything possible to make audiences forget that they were matching a racial impersonation. 
 Maintaining and disrupting the fiction of blackness became the subject of white actress Norma Talmadge's reminiscence about making *The Octoroon*. 
@@ -26,7 +30,4 @@ In effect, where minstrel performers had used blackface to produce exaggerated a
 The seeming authenticity of blackface performance on film depended on white audiences' and actor's assumption that race was a transparent visual sign. 
 The naturalization of blackface on film was significantly related to the increasingly naturalized structures of racial segregation within American culture at large. (64 QtCL)
 
-<!-- {{% citation %}}
-Somerville, Siobhan B. *Queering the Color Line Race and the Invention of Homosexuality in American Culture.* Duke University Press, 2012. 
-{{% /citation %}} -->
-{{% citation/qtcl %}}
+{{% cite-book "somervilleQueeringColorLine2012" %}}

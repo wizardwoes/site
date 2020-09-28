@@ -1,0 +1,31 @@
+<!-- lots of data wrangling -->
+{{ $scratch := newScratch }}
+{{ $key := .Get 0}}
+
+{{ $refs := index .Site.Data.bibliography.references}}
+{{ range where $refs "id" $key }}
+{{ $current := . }}
+    {{ $scratch.Set "title" $current.title }}
+    {{ $scratch.Set "publisher" $current.publisher }}
+
+    <!-- set author -->
+    {{ range first 1 $current.author}}
+        {{ $author := (printf "%s %s" .family .given) }}
+        {{ $scratch.Set "author" $author }}
+    {{ end }}
+
+    <!-- set year -->
+    {{ range first 1 $current.issued}}
+        {{ $year := .year }}
+        {{ $scratch.Set "year" $year }}
+    {{ end }}
+{{ end }}
+
+
+<!-- here's where the html is generated -->
+<div class="citation">
+    {{ with $scratch.Get "author"}}{{.}}.{{ end }}
+    {{ with $scratch.Get "title"}}<em>{{.}}</em>.{{ end }}
+    {{ with $scratch.Get "publisher"}}{{.}}.{{ end }}
+    {{ with $scratch.Get "year"}}{{.}}.{{ end }}
+</div>
