@@ -5,20 +5,32 @@
 {{ $refs := index .Site.Data.bibliography.references}}
 {{ range where $refs "id" $key }}
 {{ $current := . }}
-    {{ $scratch.Set "title" $current.title }}
-    {{ $scratch.Set "publisher" $current.publisher }}
+    <!-- set title -->
+    {{ if $current.title}}
+        {{ $scratch.Set "title" $current.title }}
+    {{ end }}
+    
+    <!-- set publisher -->
+    {{ if $current.publisher}}
+        {{ $scratch.Set "publisher" $current.publisher }}
+    {{ end }}
 
     <!-- set author -->
-    {{ range first 1 $current.author}}
-        {{ $author := (printf "%s %s" .family .given) }}
-        {{ $scratch.Set "author" $author }}
+    {{ if $current.author}}
+        {{ range first 1 $current.author}}
+            {{ $author := (printf "%s %s" .family .given) }}
+            {{ $scratch.Set "author" $author }}
+        {{ end }}
     {{ end }}
 
     <!-- set year -->
-    {{ range first 1 $current.issued}}
-        {{ $year := .year }}
-        {{ $scratch.Set "year" $year }}
+    {{ if $current.issued}}
+        {{ range first 1 $current.issued}}
+            {{ $year := .year }}
+            {{ $scratch.Set "year" $year }}
+        {{ end }}
     {{ end }}
+
 {{ end }}
 
 

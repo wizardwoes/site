@@ -24,4 +24,4 @@ is really him who is being hailed. And yet it is a strange phenomenon, and one w
 cannot be explained solely by "guilt feelings," despite the large numbers who "have
 something on their consciences."
 
-{{% cite-book "althusserIdeologyIdeologicalState1970" %}}
+{{< cite-book "althusserIdeologyIdeologicalState1970" >}}

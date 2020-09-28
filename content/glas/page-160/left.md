@@ -30,4 +30,4 @@ In effect, where minstrel performers had used blackface to produce exaggerated a
 The seeming authenticity of blackface performance on film depended on white audiences' and actor's assumption that race was a transparent visual sign. 
 The naturalization of blackface on film was significantly related to the increasingly naturalized structures of racial segregation within American culture at large. (64 QtCL)
 
-{{% cite-book "somervilleQueeringColorLine2012" %}}
+{{< cite-book "somervilleQueeringColorLine2012" >}}

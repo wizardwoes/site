@@ -20,4 +20,6 @@ develop, if not in secret, at least in a space that is protected
 and local in this sense, are the basis of what I will describe
 here as *neganthropological noodiversity*.
 
+{{< cite-book "stieglerNeganthropocene2018" >}}
+
 
