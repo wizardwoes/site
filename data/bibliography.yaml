@@ -49,7 +49,7 @@ references:
   type: book
   author:
   - family: Somerville
-    given: Siobhan B.
+    given: Siobhan B
   issued:
   - year: 2012
   title: 'Queering the Color Line: Race and the Invention of Homosexuality in American
@@ -77,4 +77,14 @@ references:
   - year: 2018
   title: The Neganthropocene
   publisher: Open Humanities Press
+
+- id: leeBamboozled2000
+  type: Film
+  author:
+  - family: Lee
+    given: Dir. Spike
+  issued:
+  - year: 2000
+  title: Bamboozled
+  publisher: 	New Line Cinema
 ...

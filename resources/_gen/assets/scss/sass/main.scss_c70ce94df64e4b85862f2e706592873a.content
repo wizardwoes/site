@@ -226,3 +226,5 @@ p.inset-p {
     @media (min-width: 600px) {
       .flex-container .flex-column {
         padding: 0 35px; } }
+  .flex-container p img {
+    display: block; }
