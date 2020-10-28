@@ -81,8 +81,8 @@ references:
 - id: leeBamboozled2000
   type: Film
   author:
-  - family: Lee
-    given: Dir. Spike
+  - family: Dir. Spike
+    given: Lee
   issued:
   - year: 2000
   title: Bamboozled
