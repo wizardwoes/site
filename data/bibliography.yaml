@@ -1,90 +1,104 @@
 ---
 references:
 - id: althusserIdeologyIdeologicalState1970
-  type: book
   author:
-  - family: Althusser
-    given: Louis
+    - family: Althusser
+      given: Louis
   issued:
-  - year: 1970
+    - year: 1970
   title: Ideology and Ideological State Apparatuses
-  publisher: La Pensée
+  type: book
 
 - id: burnettInterviewAaronHunt2020
-  type: no-type
   author:
-  - family: Burnett
-    given: Charles
+    - family: Burnett
+      given: Charles
   issued:
-  - year: 2020
-    month: 7
+    - year: 2020
+      month: 7
+      day: 7
   title: Interview by Aaron E. Hunt.
+  type: interview
+  URL: >-
+    https://mubi.com/notebook/posts/an-incomplete-notion-to-begin-with-a-conversation-with-charles-burnett
 
 - id: fisherPostcapitalistDesire2020
-  type: book
   author:
-  - family: Fisher
-    given: Mark
+    - family: Fisher
+      given: Mark
   issued:
-  - year: 2020
-    month: 9
-  title: Postcapitalist Desire
+    - year: 2020
+      month: 9
+      day: 22
   publisher: Repeater
+  title: Postcapitalist Desire
+  type: book
+
+- id: huiWritingCosmotechnics
+  author:
+    - family: Hui
+      given: Yuk
+  title: Writing and Cosmotechnics
+  type: article
+
+- id: lukacsHistoryClassConciousness
+  author:
+    - family: Lukacs
+      given: Georg
+  title: History and Class Conciousness
+  type: book
 
 - id: lyotardInhuman1988
-  type: book
   author:
-  - family: Lyotard
-    given: Jean-François
+    - family: Lyotard
+      given: Jean-François
   issued:
-  - year: 1988
-  title: The Inhuman
+    - year: 1988
   publisher: Stanford University Press
+  title: The Inhuman
+  type: book
 
 - id: QueerNihilism
-  type: book
   title: Queer Nihilism
+  type: book
 
 - id: somervilleQueeringColorLine2012
-  type: book
   author:
-  - family: Somerville
-    given: Siobhan B
+    - family: Somerville
+      given: Siobhan B.
   issued:
-  - year: 2012
-  title: 'Queering the Color Line: Race and the Invention of Homosexuality in American
-    Culture'
-  title-short: Queering the Color Line
+    - year: 2012
   publisher: Duke University Press
+  title: >-
+    Queering the Color Line: Race and the Invention of Homosexuality in American
+    Culture
+  type: book
+
+- id: stieglerAutomaticSocietyVol
+  author:
+    - family: Stiegler
+      given: Bernard
+  title: Automatic Society vol 1
+  type: book
 
 - id: stieglerbernardSymbolicMisery2015
-  type: book
   author:
-  - family: Stiegler
-    given: Bernard
+    - family: 'Stiegler, Bernard'
+      given: ''
   issued:
-  - year: 2015
-  title: Symbolic Misery
+    - year: 2015
   publisher: Polity Press
+  title: Symbolic Misery
+  type: book
   volume: '2'
 
 - id: stieglerNeganthropocene2018
-  type: book
   author:
-  - family: Stiegler
-    given: Bernard
+    - family: Stiegler
+      given: Bernard
   issued:
-  - year: 2018
-  title: The Neganthropocene
+    - year: 2018
   publisher: Open Humanities Press
-
-- id: leeBamboozled2000
-  type: Film
-  author:
-  - family: Dir. Spike
-    given: Lee
-  issued:
-  - year: 2000
-  title: Bamboozled
-  publisher: 	New Line Cinema
+  title: The Neganthropocene
+  type: book
 ...
