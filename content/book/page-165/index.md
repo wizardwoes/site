@@ -4,7 +4,7 @@ date: 2020-09-04T21:30:54-07:00
 draft: false
 type: "page"
 description: "idk probably change it??"
-layout: "centered-single"
+type: "centered-single"
 # chapter: "lord"
 ---
 
