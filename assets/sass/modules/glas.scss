@@ -20,25 +20,13 @@
 }
 
 .glas-left {
-    p {
-        @include font-size(0, 'small');
-    }
-
-    hr {
-        width: 40%;
-        text-align:center; 
-        margin: 0 auto;
-    }
-}
-
-.glass-left {
     blockquote {
         padding-left: 15px;
         border-left: 3px solid #ccc;
     }
 
     p {
-        @include font-size(0, 'medium');
+        @include font-size(0, 'small');
     }
 
     hr {

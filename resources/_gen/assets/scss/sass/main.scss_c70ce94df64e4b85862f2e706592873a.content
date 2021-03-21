@@ -144,24 +144,15 @@ h2, h3, h4, h5, h6 {
   width: 11em;
   margin: 0; }
 
+.glas-left blockquote {
+  padding-left: 15px;
+  border-left: 3px solid #ccc; }
+
 .glas-left p {
   font-size: 14px;
   line-height: 19.5px; }
 
 .glas-left hr {
-  width: 40%;
-  text-align: center;
-  margin: 0 auto; }
-
-.glass-left blockquote {
-  padding-left: 15px;
-  border-left: 3px solid #ccc; }
-
-.glass-left p {
-  font-size: 18px;
-  line-height: 23.4px; }
-
-.glass-left hr {
   width: 40%;
   text-align: center;
   margin: 0 auto; }
