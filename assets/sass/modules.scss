@@ -3,13 +3,23 @@
     'layouts',
     'site-settings';
 
+@mixin l-navbar {
+    top: 0;
+    height: 60px;
+    width: 100%;
+
+    @include for-tablet-portrait-up {
+        height: 80px;
+    }
+}
+
 .navbar {
     @include l-navbar;
     background-color: $bg-color;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
 }
 
 .navbar a { 
@@ -51,4 +61,9 @@
 
 .center {
     justify-content: center;
+
+}
+
+.flex-column img {
+        display: block;
 }

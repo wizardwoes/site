@@ -120,7 +120,8 @@ h2, h3, h4, h5, h6 {
   margin-top: 2em; }
 
 .next-prev-wrap {
-  text-align: center; }
+  text-align: center;
+  padding: 25px 0; }
 
 .next-prev-wrap a {
   text-decoration: none;
@@ -180,7 +181,7 @@ p.inset-p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5%; }
+  margin-bottom: 1%; }
   @media (min-width: 600px) {
     .navbar {
       height: 80px; } }
@@ -218,3 +219,6 @@ p.inset-p {
 
 .center {
   justify-content: center; }
+
+.flex-column img {
+  display: block; }

@@ -1,7 +1,9 @@
 {{ define "main" }}
 {{/*  figure out how to make the padding between the content and the next/prev bar gooder  */}}
 <div class="flex-container center">
-    {{ .Content }}
+    <div class="flex-column">
+        {{ .Content }}
+    </div>
 </div>
 {{- partial "next-prev.html" . -}}
 {{end}}

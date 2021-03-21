@@ -4,8 +4,7 @@ date: 2020-09-18T15:20:12-07:00
 description: "technology making us legible"
 chapter: "how to read"
 draft: false
-type: "page"
-# type: "centered-single"
+type: "centered-single"
 ---
 
 Reality TV, karaoke, *sampling*, *blogs*: how are these things to be interpreted? Something is not interesting unless its conditions of interpretation are fundamentally ambiguous. So let's take *blogs* as an example. *Blogs* are, without a double, responsible for new hypomnesiac practices in the sense in which I discussed Foucault's analyses of *hupomnēmata* in *Disbelief and Discredit 1.* They also immediately became instruments of communication, for businesses and politicians, and, especially, for people seeking elected office.
