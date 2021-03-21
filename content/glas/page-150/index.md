@@ -6,11 +6,9 @@ draft: false
 slug: pg-150
 type: "page"
 ---
-{{% glasbox %}}
 {{< leftmd >}}
 
 {{< rightmd >}}
-{{% /glasbox %}}
 
 
 

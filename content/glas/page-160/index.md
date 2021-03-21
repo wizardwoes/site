@@ -6,8 +6,6 @@ draft: false
 type: "page"
 ---
 
-{{% glasbox %}}
 {{< leftmd >}}
 
 {{< rightmd >}}
-{{% /glasbox %}}

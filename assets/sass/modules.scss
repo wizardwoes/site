@@ -39,13 +39,18 @@
 .flex-container {
     display: flex;
 
+    
     .flex-column {
         @include col-center;
     }
 
-    p {
-        img {
-            display: block;
-        }
+    img {
+        display: block;
     }
 }
+.center {
+    justify-content: center;
+}
+// #center {
+//     text-align: center;
+// }
