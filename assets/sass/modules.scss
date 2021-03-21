@@ -62,8 +62,13 @@
 .center {
     justify-content: center;
 
-}
+    .flex-column {  
+        width: unset;
+    }
 
-.flex-column img {
+    img {
         display: block;
+
+    }
+
 }

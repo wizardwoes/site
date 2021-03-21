@@ -219,6 +219,7 @@ p.inset-p {
 
 .center {
   justify-content: center; }
-
-.flex-column img {
-  display: block; }
+  .center .flex-column {
+    width: unset; }
+  .center img {
+    display: block; }
