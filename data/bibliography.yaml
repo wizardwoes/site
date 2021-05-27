@@ -101,4 +101,15 @@ references:
   publisher: Open Humanities Press
   title: The Neganthropocene
   type: book
+
+- id: simondonIndividuation2020
+  author:
+    - family: Simondon
+      given: Gilbert
+  issued:
+    - year: 2020
+  publisher: University of Minnesota Press
+  title: Individuation in light of notions of form and information
+  type: book
+  
 ...
