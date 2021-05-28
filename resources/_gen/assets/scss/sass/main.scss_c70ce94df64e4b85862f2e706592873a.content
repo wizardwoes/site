@@ -205,7 +205,11 @@ p.inset-p {
     text-decoration: none; }
 
 .flex-container {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 600px) {
+    .flex-container {
+      flex-direction: row; } }
   .flex-container .flex-column {
     margin-left: auto;
     margin-right: auto;
