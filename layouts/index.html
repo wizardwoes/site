@@ -11,7 +11,9 @@
         a wizard <br>
 
         {{- partial "chapter-list.html" . -}}
-        <img src="Wizard_Thief.png" alt="">
+        {{ $thief := resources.Get "Wizard_Thief.png" }}
+        <img src="{{ $thief.RelPermalink }}" alt="">
+
 
     </div>
     {{- partial "footer.html" . -}}
