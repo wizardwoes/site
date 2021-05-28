@@ -1,0 +1,9 @@
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@chooseagoose" />
+{{ with .Page }}
+<meta property="og:url" content="{{ .Page.RelPermalink }}" />
+<meta property="og:title" content="{{ .Page.Title }}" />
+<meta property="og:description" content="{{ .Page.Summary }}" />
+{{ end }}
+{{ $thief := resources.Get "Wizard_Thief.png" }}
+<meta property="og:image" content="{{ $thief.Permalink }}" />

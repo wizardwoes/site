@@ -14,7 +14,7 @@
     <h4> {{.Key | upper }} </h4>
     {{range first 1 (.Pages.ByTitle) }}
     <div class="chapter">
-        <a href="{{ .Permalink }}">
+        <a href="{{ .RelPermalink }}">
             <!-- <span class="chapter-name">{{ .Section }}</span> -->
             <span class="chapter-counter">{{ .Title }}</span>
         </a>

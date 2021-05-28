@@ -1,6 +1,6 @@
 baseURL = "https://wizardwoes.online/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "wizardwoes"
 
 [permalinks]
   glas = "/book/:title/"

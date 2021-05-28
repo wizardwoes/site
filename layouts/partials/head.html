@@ -2,4 +2,7 @@
     <title>{{ .Title }}</title>
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ with .Page }}
+        {{ partial "meta-card.html" . }}
+    {{ end }}
 </head>
