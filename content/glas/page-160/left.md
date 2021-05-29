@@ -1,5 +1,5 @@
 ---
-title: "Pg 160 left"
+title: "page 160 left"
 date: 2020-09-16T19:06:20-07:00
 description: ""
 tags: []

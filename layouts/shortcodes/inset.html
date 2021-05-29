@@ -1,6 +1,7 @@
 {{$mod := .Get "class"}}
-<aside class="inset inset--{{$mod}}">
-    <blockquote class="inset__quote inset__quote--{{$mod}}">
+{{$block := replace .Page.Title " " "_"}}
+<aside class="{{$block}}__inset--{{$mod}}">
+    <blockquote class="{{$block}}__inset__quote--{{$mod}}">
         <p class="inset__content">
         {{ .Inner | markdownify }}
         </p>

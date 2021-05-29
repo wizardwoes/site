@@ -1,17 +1,18 @@
 ---
-title: "Pg 138 right"
+title: "page 138 right"
 date: 2018-08-31T04:08:20-07:00
 description: ""
 tags: []
 categories: []
 draft: false
 ---
-
+{{< no-top >}}
 denim trousers. This detail might have haunted my
 dreams less had Stilitano not, at odd moments, put
 his left hand on it, and had he not, like ladies making
 a curtsey, indicated the crease by delicately pinching
 the cloth with his nails [*ongles*]"
+{{< /no-top >}}
 
 {{< no-bottom >}}
 "The one that remains grows stronger,” the more

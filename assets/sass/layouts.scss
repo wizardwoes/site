@@ -20,11 +20,11 @@
 
 @mixin col-center {
     @include container-fluid;
-    padding: 0 25px;
+    // padding: 0 25px;
 
-    @include for-tablet-portrait-up {
-        padding: 0 35px;
-    }
+    // @include for-tablet-portrait-up {
+    //     padding: 0 35px;
+    // }
 }
 
 @mixin text-block-inner {
