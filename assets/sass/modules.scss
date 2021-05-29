@@ -56,24 +56,23 @@
 
 .flex-column {
     @include col-center;
-    // fix this later 
-    // somehow,,
-
-    p {
-        max-width: none;
-        margin-bottom: 1rem;
-        text-indent: 1em;
-
-        @media (min-width: 767px) {
-            width: 100%;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
 }
 
 .flex-column--centered {
     justify-content: center;
     width: unset;
+    margin: auto;
+
+    // work around since we generate with hugo
+    // figure out how to add class to paragraphs in the markdown files?
+    p {
+        max-width: 45vw;
+        margin-bottom: 1rem;
+        text-indent: 1em;
+        @include font-size(0, "medium");
+
+        @include for-tablet-portrait-up {
+            @include font-size(0);
+        }
+    }
 }

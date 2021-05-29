@@ -124,11 +124,9 @@ img {
   margin-top: 2em; }
 
 .citation {
-  margin-top: 2em; }
-  .citation p,
-  .citation a {
-    font-size: 14px;
-    line-height: 19.5px; }
+  margin-top: 2em;
+  font-size: 14px;
+  line-height: 19.5px; }
 
 .next-prev-wrap {
   text-align: center;
@@ -177,12 +175,16 @@ img {
   font-style: italic; }
 
 .glas--left {
+  margin-bottom: 1rem;
+  text-indent: 1em;
   font-size: 14px;
   line-height: 19.5px; }
   @media (min-width: 600px) {
     .glas--left {
       padding-left: 20vh; } }
 .glas--right {
+  margin-bottom: 1rem;
+  text-indent: 1em;
   font-size: 18px;
   line-height: 23.4px; }
   @media (min-width: 600px) {
@@ -243,16 +245,17 @@ img {
   @media (min-width: 600px) {
     .flex-column {
       padding: 0 35px; } }
-  .flex-column p {
-    max-width: none;
-    margin-bottom: 1rem;
-    text-indent: 1em; }
-    @media (min-width: 767px) {
-      .flex-column p {
-        width: 100%;
-        max-width: 700px;
-        margin-left: auto;
-        margin-right: auto; } }
 .flex-column--centered {
   justify-content: center;
-  width: unset; }
+  width: unset;
+  margin: auto; }
+  .flex-column--centered p {
+    max-width: 45vw;
+    margin-bottom: 1rem;
+    text-indent: 1em;
+    font-size: 18px;
+    line-height: 23.4px; }
+    @media (min-width: 600px) {
+      .flex-column--centered p {
+        font-size: 18px;
+        line-height: 23.4px; } }

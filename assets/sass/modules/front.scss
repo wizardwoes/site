@@ -38,10 +38,7 @@
 .citation {
     margin-top: 2em;
 
-    p,
-    a {
-        @include font-size(0, "small");
-    }
+    @include font-size(0, "small");
 }
 
 .next-prev-wrap {

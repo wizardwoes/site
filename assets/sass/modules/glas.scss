@@ -38,6 +38,9 @@
 }
 
 .glas--left {
+    margin-bottom: 1rem;
+    text-indent: 1em;
+
     @include font-size(0, "small");
 
     @include for-tablet-portrait-up {
@@ -46,6 +49,9 @@
 }
 
 .glas--right {
+    margin-bottom: 1rem;
+    text-indent: 1em;
+    
     @include font-size(0, "medium");
 
     @include for-tablet-portrait-up {
