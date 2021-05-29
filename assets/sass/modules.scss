@@ -38,6 +38,11 @@
 
 .footer-wrap__contact {
     text-decoration: none;
+    @include font-size(0, "medium");
+
+    @include for-tablet-portrait-up {
+        @include font-size(0);
+    }
 }
 
 .flex-container {
@@ -53,14 +58,6 @@
     @include col-center;
     // fix this later 
     // somehow,,
-    a,
-    p {
-        @include font-size(0, "medium");
-
-        @include for-tablet-portrait-up {
-            @include font-size(0);
-        }
-    }
 
     p {
         max-width: none;

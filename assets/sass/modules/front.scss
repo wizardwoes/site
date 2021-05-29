@@ -52,9 +52,15 @@ h6 {
     padding: 25px 0;
 }
 
-.next-prev-wrap a {
+.next-prev-wrap__link {
     text-decoration: none;
     margin: 2em;
+
+    @include font-size(0, "medium");
+
+    @include for-tablet-portrait-up {
+        @include font-size(0);
+    }
 }
 
 // idk its magic sauce, fix it later
