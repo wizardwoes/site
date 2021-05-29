@@ -176,22 +176,18 @@ img {
   text-indent: 0;
   font-style: italic; }
 
-@media (min-width: 600px) {
-  .glas--left {
-    padding-left: 20vh; } }
-
-.glas--left__content {
+.glas--left {
   font-size: 14px;
   line-height: 19.5px; }
-
-@media (min-width: 600px) {
-  .glas--right {
-    padding-right: 20vh; } }
-
-.glas--right__content {
+  @media (min-width: 600px) {
+    .glas--left {
+      padding-left: 20vh; } }
+.glas--right {
   font-size: 18px;
   line-height: 23.4px; }
-
+  @media (min-width: 600px) {
+    .glas--right {
+      padding-right: 20vh; } }
 .quote {
   padding-left: 15px;
   border-left: 3px solid #ccc; }

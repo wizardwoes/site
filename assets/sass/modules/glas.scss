@@ -38,23 +38,19 @@
 }
 
 .glas--left {
+    @include font-size(0, "small");
+
     @include for-tablet-portrait-up {
         padding-left: 20vh;
     }
 }
 
-.glas--left__content {
-    @include font-size(0, "small");
-}
-
 .glas--right {
+    @include font-size(0, "medium");
+
     @include for-tablet-portrait-up {
         padding-right: 20vh;
     }
-}
-
-.glas--right__content {
-    @include font-size(0, "medium");
 }
 
 .quote {
