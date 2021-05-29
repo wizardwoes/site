@@ -11,21 +11,30 @@
     width: 100vw;
 }
 
-#chapter-list {
+
+.book {
     margin-bottom: 5em;
 }
-.chapter {
+
+.chapter__contents {
     text-align: right;
 }
 
-.chapter a {
+
+.chapter__link {
     text-decoration: none;
+
+    @include font-size(0, "medium");
+
+    @include for-tablet-portrait-up {
+        @include font-size(0);
+    }
 }
 
-.chapter-name {
-    text-align: left;
-    float: left;
-    margin: 0 2em -1.52em 0;
+.chapter__name {
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 2em;
 }
 
 .citation {
@@ -37,15 +46,15 @@
     }
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-align: center;
-    margin-bottom: 1em;
-    margin-top: 2em;
-}
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//     text-align: center;
+//     margin-bottom: 1em;
+//     margin-top: 2em;
+// }
 
 .next-prev-wrap {
     text-align: center;

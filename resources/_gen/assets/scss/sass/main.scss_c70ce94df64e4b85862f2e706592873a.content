@@ -104,19 +104,24 @@ img {
   @media (min-width: 600px) {
     #main {
       padding: 0 35px; } }
-#chapter-list {
+.book {
   margin-bottom: 5em; }
 
-.chapter {
+.chapter__contents {
   text-align: right; }
 
-.chapter a {
-  text-decoration: none; }
-
-.chapter-name {
-  text-align: left;
-  float: left;
-  margin: 0 2em -1.52em 0; }
+.chapter__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 23.4px; }
+  @media (min-width: 600px) {
+    .chapter__link {
+      font-size: 18px;
+      line-height: 23.4px; } }
+.chapter__name {
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 2em; }
 
 .citation {
   margin-top: 2em; }
@@ -124,15 +129,6 @@ img {
   .citation a {
     font-size: 14px;
     line-height: 19.5px; }
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-align: center;
-  margin-bottom: 1em;
-  margin-top: 2em; }
 
 .next-prev-wrap {
   text-align: center;
