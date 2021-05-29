@@ -155,8 +155,9 @@ img {
 
 .page_28_left__inset__quote--left {
   width: fit-content;
-  margin: 0;
-  margin-right: 1vw; }
+  margin-left: 0;
+  margin-right: 2vw;
+  margin-bottom: 1vh; }
 
 .page_28_right__inset--center {
   width: 80%;
@@ -179,7 +180,8 @@ img {
   line-height: 19.5px;
   text-indent: 0;
   text-align: justify;
-  font-style: italic; }
+  font-style: italic;
+  margin: 0; }
 
 .glas--left {
   margin-bottom: 1rem;
