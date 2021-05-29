@@ -7,6 +7,4 @@ type: "page"
 page: 160
 ---
 
-{{< leftmd >}}
-
-{{< rightmd >}}
+{{< glas/display >}}
