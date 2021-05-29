@@ -51,12 +51,8 @@
 
 .flex-column {
     @include col-center;
-}
-
-.flex-column--centered {
-    justify-content: center;
-    width: unset;
-
+    // fix this later 
+    // somehow,,
     a,
     p {
         @include font-size(0, "medium");
@@ -78,4 +74,9 @@
             margin-right: auto;
         }
     }
+}
+
+.flex-column--centered {
+    justify-content: center;
+    width: unset;
 }
