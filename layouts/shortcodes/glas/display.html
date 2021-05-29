@@ -2,10 +2,10 @@
 {{ $right := .Page.Resources.GetMatch "right.md" }}
 
 {{/*  <div class="flex-container">  */}}
-    <div class="flex-column glas-left">
+    <div class="flex-column" id="glas-left">
         {{ $left.Content}}
     </div>
-    <div class="flex-column glas-right">
+    <div class="flex-column" id="glas-right">
         {{ $right.Content}}
     </div>
 {{/*  </div>  */}}

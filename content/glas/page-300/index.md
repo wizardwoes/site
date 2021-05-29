@@ -5,6 +5,7 @@ description: "technology making us legible"
 chapter: "lord"
 draft: false
 type: "page"
+page: 300
 ---
 
 {{< glas/display >}}

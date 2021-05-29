@@ -137,32 +137,54 @@ h2, h3, h4, h5, h6 {
 .no-bottom {
   margin-bottom: 0; }
 
-.inset {
+.inset-left {
+  margin: 0; }
+
+.inset-left blockquote {
+  width: 20vw;
+  margin: 0; }
+
+.inset-right {
   float: right;
   margin: 0; }
 
-.inset blockquote {
+.inset-right blockquote {
   width: 11em;
   margin: 0; }
 
-.glas-left blockquote {
+.inset-center {
+  margin: 0; }
+
+.inset-center blockquote {
+  width: 20vw;
+  margin: auto; }
+
+@media (min-width: 600px) {
+  #glas-left {
+    padding-left: 20vh; } }
+
+#glas-left blockquote {
   padding-left: 15px;
   border-left: 3px solid #ccc; }
 
-.glas-left p {
+#glas-left p {
   font-size: 14px;
   line-height: 19.5px; }
 
-.glas-left hr {
+#glas-left hr {
   width: 40%;
   text-align: center;
   margin: 0 auto; }
 
-.glas-right p {
+@media (min-width: 600px) {
+  #glas-right {
+    padding-right: 20vh; } }
+
+#glas-right p {
   font-size: 18px;
   line-height: 23.4px; }
 
-.glas-right hr {
+#glas-right hr {
   width: 40%;
   text-align: center;
   margin: 0 auto; }

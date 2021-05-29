@@ -9,17 +9,39 @@
     margin-bottom: 0;
 }
 
-.inset {
+.inset-left {
+    margin: 0;
+}
+
+.inset-left blockquote {
+    width: 20vw;
+    margin: 0;
+}
+
+.inset-right {
     float: right;
     margin: 0;
 }
 
-.inset blockquote {
+.inset-right blockquote {
     width: 11em;
     margin: 0;
 }
 
-.glas-left {
+.inset-center {
+    margin: 0;
+}
+
+.inset-center blockquote {
+    width: 20vw;
+    margin: auto;
+}
+
+#glas-left {
+    @include for-tablet-portrait-up {
+        padding-left: 20vh;
+    }
+
     blockquote {
         padding-left: 15px;
         border-left: 3px solid #ccc;
@@ -36,9 +58,16 @@
     }
 }
 
-.glas-right {
+#glas-right {
+    @include for-tablet-portrait-up {
+        padding-right: 20vh;
+    }
+    // width: 50vw;
+    // padding-right: 50vw;
+
     p {
         @include font-size(0, 'medium');
+        // padding-right: 10vw;
     }
 
     hr {
