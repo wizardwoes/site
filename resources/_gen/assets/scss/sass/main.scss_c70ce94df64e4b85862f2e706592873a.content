@@ -191,21 +191,22 @@ h6 {
 .navbar__homelink {
   text-decoration: none; }
 
-#footer {
+.footer {
   margin-top: 100px;
   display: flex;
   width: 100%;
   justify-content: center;
   overflow: hidden; }
 
-.foot-wrap {
+.footer-wrap {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
   height: 30px;
   align-items: center; }
-  .foot-wrap a {
-    text-decoration: none; }
+
+.footer-wrap__contact {
+  text-decoration: none; }
 
 .flex-container {
   display: flex;
