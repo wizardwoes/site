@@ -1,0 +1,8 @@
+{{$mod := .Get "class"}}
+<aside class="inset inset--{{$mod}}">
+    <blockquote class="inset__quote inset__quote--{{$mod}}">
+        <p class="inset__content">
+        {{ .Inner | markdownify }}
+        </p>
+    </blockquote>
+</aside>

@@ -21,9 +21,9 @@ play at replacing remain by band erect, the remain(s)
 by the band(s) erect. You will begin to think [*penser*]
 {{< /no-bottom >}}
 
-{{< inset-right >}}
+{{< inset class="right" >}}
 occurent is said in botany “about all the partitions converging toward a central fictive axis” (Littre)
-{{< /inset-right >}}
+{{< /inset >}}
 
 {{< no-top >}}
 what an event is, a case, let us
