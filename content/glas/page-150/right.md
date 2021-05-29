@@ -7,4 +7,4 @@ categories: []
 draft: false
 ---
 
-![the jokester](/glas/pg-150/right.jpg "he strikes again")
+![the jokester](./right.jpg "he strikes again")

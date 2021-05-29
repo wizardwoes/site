@@ -1,11 +1,11 @@
-@import 'mixins';
+@import "mixins";
 
-.no-top {
+.content__top--none {
     margin-top: 0;
     text-indent: 0;
 }
 
-.no-bottom {
+.content__bottom--none {
     margin-bottom: 0;
 }
 
@@ -19,7 +19,7 @@
 
 .inset__quote {
     width: 20vw;
-    margin: 0
+    margin: 0;
 }
 
 .inset__quote--right {
@@ -32,47 +32,40 @@
 }
 
 .inset__content {
-    @include font-size(0, 'small');
+    @include font-size(0, "small");
     text-indent: 0;
     font-style: italic;
 }
 
+.glas {
+    hr {
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
 
-#glas-left {
+.glas--left {
     @include for-tablet-portrait-up {
         padding-left: 20vh;
     }
-
-    blockquote {
-        padding-left: 15px;
-        border-left: 3px solid #ccc;
-    }
-
-    p {
-        @include font-size(0, 'small');
-    }
-
-    hr {
-        width: 40%;
-        text-align:center; 
-        margin: 0 auto;
-    }
 }
 
-#glas-right {
+.glas--left__content {
+    @include font-size(0, "small");
+}
+
+.glas--right {
     @include for-tablet-portrait-up {
         padding-right: 20vh;
     }
-
-    p {
-        @include font-size(0, 'medium');
-    }
-
-    hr {
-        width: 40%;
-        text-align:center; 
-        margin: 0 auto;
-    }
-
 }
 
+.glas--right__content {
+    @include font-size(0, "medium");
+}
+
+.quote {
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+}
