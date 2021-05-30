@@ -2,25 +2,43 @@
 
 .content__top--none {
     margin-top: 0;
-    text-indent: 0;
+    // need to figure out best way to handle sometimes indents
+    // text-indent: 0;
 }
 
 .content__bottom--none {
     margin-bottom: 0;
 }
 
-.page_28_left__inset--left {
+.inset__content {
+    @include font-size(0, "small");
+    text-indent: 0;
+    text-align: justify;
+    font-style: italic;
     margin: 0;
-    float: left;
+}
+
+.page_28_left__inset__content {
     width: 30%;
+
+    @include font-size(0, "vsmall");
+    text-indent: 0;
+    text-align: justify;
+    font-style: italic;
+    float: left;
+
+    shape-outside: content-box;
+    shape-margin: 2%;
+    margin-top: 15%;
+    padding-right: 5%;
 }
 
 .page_28_left__inset__quote--left {
-    width: fit-content;
-    // margin: 0;
-    margin-left: 0;
-    margin-right: 2vw;
-    margin-bottom: 1vh;
+    width: auto;
+    margin: 0;
+    // margin-right: 1vw;
+    // transform: translate(0, 50%);
+    // margin-bottom: 1vh;
     // padding-top: 10px;
 }
 
@@ -43,14 +61,6 @@
     // width: 10vw;
     width: fit-content;
     margin-left: 1vw;
-}
-
-.inset__content {
-    @include font-size(0, "small");
-    text-indent: 0;
-    text-align: justify;
-    font-style: italic;
-    margin: 0;
 }
 
 .glas--left {

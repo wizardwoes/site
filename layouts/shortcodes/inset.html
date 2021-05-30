@@ -2,7 +2,7 @@
 {{$block := replace .Page.Title " " "_"}}
 <aside class="{{$block}}__inset--{{$mod}}">
     <blockquote class="{{$block}}__inset__quote--{{$mod}}">
-        <p class="inset__content">
+        <p class="inset__content {{$block}}__inset__content">
         {{ .Inner | markdownify }}
         </p>
     </blockquote>
