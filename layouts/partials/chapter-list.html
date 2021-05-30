@@ -9,14 +9,13 @@
 {{$groups := slice $intro_section $excellent_section $lord_section }}
 
 <!-- spit em out -->
-<div id="chapter-list">
+<div class="book">
 {{ range $groups }}
-    <h4> {{.Key | upper }} </h4>
+    <h4 class="chapter__name"> {{.Key | upper }} </h4>
     {{range first 1 (.Pages.ByTitle) }}
-    <div class="chapter">
-        <a href="{{ .RelPermalink }}">
-            <!-- <span class="chapter-name">{{ .Section }}</span> -->
-            <span class="chapter-counter">{{ .Title }}</span>
+    <div class="chapter__contents">
+        <a href="{{ .RelPermalink }}" class="chapter__link">
+            <span class="chapter__counter">{{ .Title }}</span>
         </a>
     </div>
     {{ end }}

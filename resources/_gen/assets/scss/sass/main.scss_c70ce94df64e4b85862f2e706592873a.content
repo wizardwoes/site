@@ -12,18 +12,34 @@
   line-height: 0px;
   position: relative; }
 
-body, caption, th, td, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+body,
+caption,
+th,
+td,
+textarea,
+select,
+option,
+legend,
+fieldset,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   background: #DCDCDC;
   text-align: left;
   margin: 0;
   padding: 0;
   width: 100%; }
 
-ol, li {
+ol,
+li {
   max-width: none;
   margin-bottom: 1rem; }
   @media (min-width: 767px) {
-    ol, li {
+    ol,
+    li {
       width: 100%;
       max-width: 700px;
       margin-left: auto;
@@ -31,7 +47,15 @@ ol, li {
 textarea {
   background-color: white; }
 
-h1, h2, h3, h4 {
+hr {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto; }
+
+h1,
+h2,
+h3,
+h4 {
   color: #43039A; }
 
 body {
@@ -59,23 +83,9 @@ h3 {
     h3 {
       font-size: 23px;
       line-height: 23.4px; } }
-a, p {
-  font-size: 18px;
-  line-height: 23.4px; }
-  @media (min-width: 600px) {
-    a, p {
-      font-size: 18px;
-      line-height: 23.4px; } }
-p {
-  max-width: none;
-  margin-bottom: 1rem;
-  text-indent: 1em; }
-  @media (min-width: 767px) {
-    p {
-      width: 100%;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto; } }
+img {
+  display: block; }
+
 #main {
   overflow: hidden;
   flex: 1 0;
@@ -86,92 +96,121 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  padding: 0 25px;
   max-width: 700px;
   width: 100%;
   height: 80vh;
   width: 100vw; }
-  @media (min-width: 600px) {
-    #main {
-      padding: 0 35px; } }
-#chapter-list {
+
+.book {
   margin-bottom: 5em; }
 
-.chapter {
+.chapter__contents {
   text-align: right; }
 
-.chapter a {
-  text-decoration: none; }
-
-.chapter-name {
-  text-align: left;
-  float: left;
-  margin: 0 2em -1.52em 0; }
-
-.citation {
-  margin-top: 2em; }
-  .citation p, .citation a {
-    font-size: 14px;
-    line-height: 19.5px; }
-
-h2, h3, h4, h5, h6 {
+.chapter__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 23.4px; }
+  @media (min-width: 600px) {
+    .chapter__link {
+      font-size: 18px;
+      line-height: 23.4px; } }
+.chapter__name {
   text-align: center;
   margin-bottom: 1em;
   margin-top: 2em; }
+
+.citation {
+  margin-top: 2em;
+  font-size: 14px;
+  line-height: 19.5px; }
 
 .next-prev-wrap {
   text-align: center;
   padding: 25px 0; }
 
-.next-prev-wrap a {
+.next-prev-wrap__link {
   text-decoration: none;
-  margin: 2em; }
-
+  margin: 2em;
+  font-size: 18px;
+  line-height: 23.4px; }
+  @media (min-width: 600px) {
+    .next-prev-wrap__link {
+      font-size: 18px;
+      line-height: 23.4px; } }
 #content img {
   max-width: 100%; }
 
-.no-top {
-  margin-top: 0;
-  text-indent: 0; }
+.content__top--none {
+  margin-top: 0; }
 
-.no-bottom {
+.content__bottom--none {
   margin-bottom: 0; }
 
-.inset {
-  float: right;
-  margin: 0; }
-
-.inset blockquote {
-  width: 11em;
-  margin: 0; }
-
-.glas-left blockquote {
-  padding-left: 15px;
-  border-left: 3px solid #ccc; }
-
-.glas-left p {
-  font-size: 14px;
-  line-height: 19.5px; }
-
-.glas-left hr {
-  width: 40%;
-  text-align: center;
-  margin: 0 auto; }
-
-.glas-right p {
-  font-size: 18px;
-  line-height: 23.4px; }
-
-.glas-right hr {
-  width: 40%;
-  text-align: center;
-  margin: 0 auto; }
-
-p.inset-p {
+.inset__content {
   font-size: 14px;
   line-height: 19.5px;
   text-indent: 0;
-  font-style: italic; }
+  text-align: justify;
+  font-style: italic;
+  margin: 0; }
+
+.page_28_left__inset__content {
+  width: 30%;
+  font-size: 12px;
+  line-height: 15.6px;
+  text-indent: 0;
+  text-align: justify;
+  font-style: italic;
+  float: left;
+  shape-outside: content-box;
+  shape-margin: 2%;
+  margin-top: 15%;
+  padding-right: 5%; }
+
+.page_28_left__inset__quote--left {
+  width: auto;
+  margin: 0; }
+
+.page_28_right__inset--center {
+  width: 80%;
+  margin: auto; }
+
+.page_28_right__inset__quote--center {
+  width: fit-content;
+  margin: auto; }
+
+.page_138_right__inset--right {
+  float: right;
+  width: 30%; }
+
+.page_138_right__inset__quote--right {
+  width: fit-content;
+  margin-left: 1vw; }
+
+.glas--left {
+  margin-bottom: 1rem;
+  text-indent: 1em;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 19.5px; }
+  @media (min-width: 600px) {
+    .glas--left {
+      padding-left: 20vh;
+      padding-right: 2vh; } }
+.glas--right {
+  margin-bottom: 1rem;
+  text-indent: 1em;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 23.4px; }
+  @media (min-width: 600px) {
+    .glas--right {
+      padding-left: 2vh;
+      padding-right: 20vh; } }
+.quote {
+  padding-left: 15px;
+  border-left: 3px solid #ccc; }
 
 .navbar {
   top: 0;
@@ -185,45 +224,53 @@ p.inset-p {
   @media (min-width: 600px) {
     .navbar {
       height: 80px; } }
-.navbar a {
+.navbar__homelink {
   text-decoration: none; }
 
-#footer {
+.footer {
   margin-top: 100px;
   display: flex;
   width: 100%;
   justify-content: center;
   overflow: hidden; }
 
-.foot-wrap {
+.footer-wrap {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
   height: 30px;
   align-items: center; }
-  .foot-wrap a {
-    text-decoration: none; }
 
+.footer-wrap__contact {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 23.4px; }
+  @media (min-width: 600px) {
+    .footer-wrap__contact {
+      font-size: 18px;
+      line-height: 23.4px; } }
 .flex-container {
   display: flex;
   flex-direction: column; }
   @media (min-width: 600px) {
     .flex-container {
       flex-direction: row; } }
-  .flex-container .flex-column {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    padding: 0 25px; }
-    @media (min-width: 600px) {
-      .flex-container .flex-column {
-        padding: 0 35px; } }
-  .flex-container img {
-    display: block; }
+.flex-column {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
 
-.center {
-  justify-content: center; }
-  .center .flex-column {
-    width: unset; }
-  .center img {
-    display: block; }
+.flex-column--centered {
+  justify-content: center;
+  width: unset;
+  margin: auto; }
+  .flex-column--centered p {
+    max-width: 45vw;
+    margin-bottom: 1rem;
+    text-indent: 1em;
+    font-size: 18px;
+    line-height: 23.4px; }
+    @media (min-width: 600px) {
+      .flex-column--centered p {
+        font-size: 18px;
+        line-height: 23.4px; } }

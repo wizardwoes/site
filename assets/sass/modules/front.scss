@@ -1,6 +1,6 @@
-@import '../mixins';
-@import '../layouts';
-@import '../site-settings';
+@import "../mixins";
+@import "../layouts";
+@import "../site-settings";
 
 #main {
     @include content;
@@ -11,35 +11,34 @@
     width: 100vw;
 }
 
-#chapter-list {
+.book {
     margin-bottom: 5em;
 }
-.chapter {
-    text-align: right;
-} 
 
-.chapter a {
-    text-decoration: none;
+.chapter__contents {
+    text-align: right;
 }
 
-.chapter-name {
-    text-align: left;
-    float: left;
-    margin: 0 2em -1.52em 0;
+.chapter__link {
+    text-decoration: none;
+
+    @include font-size(0, "medium");
+
+    @include for-tablet-portrait-up {
+        @include font-size(0);
+    }
+}
+
+.chapter__name {
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 2em;
 }
 
 .citation {
     margin-top: 2em;
 
-    p, a {
-        @include font-size(0, 'small');
-    }
-}
-
-h2, h3, h4, h5, h6 {
-    text-align: center;
-    margin-bottom: 1em;
-    margin-top: 2em;
+    @include font-size(0, "small");
 }
 
 .next-prev-wrap {
@@ -47,11 +46,18 @@ h2, h3, h4, h5, h6 {
     padding: 25px 0;
 }
 
-.next-prev-wrap a {
+.next-prev-wrap__link {
     text-decoration: none;
     margin: 2em;
+
+    @include font-size(0, "medium");
+
+    @include for-tablet-portrait-up {
+        @include font-size(0);
+    }
 }
 
+// idk its magic sauce, fix it later
 #content img {
     max-width: 100%;
 }

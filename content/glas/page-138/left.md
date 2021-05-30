@@ -1,12 +1,12 @@
 ---
-title: "Pg 138 left"
+title: "page 138 left"
 date: 2018-08-31T04:08:20-07:00
 description: ""
 tags: []
 categories: []
 draft: false
 ---
-
+{{< no-top >}}
 singularities, an effect and not a middle of the struggle. In the *practical* war between singular forces, the injuries must bring about
 actual [*effectives*] expropriations. They must wrest from the other
 the disposition of its own body, its language, must literally dislodge the other from its possessions. The field of the word [*verbe*]
@@ -24,7 +24,9 @@ actual. *Hence they must injure one another*. The fact that each posits
 itself as exclusive totality in the singularity of its existence must
 become actual. The violation [*Beleidigung*: outrage, rape, abuse] is
 necessary."
+{{< /no-top >}}
 
+{{< no-bottom >}}
 Without this *Beleidigung* no consciousness, no desire, no relationship to the other could *posit itself*. But this breaking-in that
 comes to injure the other’s proper(ty), the other's own, does not
 come down to a singular initiative, to the decision of a freedom.
@@ -35,6 +37,9 @@ proper, is of a contradiction in the thing itself. It is contradictory
 that a thing (*Ding*) be some one's or some peoples proper(ty), their
 own. "In particular each must be dislodged from its possession
 (*Besitze*), for in possession there lies the following contradiction:
+{{< /no-bottom >}}
+
+{{< no-top >}}
 . . .” An exterior thing, a thing, a universal reality ofthe earth, by
 essence exposed to all, cannot, without essential contradiction,
 stay in the power of a singularity. The contradiction must be
@@ -48,3 +53,4 @@ the earth, of everything that is exposed to the light, how is the
 exception of one's own body proper marked in this? As visibility
 and availability at least, the body proper is worked (over) by the
 same contradiction, the stake[*enjeu*] of the same struggle to death.
+{{< /no-top >}}

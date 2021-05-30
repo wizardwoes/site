@@ -1,10 +1,10 @@
 <div class="next-prev-wrap">
     <!-- idk why its backwards but it is -->
-    {{ $pages := .Site.RegularPages }}
-    {{ with $pages.ByTitle.Next . }}
-    <a title="next page" href="{{ .Permalink }}">previous</a>
+    {{ $pages := sort .Site.RegularPages "Params.page" }}
+    {{ with $pages.Next . }}
+    <a title="next page" href="{{ .RelPermalink }}" class="next-prev-wrap__link">previous</a>
     {{ end }}
-    {{ with $pages.ByTitle.Prev . }}
-    <a title="previous page" href="{{ .Permalink }}">next</a>
+    {{ with $pages.Prev . }}
+    <a title="previous page" href="{{ .RelPermalink }}" class="next-prev-wrap__link">next</a>
     {{ end }}
 </div>

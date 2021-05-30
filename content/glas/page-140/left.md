@@ -1,5 +1,5 @@
 ---
-title: "Pg 140 left"
+title: "page 140 left"
 date: 2018-08-31T04:08:20-07:00
 description: ""
 tags: []

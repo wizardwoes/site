@@ -1,5 +1,5 @@
 ---
-title: "Pg 150 left"
+title: "page 150 left"
 date: 2020-08-30T14:41:50-07:00
 description: "clown tf"
 tags: []
