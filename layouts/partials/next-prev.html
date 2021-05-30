@@ -2,9 +2,9 @@
     <!-- idk why its backwards but it is -->
     {{ $pages := sort .Site.RegularPages "Params.page" }}
     {{ with $pages.Next . }}
-    <a title="next page" href="{{ .Permalink }}" class="next-prev-wrap__link">previous</a>
+    <a title="next page" href="{{ .RelPermalink }}" class="next-prev-wrap__link">previous</a>
     {{ end }}
     {{ with $pages.Prev . }}
-    <a title="previous page" href="{{ .Permalink }}" class="next-prev-wrap__link">next</a>
+    <a title="previous page" href="{{ .RelPermalink }}" class="next-prev-wrap__link">next</a>
     {{ end }}
 </div>
