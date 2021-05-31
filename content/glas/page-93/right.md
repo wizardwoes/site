@@ -12,3 +12,11 @@ draft: false
 ***
 
 ![history2](./ok2.png "transvaluation of information")
+
+***
+
+![history3](./ok3.png)
+
+***
+
+![history4](./ok4.png)
