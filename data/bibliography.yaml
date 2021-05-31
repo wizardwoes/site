@@ -111,5 +111,14 @@ references:
   publisher: University of Minnesota Press
   title: Individuation in light of notions of form and information
   type: book
-  
+
+- id: benjaminIlluminations1968
+  author:
+    - family: Benjamin
+      given: Walter
+  issued:
+    - year: 1968
+  publisher: Schocken Books Inc.
+  title: Illuminations
+  type: book
 ...
