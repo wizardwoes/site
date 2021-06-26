@@ -9,6 +9,16 @@ references:
   title: Ideology and Ideological State Apparatuses
   type: book
 
+- id: azumaJapanDatabaseAnimals2009
+  author:
+    - family: Azuma
+      given: Hiroki
+  issued:
+    - year: 2009
+  publisher: University of Minnesota Press
+  title: Japan's Database Animals
+  type: book
+
 - id: burnettInterviewAaronHunt2020
   author:
     - family: Burnett
@@ -74,6 +84,16 @@ references:
     Culture
   type: book
 
+- id: stieglerActingOut2009
+  author:
+    - family: Stiegler
+      given: Bernard
+  issued:
+    - year: 2009
+  publisher: Stanford University Press
+  title: Acting Out
+  type: book
+
 - id: stieglerAutomaticSocietyVol
   author:
     - family: Stiegler
@@ -83,7 +103,7 @@ references:
 
 - id: stieglerbernardSymbolicMisery2015
   author:
-    - family: 'Stiegler, Bernard'
+    - family: Stiegler, Bernard
       given: ''
   issued:
     - year: 2015
@@ -102,23 +122,13 @@ references:
   title: The Neganthropocene
   type: book
 
-- id: simondonIndividuation2020
+- id: stieglerTechnicsTime2011
   author:
-    - family: Simondon
-      given: Gilbert
+    - family: Stiegler
+      given: Bernard
   issued:
-    - year: 2020
-  publisher: University of Minnesota Press
-  title: Individuation in light of notions of form and information
-  type: book
-
-- id: benjaminIlluminations1968
-  author:
-    - family: Benjamin
-      given: Walter
-  issued:
-    - year: 1968
-  publisher: Schocken Books Inc.
-  title: Illuminations
+    - year: 2011
+  publisher: Stanford University Press
+  title: Technics and Time, 3
   type: book
 ...
