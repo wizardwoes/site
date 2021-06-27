@@ -27,4 +27,4 @@ there is no appropriate classification, a new element or category simply
 will be added. In this sense, the originality of an “original” character
 can only exist as a simulacrum.
 
-{{< cite-book "azumaJapansDatabaseAnimals2009" >}}
+{{< cite-book "azumaJapanDatabaseAnimals2009" >}}
