@@ -18,7 +18,7 @@
     <!-- set author -->
     {{ if $current.author}}
         {{ range first 1 $current.author}}
-            {{ $author := (printf "%s %s" .family .given) }}
+            {{ $author := (printf "%s, %s" .family .given) }}
             {{ $scratch.Set "author" $author }}
         {{ end }}
     {{ end }}
