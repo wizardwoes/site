@@ -44,6 +44,34 @@ references:
   title: Postcapitalist Desire
   type: book
 
+- id: goesTimeEnoughWorlds2021
+  author:
+    - family: Goes
+      given: Issac
+  interviewer:
+    - family: Medina
+      given: Isiah
+    - family: Dong
+      given: Kelley
+  issued:
+    - year: 2021
+      month: 7
+      day: 20
+  title: 'Time Enough, and Worlds: Interview with Isaac Goes'
+  type: interview
+  URL: >-
+    https://quantitycinema.com/2021/07/20/time-enough-and-worlds-interview-with-isaac-goes
+
+- id: huiArtCosmotechnics2021
+  author:
+    - family: Hui
+      given: Yuk
+  issued:
+    - year: 2021
+  publisher: University of Minnesota Press
+  title: Art and Cosmotechnics
+  type: book
+
 - id: huiWritingCosmotechnics
   author:
     - family: Hui
