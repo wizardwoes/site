@@ -19,6 +19,16 @@ references:
   title: Japan's Database Animals
   type: book
 
+- id: bogdanovPhilosophyLivingExperience2016
+  author:
+    - family: Bogdanov
+      given: Alexander
+  issued:
+    - year: 2016
+  publisher: Haymarket Books
+  title: The Philosophy of Living Experience
+  type: book
+
 - id: burnettInterviewAaronHunt2020
   author:
     - family: Burnett
