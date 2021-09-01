@@ -70,6 +70,11 @@
 
     @include font-size(0, "small");
 
+    @include for-phone-only {
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
+    
     @include for-tablet-portrait-up {
         padding-left: 20vh;
         padding-right: 2vh;
@@ -82,6 +87,11 @@
     text-align: justify;
 
     @include font-size(0, "medium");
+
+    @include for-phone-only {
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
 
     @include for-tablet-portrait-up {
         padding-left: 2vh;

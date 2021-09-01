@@ -193,6 +193,10 @@ img {
   text-align: justify;
   font-size: 14px;
   line-height: 19.5px; }
+  @media (max-width: 599px) {
+    .glas--left {
+      padding-left: 2vh;
+      padding-right: 2vh; } }
   @media (min-width: 600px) {
     .glas--left {
       padding-left: 20vh;
@@ -203,6 +207,10 @@ img {
   text-align: justify;
   font-size: 18px;
   line-height: 23.4px; }
+  @media (max-width: 599px) {
+    .glas--right {
+      padding-left: 2vh;
+      padding-right: 2vh; } }
   @media (min-width: 600px) {
     .glas--right {
       padding-left: 2vh;
