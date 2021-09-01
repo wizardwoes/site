@@ -106,6 +106,16 @@ references:
   title: The Inhuman
   type: book
 
+- id: ngaiOurAestheticCategories2012
+  author:
+    - family: Ngai
+      given: Sianne
+  issued:
+    - year: 2012
+  publisher: First Harvard University Press
+  title: Our Aesthetic Categories
+  type: book
+
 - id: QueerNihilism
   title: Queer Nihilism
   type: book
