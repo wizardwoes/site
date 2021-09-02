@@ -140,7 +140,7 @@ img {
     .next-prev-wrap__link {
       font-size: 18px;
       line-height: 23.4px; } }
-#content img {
+.wizard {
   max-width: 100%; }
 
 .content__top--none {
