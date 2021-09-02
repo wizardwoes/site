@@ -2,6 +2,8 @@
 @import "../layouts";
 @import "../site-settings";
 
+// looks like its margin-left/margin-right setting in #main
+
 #main {
     @include content;
     @include flex-col;
@@ -9,6 +11,11 @@
     @include text-block-inner;
     height: 80vh;
     width: 100vw;
+
+    @include for-phone-only {
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
 }
 
 .book {
@@ -58,6 +65,6 @@
 }
 
 // idk its magic sauce, fix it later
-#content img {
+.wizard {
     max-width: 100%;
 }
