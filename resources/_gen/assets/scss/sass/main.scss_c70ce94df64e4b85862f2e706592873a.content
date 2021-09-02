@@ -99,7 +99,10 @@ img {
   width: 100%;
   height: 80vh;
   width: 100vw; }
-
+  @media (max-width: 599px) {
+    #main {
+      padding-left: 2vh;
+      padding-right: 2vh; } }
 .book {
   margin-bottom: 5em; }
 
