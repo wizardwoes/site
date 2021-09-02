@@ -83,7 +83,8 @@ h3 {
       font-size: 23px;
       line-height: 23.4px; } }
 img {
-  display: block; }
+  display: block;
+  width: 100%; }
 
 #main {
   overflow: hidden;
