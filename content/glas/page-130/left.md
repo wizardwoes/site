@@ -11,7 +11,7 @@ Writing about history as well as science, Mikhail Epstein underscores
 Stengers's link between the interesting and evidence in his account of the
 former as the "relationship of provability to probability." Epstein writes,
 "What makes a certain theory interesting is its presentation of a consistent and plausible proof for what appears to be least probable. In other
-words, the interest of a theory is 1nversely proportional to the probability
+words, the interest of a theory is inversely proportional to the probability
 of its thesis and directly proportional to the provability of its argument"
 (78). 
 
