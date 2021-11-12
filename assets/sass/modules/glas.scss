@@ -74,7 +74,7 @@
         padding-left: 2vh;
         padding-right: 2vh;
     }
-    
+
     @include for-tablet-portrait-up {
         padding-left: 20vh;
         padding-right: 2vh;
@@ -96,6 +96,13 @@
     @include for-tablet-portrait-up {
         padding-left: 2vh;
         padding-right: 20vh;
+    }
+}
+
+.glas--divider {
+    display: none;
+    @include for-phone-only {
+        display: block;
     }
 }
 

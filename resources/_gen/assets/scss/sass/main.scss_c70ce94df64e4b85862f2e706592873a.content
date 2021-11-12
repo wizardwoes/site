@@ -219,6 +219,11 @@ img {
     .glas--right {
       padding-left: 2vh;
       padding-right: 20vh; } }
+.glas--divider {
+  display: none; }
+  @media (max-width: 599px) {
+    .glas--divider {
+      display: block; } }
 .quote {
   padding-left: 15px;
   border-left: 3px solid #ccc; }
@@ -263,9 +268,21 @@ img {
 .flex-container {
   display: flex;
   flex-direction: column; }
+
+.flex-container-content {
+  display: flex;
+  flex-direction: column; }
   @media (min-width: 600px) {
-    .flex-container {
+    .flex-container-content {
       flex-direction: row; } }
+.flex-container-other {
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 4vh; }
+  @media (max-width: 599px) {
+    .flex-container-other {
+      padding-left: 2vh;
+      padding-right: 2vh; } }
 .flex-column {
   margin-left: auto;
   margin-right: auto;

@@ -49,8 +49,28 @@
     display: flex;
     flex-direction: column;
 
+    // @include for-tablet-portrait-up {
+    //     flex-direction: row;
+    // }
+}
+
+.flex-container-content {
+    display: flex;
+    flex-direction: column;
+
     @include for-tablet-portrait-up {
         flex-direction: row;
+    }
+}
+
+.flex-container-other {
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-top: 4vh;
+
+    @include for-phone-only {
+        padding-left: 2vh;
+        padding-right: 2vh;
     }
 }
 

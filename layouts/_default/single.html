@@ -1,6 +1,15 @@
 {{ define "main" }}
 <div class="flex-container">
-    {{ .Content }}
+    <div class="flex-container-content">
+        {{ .Content }}
+    </div>
+
+    <div class="flex-container-other">
+        {{ with (.Resources.GetMatch "other.md") }}
+        {{ .Content }}
+        {{ end }}
+    </div>
 </div>
+
 {{- partial "next-prev.html" . -}}
 {{end}}

@@ -25,7 +25,3 @@ even conceive." He writes:
 
 {{< cite-book "ngaiOurAestheticCategories2012" >}}
 
----
-
-is it a question of 'development of a sensibility'? (A&CT) or 'learning to cultivate high expectations' (AO)?
-or organizing experience (ala Bogdanov)?
