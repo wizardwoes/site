@@ -179,4 +179,24 @@ references:
   publisher: Stanford University Press
   title: Technics and Time, 3
   type: book
+
+- id: verkerkNietzscheFriendship2019
+  author:
+    - family: Verkerk
+      given: Willow
+  issued:
+    - year: 2019
+  publisher: Bloomsbury Academic
+  title: Nietzsche and Friendship
+  type: book
+
+- id: warkReverseCowgirl2020
+  author:
+    - family: Wark
+      given: McKenzie
+  issued:
+    - year: 2020
+  publisher: semiotext(e)
+  title: Reverse Cowgirl
+  type: book
 ...
