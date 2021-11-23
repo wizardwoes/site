@@ -142,12 +142,16 @@ references:
   title: Acting Out
   type: book
 
-- id: stieglerAutomaticSocietyVol
+- id: stieglerAutomaticSocietyVol2016
   author:
     - family: Stiegler
       given: Bernard
+  issued:
+    - year: 2016
+  publisher: Polity Press
   title: Automatic Society vol 1
   type: book
+  volume: '1'
 
 - id: stieglerbernardSymbolicMisery2015
   author:
@@ -178,6 +182,16 @@ references:
     - year: 2011
   publisher: Stanford University Press
   title: Technics and Time, 3
+  type: book
+
+- id: thompsonMakingEnglishWorking1966
+  author:
+    - family: Thompson
+      given: E.P.
+  issued:
+    - year: 1966
+  publisher: Vintage
+  title: The Making of the English Working Class
   type: book
 
 - id: verkerkNietzscheFriendship2019
