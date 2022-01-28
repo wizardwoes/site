@@ -8,6 +8,9 @@ type: reading-list
 # current
 - {{< cite-book "thompsonMakingEnglishWorking1966" >}}
 - The Grand Titration
+- Nanjing Lectures (2016-2019)
+- The Foundation Pit
+- Culture and Society
 
 ---
 
