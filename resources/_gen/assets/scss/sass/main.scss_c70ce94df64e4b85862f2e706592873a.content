@@ -245,12 +245,21 @@ img {
 .navbar__entries {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 1%; }
-
+  justify-content: center; }
+  @media (min-width: 600px) {
+    .navbar__entries {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      width: auto; } }
 .navbar__entry {
-  padding: 0px 8px; }
-
+  padding: 12px 16px;
+  text-decoration: none;
+  border-top: 1px solid #43039A; }
+  @media (min-width: 600px) {
+    .navbar__entry {
+      padding: 0px 4px;
+      border: none; } }
 .navbar__homelink {
   text-decoration: none; }
 

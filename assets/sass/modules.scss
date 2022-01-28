@@ -18,23 +18,28 @@
 }
 
 .navbar__entries {
-    // top: 0;
-    // height: 60px;
-    // width: 100%;
-
-    // @include for-tablet-portrait-up {
-    //     height: 80px;
-    // }
-
-    // background-color: $bg-color;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1%;
+    // margin-bottom: 1%;
+
+    @include for-tablet-portrait-up {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
 }
 
 .navbar__entry {
-    padding: 0px 8px;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-top: 1px solid $color;
+
+    @include for-tablet-portrait-up {
+        padding: 0px 4px;
+        border: none;
+    }
 }
 
 .navbar__homelink {
