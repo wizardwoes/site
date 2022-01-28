@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article>
+
+{{/*  figure out how to make the padding between the content and the next/prev bar gooder  */}}
+<div class="flex-container">
+    <div class="flex-column flex-column--centered">
+        {{ .Content }}
+    </div>
+</div>
+</article>
+<ul>
+    <!-- Ranges through content/post/*.md -->
+    {{ range .Pages }}
+    <li>
+        <a href="{{.RelPermalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+    </li>
+    {{ end }}
+</ul>
+{{end}}

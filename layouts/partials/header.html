@@ -9,5 +9,9 @@
         {{ with .Site.GetPage "/photo-weaves" }}
          <div class="navbar__entry"><a href={{ .Permalink }}>photo weaves</a></div>
         {{end}}
+
+        {{ with .Site.GetPage "/reagents" }}
+         <div class="navbar__entry"><a href={{ .Permalink }}>reagents</a></div>
+        {{end}}
     </div>
 </nav>
