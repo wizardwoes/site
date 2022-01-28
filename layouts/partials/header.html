@@ -3,12 +3,11 @@
     <div><a href="{{ $baseUrl }}" class="navbar__homelink"><h1 class='site-header'>Wizard Woes</h1></a></div>
     <div class="navbar__entries">
         {{ with .Site.GetPage "/reading-list" }}
-         <div class="navbar__entry"><a href= {{ .URL }}>reading list</a></div>
+         <div class="navbar__entry"><a href={{ .Permalink }}>reading list</a></div>
         {{end}}
 
         {{ with .Site.GetPage "/photo-weaves" }}
-         <div class="navbar__entry"><a href= {{ .URL }}>photo weaves</a></div>
+         <div class="navbar__entry"><a href={{ .Permalink }}>photo weaves</a></div>
         {{end}}
-
     </div>
 </nav>
