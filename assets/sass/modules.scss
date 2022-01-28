@@ -11,9 +11,30 @@
 
     background-color: $bg-color;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.navbar__entries {
+    // top: 0;
+    // height: 60px;
+    // width: 100%;
+
+    // @include for-tablet-portrait-up {
+    //     height: 80px;
+    // }
+
+    // background-color: $bg-color;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1%;
+}
+
+.navbar__entry {
+    padding: 0px 8px;
 }
 
 .navbar__homelink {

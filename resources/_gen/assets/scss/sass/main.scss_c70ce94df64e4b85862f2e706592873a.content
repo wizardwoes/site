@@ -10,7 +10,8 @@
 .site-header {
   font-family: cloister_blacklight;
   line-height: 0px;
-  position: relative; }
+  position: relative;
+  padding: 0 10px; }
 
 body,
 caption,
@@ -234,12 +235,22 @@ img {
   width: 100%;
   background-color: #DCDCDC;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 1%; }
   @media (min-width: 600px) {
     .navbar {
       height: 80px; } }
+.navbar__entries {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%; }
+
+.navbar__entry {
+  padding: 0px 8px; }
+
 .navbar__homelink {
   text-decoration: none; }
 

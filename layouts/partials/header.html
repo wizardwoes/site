@@ -1,4 +1,8 @@
 {{ $baseUrl := .Site.BaseURL }}
 <nav class="navbar">
-    <div ><a href="{{ $baseUrl }}" class="navbar__homelink"><h1 class='site-header'>Wizard Woes</h1></a></div>
+    <div><a href="{{ $baseUrl }}" class="navbar__homelink"><h1 class='site-header'>Wizard Woes</h1></a></div>
+    <div class="navbar__entries">
+        <div class="navbar__entry"><a href="{{ $baseUrl }}reading-list"><h1 class='site-header'>reading list</h1></a></div>
+        <div class="navbar__entry"><a href="{{ $baseUrl }}photo-weaves"><h1 class='site-header'>photo weaves</h1></a></div>
+    </div>
 </nav>
