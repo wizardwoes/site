@@ -2,9 +2,6 @@ baseURL = "https://wizardwoes.online/"
 languageCode = "en-us"
 title = "wizardwoes"
 
-[permalinks]
-  glas = "/book/:title/"
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
