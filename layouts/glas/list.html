@@ -6,7 +6,15 @@
 <body>
     {{- partial "header.html" . -}}
     <div id="main">
-    idk how you ended up here but this is not the place to be
+        <!-- too lazy to put the content in _index.md and change the css -->
+        woe be <br>
+        a wizard <br>
+
+        {{- partial "chapter-list.html" . -}}
+        {{ $thief := resources.Get "Wizard_Thief.png" }}
+        <img class="wizard" src="{{ $thief.RelPermalink }}" alt="">
+
+
     </div>
     {{- partial "footer.html" . -}}
 

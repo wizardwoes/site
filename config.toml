@@ -1,6 +1,36 @@
 baseURL = "https://wizardwoes.online/"
 languageCode = "en-us"
 title = "wizardwoes"
+sectionPagesMenu = "main"
+
+[menu]
+[[menu.main]]
+  identifier = 'glas'
+  name = 'glas'
+  title = 'glas'
+  url = '/glas/'
+  weight = 1
+
+[[menu.main]]
+  identifier = 'reading-list'
+  name = 'reading list'
+  title = 'reading list'
+  url = '/reading-list/'
+  weight = 2
+
+[[menu.main]]
+  identifier = 'photo-weaves'
+  name = 'photo weaves'
+  title = 'photo weaves'
+  url = '/photo-weaves/'
+  weight = 3
+
+[[menu.main]]
+  identifier = 'reagents'
+  name = 'reagents'
+  title = 'reagents'
+  url = '/reagents/'
+  weight = 4
 
 [markup]
   [markup.goldmark]

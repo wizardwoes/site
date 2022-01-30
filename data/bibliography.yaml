@@ -153,17 +153,6 @@ references:
   type: book
   volume: '1'
 
-- id: stieglerbernardSymbolicMisery2015
-  author:
-    - family: Stiegler, Bernard
-      given: ''
-  issued:
-    - year: 2015
-  publisher: Polity Press
-  title: Symbolic Misery
-  type: book
-  volume: '2'
-
 - id: stieglerNeganthropocene2018
   author:
     - family: Stiegler
@@ -173,6 +162,17 @@ references:
   publisher: Open Humanities Press
   title: The Neganthropocene
   type: book
+
+- id: stieglerSymbolicMisery2015
+  author:
+    - family: Stiegler
+      given: Bernard
+  issued:
+    - year: 2015
+  publisher: Polity Press
+  title: Symbolic Misery
+  type: book
+  volume: '2'
 
 - id: stieglerTechnicsTime2011
   author:

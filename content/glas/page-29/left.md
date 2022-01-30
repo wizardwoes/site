@@ -25,7 +25,7 @@ senses in everyday life. It was in this sense that Nietzsche considered art to b
 When we say "augmentation," we risk moving into the *negative organology* of current transhumanist discourse on human enhancement. A negative organology is one that only augments
 the "reckoning" capacity of the organic being and also undermines
 judgement -- not only in the concept of the world, as Brian Cantwell
-Smith describved, but also in the moral and existential judgment
+Smith described, but also in the moral and existential judgment
 of good and evil. While transhumanist discourse believes that by
 augmenting this "reckoning" capacity we can arrive at genuine
 judgment, this effort does not escape the positive feedback loop

@@ -1,11 +1,14 @@
 {{ $baseUrl := .Site.BaseURL }}
 <nav class="navbar">
+    {{/*  could put this also in the config.toml  */}}
     <div><a href="{{ $baseUrl }}" class="navbar__homelink"><h1 class='site-header'>Wizard Woes</h1></a></div>
     <div class="navbar__entries">
-        {{ range (slice "reading-list" "photo-weaves" "reagents") }}
-            {{ with $.Site.GetPage . }}
-            <div class="navbar__entry"><a href={{ .Permalink }}> {{ .Title }}</a></div>
-            {{end}}
-        {{ end }}
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <div class="navbar__entry{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+            <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        </div>
+        {{end}}
+
     </div>
 </nav>

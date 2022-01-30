@@ -5,15 +5,6 @@ draft: false
 type: reading-list
 ---
 
-# current
-- {{< cite-book "thompsonMakingEnglishWorking1966" >}}
-- The Grand Titration
-- Nanjing Lectures (2016-2019)
-- The Foundation Pit
-- Culture and Society
-
----
-
 ## why?
 - less a flex and more a personal history
 - show importance based on number of times cited? 
@@ -25,9 +16,13 @@ type: reading-list
 - change form to one of those word clouds where size of entry would be related to number of times cited
 - how to include not-books?
 
----
+# currently reading
+- {{< cite-book "thompsonMakingEnglishWorking1966" >}}
+- The Grand Titration
+- Nanjing Lectures (2016-2019)
+- The Foundation Pit
+- Culture and Society
 
-# past
 ## 2022
 - Marx's Ecology
 - Gamer Theory
@@ -73,7 +68,7 @@ type: reading-list
 - Illuminations
 - {{< cite-book "stieglerTechnicsTime2011" >}} (re-read portions) 
 - Eichmann in Jerusalem
-- {{< cite-book "stieglerbernardSymbolicMisery2015" >}} (re-read?) 
+- {{< cite-book "stieglerSymbolicMisery2015" >}} (re-read?) 
 - The Minority Report and other classic stories
 - Cyclonopedia
 - The Yellow King
