@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{/*  figure out how to make the padding between the content and the next/prev bar gooder  */}}
+<div class="flex-container">
+    <div class="flex-column flex-column--centered">
+        {{ .Content }}
+        
+        {{- partial "link-twine.html" . -}}
+    </div>
+</div>
+
+{{end}}

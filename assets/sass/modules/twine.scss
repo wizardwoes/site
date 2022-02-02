@@ -1,0 +1,10 @@
+@import "mixins";
+
+.twine-link {
+    @include font-size(3, "large");
+    text-decoration: none;
+}
+
+.play-twine {
+    text-align: center;
+}

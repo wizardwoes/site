@@ -229,6 +229,14 @@ img {
   padding-left: 15px;
   border-left: 3px solid #ccc; }
 
+.twine-link {
+  font-size: 55px;
+  line-height: 60px;
+  text-decoration: none; }
+
+.play-twine {
+  text-align: center; }
+
 .navbar {
   top: 0;
   height: 60px;
