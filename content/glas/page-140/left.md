@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: althusserIdeologyIdeologicalState1970
 ---
 
 I shall then suggest that ideology "acts" or "functions" in such a way that it "recruits"
@@ -23,5 +24,3 @@ hardly ever miss their man: verbal call or whistle, the one hailed always recogn
 is really him who is being hailed. And yet it is a strange phenomenon, and one which
 cannot be explained solely by "guilt feelings," despite the large numbers who "have
 something on their consciences."
-
-{{< cite-book "althusserIdeologyIdeologicalState1970" >}}

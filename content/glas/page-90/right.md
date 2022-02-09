@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: stieglerActingOut2009
 ---
 
 The violence and insecurity in which we live---as much as they
@@ -35,5 +36,3 @@ there must be a narcissism of the *we* onto which it can project itself. Richard
 failing to develop his narcissism, saw in the municipal council the
 reality of an alterity that made him suffer, that did not return to
 him any image, and he massacred it.
-
-{{< cite-book "stieglerActingOut2009" >}}

@@ -1,10 +1,13 @@
 ---
-title: "page 256"
-date: 2020-09-19T12:49:41-07:00
+cite:
+- QueerNihilism
+- lyotardInhuman1988
+date: 2020-09-19 12:49:41-07:00
+description: domestication / domus / locality / the particular
 draft: false
-description: "domestication / domus / locality / the particular"
-type: "page"
 page: 256
+title: page 256
+type: page
 ---
 
 {{< glas/display >}}

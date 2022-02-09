@@ -1,9 +1,12 @@
 ---
-title: "page 303"
-date: 2021-11-23T13:24:27-08:00
+cite:
+- thompsonMakingEnglishWorking1966
+- stieglerAutomaticSocietyVol2016
+date: 2021-11-23 13:24:27-08:00
 draft: false
-type: "page"
-page: "303"
+page: '303'
+title: page 303
+type: page
 ---
 
 {{< glas/display >}}

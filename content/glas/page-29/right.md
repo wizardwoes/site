@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: bogdanovPhilosophyLivingExperience2016
 ---
 
 But the personal experience of each separate person is comparatively narrow and meagre. 
@@ -25,4 +26,3 @@ wisdom of the ages, the sum of the experiences of a long line of generations,
 becomes no more than a component part of a separate, individual layperson’s
 homemade philosophy – a philosophy that is doomed to inaccuracy, indefiniteness, and weakness in practice.
 
-{{< cite-book "bogdanovPhilosophyLivingExperience2016" >}}

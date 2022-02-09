@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: somervilleQueeringColorLine2012
 ---
 Behind the anatomical measurements lay the assumption that the body was a legible text, with various keys or languages available for reading its symbolic codes...Although scientists debated which particular anatomical features carried racial meanings (skin, facial angle, pelvis, skull, brain mass, genitalia), they theory that anatomy predicted intelligence and behavior remained remarkably constant. As Nancy Stepan and Sander Gilman have noted, "The concepts within racial science were so congruent with social and political life (with power relations, that is) as to be virtually uncontested from inside the mainstream of science" (23 qtcl)
 
@@ -33,4 +34,3 @@ In effect, where minstrel performers had used blackface to produce exaggerated a
 The seeming authenticity of blackface performance on film depended on white audiences' and actor's assumption that race was a transparent visual sign. 
 The naturalization of blackface on film was significantly related to the increasingly naturalized structures of racial segregation within American culture at large. (64 QtCL)
 
-{{< cite-book "somervilleQueeringColorLine2012" >}}

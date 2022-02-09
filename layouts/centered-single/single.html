@@ -1,9 +1,13 @@
 {{ define "main" }}
-{{/*  figure out how to make the padding between the content and the next/prev bar gooder  */}}
-<div class="flex-container">
+  {{/* figure out how to make the padding between the content and the next/prev bar gooder */}}
+  <div class="flex-container">
     <div class="flex-column flex-column--centered">
-        {{ .Content }}
+      {{ .Content }}
+      {{ with .Params.cite }}
+        {{ $scratch := partial "cite-data.html" . }}
+        {{ partial "cite-book.html" $scratch }}
+      {{ end }}
     </div>
-</div>
-{{- partial "next-prev.html" . -}}
+  </div>
+  {{- partial "next-prev.html" . -}}
 {{end}}

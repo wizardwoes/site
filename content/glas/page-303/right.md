@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: stieglerAutomaticSocietyVol2016
 ---
 
 At the time he submitted his report (in June 2014), Pisani-Ferry
@@ -68,5 +69,3 @@ have become complicit in this situation by perpetuating themselves
 in the ways that Trentin and Gorz have described.
 
 (page 236)
-
-{{< cite-book "stieglerAutomaticSocietyVol2016" >}}

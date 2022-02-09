@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: huiArtCosmotechnics2021
 ---
 
 I would like to propose an understanding of *xuan* in terms of recursive logic rather than inclusive logic. Inclusive logic suggests that, for example, a finite set A must
@@ -22,5 +23,3 @@ to put it in the form of an antinomy:
 
 The resolution to this is to exhaust the finitude of lanuage and set it into movement, so that it can implicitly incorporate
 the meanings that cannot be directly mapped onto its existing components. This is the meaning of "to exhaust in order not to exhaust".
-
-{{< cite-book "huiArtCosmotechnics2021" >}}

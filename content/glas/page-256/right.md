@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: "lyotardInhuman1988"
 ---
 
 The undominated, the untamed, in earlier times concealed in the *domus*, is unleashed in the *homo politicus* and *economicus* but under the ancient aegis of service, *Dienst*. It's necessary, one might say, that shareable matter be densified to the narrow scale of domesticity for anti-matter to deliver its hatred from each body. *Homo re-domesticus* in power kills in the street shouting 'You are not one of ours.' He takes the visitor hostage. He persecutes anything that migrates. He hides it away in his cellars, reduces it to ashes in the furthest ends of his lowlands. It is not war - he devastates. *Hybris* break apart the domesticus *modus*. And the domestic remodelling will have served to unleash *hybris*. 
@@ -16,4 +17,3 @@ The ruin of the *domus* makes possible this fury, which it contained, and which 
 
 The only kind of thought - but an abject, objective, rejective thought - which is capable of thinking the end of the *domus*, is perhaps the thought suggested by techno-science. ... Much more complete, much more capable of programming, of neutralizing the event and storing it, of mediating what happens, of conserving what has happened. Including, of course, and first of all, the untameable, the uncontrolled domestic remainder. End of tragedy, flexibility, permissiveness. The control is no longer territorialized or historicized. It is computerized. There is a process of complexification, they say, which is initiated and desired by no-one, no self, not even that of humanity. A cosmic zone, once called the earth, now a miniscule planet of a small stellar system in a glaxy of pretty moderate size - but a zone where neg-entropy is rife. The *domus* was too simple, it left too much remainder that it did not succeed in taming. The big techno-scientific monad has no need of our terrestial bodies, of passions and writings used to be kept in the *domus*. What it needs is 'our' wonderful brains. When it evacuates the dying solar system, the big monad, which is cosmically competitive, will not take the untameable along with it. Before imploding, like the other celestial bodies, with its sun, little Earth will have bequeathed to the great spatial megalopolitian monad the memory that was momentarily confided to the most intelligent of earthly species. But the only one of any use for the navigation of the monad in the cosmos. So they say. (198-199, *Domus and the Megalopolis*)
 
-{{< cite-book "lyotardInhuman1988" >}}

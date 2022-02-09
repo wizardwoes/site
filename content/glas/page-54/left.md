@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: azumaJapanDatabaseAnimals2009
 ---
 
 In the shift from modernity to postmodernity, our world image is
@@ -21,5 +22,3 @@ narrative consumption and database consumption. Figures 11a and
 (emphasis mine)
 
 ![database](./database_figures.png "wow")
-
-{{< cite-book "azumaJapanDatabaseAnimals2009" >}}

@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "wizardwoes"
 sectionPagesMenu = "main"
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  cite = 'cite'
+
 [menu]
 [[menu.main]]
   identifier = 'glas'
@@ -16,6 +21,13 @@ sectionPagesMenu = "main"
   name = 'reading list'
   title = 'reading list'
   url = '/reading-list/'
+  weight = 2
+
+[[menu.main]]
+  identifier = 'citations'
+  name = 'citations'
+  title = 'citations'
+  url = '/cite/'
   weight = 2
 
 [[menu.main]]

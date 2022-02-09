@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: stieglerTechnicsTime2011
 ---
 
 During the course
@@ -32,5 +33,3 @@ general equivalence of primary-secondary time in its tertiary, manipulable, stor
 weakness of Marx's project is that he did not think through this capitalistic question of retentions, especially within the context of an age of numeric culture industries that would become the very sector controlling
 the industrial future in general-whether it is called the "new economy"
 or not.
-
-{{< cite-book "stieglerTechnicsTime2011" >}}

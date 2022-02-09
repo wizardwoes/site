@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: stieglerNeganthropocene2018
 ---
 
 By raising questions about the *secrecy* that cryptographic technologies must protect, and about the decentralization of data storage infrastructure presupposed by *distributed localization*, NextLeap argues
@@ -20,6 +21,5 @@ develop, if not in secret, at least in a space that is protected
 and local in this sense, are the basis of what I will describe
 here as *neganthropological noodiversity*.
 
-{{< cite-book "stieglerNeganthropocene2018" >}}
 
 

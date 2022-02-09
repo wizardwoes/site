@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: stieglerActingOut2009
 ---
 
 When the mass media target consciousnesses insofar as they are
@@ -26,4 +27,3 @@ the difference between *I* and *we* is diluted, giving the *they*, that is,
 the loss of individuation of both the *I* and the *we*, at the heart of
 which alone can one individuate oneself.
 
-{{< cite-book "stieglerActingOut2009" >}}

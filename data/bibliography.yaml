@@ -4,6 +4,7 @@ references:
   author:
     - family: Althusser
       given: Louis
+  citation-key: althusserIdeologyIdeologicalState1970
   issued:
     - year: 1970
   title: Ideology and Ideological State Apparatuses
@@ -13,6 +14,7 @@ references:
   author:
     - family: Azuma
       given: Hiroki
+  citation-key: azumaJapanDatabaseAnimals2009
   issued:
     - year: 2009
   publisher: University of Minnesota Press
@@ -23,6 +25,7 @@ references:
   author:
     - family: Bogdanov
       given: Alexander
+  citation-key: bogdanovPhilosophyLivingExperience2016
   issued:
     - year: 2016
   publisher: Haymarket Books
@@ -33,6 +36,7 @@ references:
   author:
     - family: Burnett
       given: Charles
+  citation-key: burnettInterviewAaronHunt2020
   issued:
     - year: 2020
       month: 7
@@ -46,6 +50,7 @@ references:
   author:
     - family: Fisher
       given: Mark
+  citation-key: fisherPostcapitalistDesire2020
   issued:
     - year: 2020
       month: 9
@@ -58,6 +63,7 @@ references:
   author:
     - family: Goes
       given: Issac
+  citation-key: goesTimeEnoughWorlds2021
   interviewer:
     - family: Medina
       given: Isiah
@@ -76,6 +82,7 @@ references:
   author:
     - family: Hui
       given: Yuk
+  citation-key: huiArtCosmotechnics2021
   issued:
     - year: 2021
   publisher: University of Minnesota Press
@@ -86,13 +93,25 @@ references:
   author:
     - family: Hui
       given: Yuk
+  citation-key: huiWritingCosmotechnics
   title: Writing and Cosmotechnics
+  type: article
+
+- id: leeBamboozled2000
+  author:
+    - family: Lee
+      given: Spike
+  citation-key: leeBamboozled2000
+  issued:
+    - year: 2000
+  title: Bamboozled
   type: article
 
 - id: lukacsHistoryClassConciousness
   author:
     - family: Lukacs
       given: Georg
+  citation-key: lukacsHistoryClassConciousness
   title: History and Class Conciousness
   type: book
 
@@ -100,6 +119,7 @@ references:
   author:
     - family: Lyotard
       given: Jean-François
+  citation-key: lyotardInhuman1988
   issued:
     - year: 1988
   publisher: Stanford University Press
@@ -110,6 +130,7 @@ references:
   author:
     - family: Ngai
       given: Sianne
+  citation-key: ngaiOurAestheticCategories2012
   issued:
     - year: 2012
   publisher: First Harvard University Press
@@ -117,13 +138,25 @@ references:
   type: book
 
 - id: QueerNihilism
+  citation-key: QueerNihilism
   title: Queer Nihilism
+  type: book
+
+- id: simondonIndividuationLightNotions2020
+  author:
+    - family: Simondon
+      given: Gilbert
+  citation-key: simondonIndividuationLightNotions2020
+  issued:
+    - year: 2020
+  title: Individuation in Light of Notions of Form and Information
   type: book
 
 - id: somervilleQueeringColorLine2012
   author:
     - family: Somerville
       given: Siobhan B.
+  citation-key: somervilleQueeringColorLine2012
   issued:
     - year: 2012
   publisher: Duke University Press
@@ -136,6 +169,7 @@ references:
   author:
     - family: Stiegler
       given: Bernard
+  citation-key: stieglerActingOut2009
   issued:
     - year: 2009
   publisher: Stanford University Press
@@ -146,6 +180,7 @@ references:
   author:
     - family: Stiegler
       given: Bernard
+  citation-key: stieglerAutomaticSocietyVol2016
   issued:
     - year: 2016
   publisher: Polity Press
@@ -157,6 +192,7 @@ references:
   author:
     - family: Stiegler
       given: Bernard
+  citation-key: stieglerNeganthropocene2018
   issued:
     - year: 2018
   publisher: Open Humanities Press
@@ -167,6 +203,7 @@ references:
   author:
     - family: Stiegler
       given: Bernard
+  citation-key: stieglerSymbolicMisery2015
   issued:
     - year: 2015
   publisher: Polity Press
@@ -178,6 +215,7 @@ references:
   author:
     - family: Stiegler
       given: Bernard
+  citation-key: stieglerTechnicsTime2011
   issued:
     - year: 2011
   publisher: Stanford University Press
@@ -188,6 +226,7 @@ references:
   author:
     - family: Thompson
       given: E.P.
+  citation-key: thompsonMakingEnglishWorking1966
   issued:
     - year: 1966
   publisher: Vintage
@@ -198,6 +237,7 @@ references:
   author:
     - family: Verkerk
       given: Willow
+  citation-key: verkerkNietzscheFriendship2019
   issued:
     - year: 2019
   publisher: Bloomsbury Academic
@@ -208,6 +248,7 @@ references:
   author:
     - family: Wark
       given: McKenzie
+  citation-key: warkReverseCowgirl2020
   issued:
     - year: 2020
   publisher: semiotext(e)

@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: azumaJapanDatabaseAnimals2009
 ---
 
 I believe that it is more appropriate to use the image of the database to grasp this current situation. The emergence of Ayanami Rei
@@ -19,4 +20,3 @@ by consumers, and then the elements reemerged later as material for
 creating new characters. Therefore, each time a popular character appeared, the *moe*-element database changed accordingly, and as a result,
 in the next season there were heated battles among the new generation of characters featuring new *moe*-elements.
 
-{{< cite-book "azumaJapanDatabaseAnimals2009" >}}

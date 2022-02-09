@@ -1,0 +1,2 @@
+# i am lazy
+Get-ChildItem -Directory -Path ..\content\glas\ | foreach { python.exe .\update_citations_in_frontmatter.py $_.FullName }

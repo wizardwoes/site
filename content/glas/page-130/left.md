@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: ngaiOurAestheticCategories2012
 ---
 
 Writing about history as well as science, Mikhail Epstein underscores
@@ -25,5 +26,3 @@ Epstein continues,
 > interesting because we give up all hope of rationally integrating such a phenomenon. 
 > On the other hand, the evacuation of wonder that guarantees an easy
 > triumph for reason undermines our interest as well. (79)
-
-{{< cite-book "ngaiOurAestheticCategories2012" >}}

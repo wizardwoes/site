@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: bogdanovPhilosophyLivingExperience2016
 ---
 
 This is a transitional point of view, the result of a situation in which theory
@@ -31,5 +32,3 @@ as to be completely inaccessible to their minds; only their ‘outward appearanc
 of their individual powerlessness – their personal passivity in relation to the
 external world – reinforces in them the conviction that this ‘outward appearance’ is entirely the result of *the object’s* action on them, that they themselves
 only ‘apprehend’ that action.
-
-{{< cite-book "bogdanovPhilosophyLivingExperience2016" >}}

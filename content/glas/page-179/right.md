@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: goesTimeEnoughWorlds2021
 ---
 
 Throughout the course of these transformations you are faced with many decisions, 
@@ -14,7 +15,6 @@ I would progress onto the next section -- even when I thought I’d found the ri
 I believe that every scrap left on the cutting room floor is in some way incorporated into the final cut, 
 realizing an idea doesn’t fit and abandoning it goes beyond negation - this return to square one itself is etched into the final form.
 
-{{< cite-book "goesTimeEnoughWorlds2021" >}}
 
 ---
 

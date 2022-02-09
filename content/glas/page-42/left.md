@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: azumaJapanDatabaseAnimals2009
 ---
 
 The otaku themselves are aware of this situation. The otaku search
@@ -26,5 +27,3 @@ broken up into elements, categorized, and registered to a database. If
 there is no appropriate classification, a new element or category simply
 will be added. In this sense, the originality of an “original” character
 can only exist as a simulacrum.
-
-{{< cite-book "azumaJapanDatabaseAnimals2009" >}}

@@ -5,10 +5,9 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: leeBamboozled2000
 ---
 ![one drop](./one_drop_1.png)
 ![one drop](./one_drop_2.png)
 ![one drop](./one_drop_3.png)
 ![one drop](./one_drop_4.png)
-
-{{< cite-book "leeBamboozled2000" >}}

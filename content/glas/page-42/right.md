@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: stieglerActingOut2009
 ---
 
 The question of the network, as Jeremy Rifkin has shown well,
@@ -21,5 +22,3 @@ of retention implies the loss of identity, that is, of difference. Nietzsche saw
 and the tendency of societies falsely named "individualistic" to
 deny the exception. Our supposedly individualistic societies are in
 reality perfectly conformist.
-
-{{< cite-book "stieglerActingOut2009" >}}

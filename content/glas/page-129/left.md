@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: ngaiOurAestheticCategories2012
 ---
 
 If the interesting marks a tension between wonder and reason, increasing
@@ -23,5 +24,4 @@ even conceive." He writes:
 > Interest alone gives accent and emphasis, light and shade, background and
 > foreground---intelligible perspective, in a word. (402)
 
-{{< cite-book "ngaiOurAestheticCategories2012" >}}
 

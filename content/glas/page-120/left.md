@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: verkerkNietzscheFriendship2019
 ---
 
 Nietzsche comes closest to Aristotle when he discusses what is noble and the behaviour of a bestower with respect
@@ -32,5 +33,3 @@ Nietzsche values the generosity of a teacher who shares ideas with students and 
 the validity of their own beliefs (ZI ‘On the Bestowing Virtue’ 3). The bestower aims for their recipients to take their
 gift and utilize it for themselves. They appear to be more comfortable with being sacrificed knowing that their self-worth
 was gained from the act of bestowal and all the necessary steps they took to be ready for it. (120)
-
-{{< cite-book "verkerkNietzscheFriendship2019" >}}

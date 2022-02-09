@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: huiArtCosmotechnics2021
 ---
 
 This affirmation of 
@@ -50,4 +51,3 @@ to question in response to today's aestheticization of consumerism
 and politics
 
 (page 276)
-{{< cite-book "huiArtCosmotechnics2021" >}}

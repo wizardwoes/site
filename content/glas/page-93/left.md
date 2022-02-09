@@ -69,4 +69,4 @@ been a source of information through the work.*
 ***
 
 {{< cite-book "benjaminIlluminations1968" >}}
-{{< cite-book "simondonIndividuation2020" >}}
+{{< cite-book "simondonIndividuationLightNotions2020" >}}

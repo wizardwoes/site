@@ -1,11 +1,13 @@
 ---
-title: "page 300"
-date: 2020-09-18T15:20:12-07:00
-description: "technology making us legible"
-chapter: "lord"
+chapter: lord
+cite:
+- stieglerNeganthropocene2018
+date: 2020-09-18 15:20:12-07:00
+description: technology making us legible
 draft: false
-type: "page"
 page: 300
+title: page 300
+type: page
 ---
 
 {{< glas/display >}}

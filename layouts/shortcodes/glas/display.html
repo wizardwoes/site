@@ -2,10 +2,45 @@
 {{ $right := .Page.Resources.GetMatch "right.md" }}
 
 <div class="flex-column glas--left">
-        {{ $left.Content}}
+{{/*   if array, loop over it  */}}
+{{ if reflect.IsSlice $left.Params.display}}
+  {{ range $left.Params.display }}
+    {{ $p := $.Page.Resources.GetMatch . }}
+    {{ $p.Content }}
+    {{ with $left.Params.cite }}
+      {{ $scratch := partial "cite-data.html" . }}
+      {{ partial "cite-book.html" $scratch }}
+    {{ end }}
+    <hr>
+  {{ end }}
+{{/*  otherwise print regular  */}}
+{{ else }}
+  {{ $left.Content}}
+  {{ with $left.Params.cite }}
+    {{ $scratch := partial "cite-data.html" . }}
+    {{ partial "cite-book.html" $scratch }}
+  {{ end }}
+{{ end }}
 </div>
 
 <hr class="glas--divider">
+
 <div class="flex-column glas--right">
-        {{ $right.Content}}
+{{ if reflect.IsSlice $right.Params.display }}
+  {{ range $right.Params.display }}
+    {{ $p := $.Page.Resources.GetMatch . }}
+    {{ $p.Content }}
+    {{ with $right.Params.cite }}
+      {{ $scratch := partial "cite-data.html" . }}
+    {{ partial "cite-book.html" $scratch }}
+  {{ end }}
+  <hr>
+{{ end }}
+{{ else }}
+  {{ $right.Content}}
+  {{ with $right.Params.cite }}
+    {{ $scratch := partial "cite-data.html" . }}
+    {{ partial "cite-book.html" $scratch }}
+  {{ end }}
+{{ end }}
 </div>

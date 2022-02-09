@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: simondonIndividuationLightNotions2020
 ---
 
 Furthermore, this constraint and limitation of the parameters of television broadcast to extremely
@@ -25,7 +26,7 @@ towns of a secondary order, which are powerless to participate in this starshape
 television are thus psycho-social; they are defined by the *closure* of a cycle of *recurrent causalities* that create a type of psycho-social interior milieu
 endowed with homeostasis due to a certain internal regulation by the assimilation and disassimilation of technologies, procedures, and artists who are
 recruited through commandeering and bound together by a mechanism of
-self-defense comparable to that of various closed societies. Particular selfjustifying myths are put forth: the research of the sharpness of the image is
+self-defense comparable to that of various closed societies. Particular self justifying myths are put forth: the research of the sharpness of the image is
 proclaimed to be more valuable than the research of color attempted by other
 nations, and in order for this research to justify itself, the distinctive traits
 of the French people are invoked, who are enamored with clarity and precision and detest the poor taste of color prints, considered only to be suitable
@@ -35,4 +36,3 @@ whereas a simple calculation of the quantity of information required to transmit
 of complication of the apparatuses used in both cases lead to the inverse
 result.
 
-{{< cite-book "simondonIndividuation2020" >}}
