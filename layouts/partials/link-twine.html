@@ -1,5 +1,5 @@
 <div class="play-twine">
-    {{ $fname := (printf "twine/%s.html" (.Page.Title | urlize) ) }}
+    {{ $fname := (printf "twine-play/%s.html" (.Page.Title | urlize) ) }}
     {{ $src := resources.Get $fname }}
     <a class="twine-link" href="{{ $src.RelPermalink }}">play</a>
 </div>
