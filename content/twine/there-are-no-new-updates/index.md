@@ -8,3 +8,5 @@ type: twine
 originally posted in 2016 (?)
 
 really makes you think
+
+{{< img src="0nPSPCE.jpeg" alt="very deep" >}}

@@ -7,5 +7,6 @@ type: twine
 
 originally posted in 2015 (?)
 
-Very interesting context goes here
+{{< img src="Spaghetti-and-Meatballs.jpg" alt="spagemmi" >}}
 
+{{< img src="10-minute-healthy-easy-spaghetti-recipe-4.jpg" alt="spa" >}}
