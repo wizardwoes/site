@@ -12,9 +12,10 @@ type: reading-list
 - confirm that you are in fact, a big stiegler head
 
 ## future ideas
-- entries could link to where books are actually cited
-- change form to one of those word clouds where size of entry would be related to number of times cited
+- merge citations into reading list?
+- how to differentiate from citations?
 - how to include not-books?
+- create Genealogy of others (show who refs who)
 
 # currently reading
 - {{< cite-book "thompsonMakingEnglishWorking1966" >}}
