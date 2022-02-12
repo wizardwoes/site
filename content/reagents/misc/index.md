@@ -5,14 +5,6 @@ draft: false
 type: reagent
 ---
 
-stiegler -> info/knowledge
-
-marx's ecology
-
-data center, energy
-
----
-
 high definition means less tolerance for timing variance
 
 ---
