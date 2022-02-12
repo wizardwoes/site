@@ -15,18 +15,18 @@ data center, energy
 
 In "A Factory as It Might Be," Morris envisioned a socialism in which
 factories would be set amidst gardens, cultivated by means of the voluntary labor of workers: 
-(block quote begins)
-Impossible I hear an anti-Socialist say. My friend, please to remember that most factories sustain to-day large 
-and handsome gardens; and not seldom parks and woods of many acres in extent; with due appurtenances of 
-highly-paid Scotch professional gardeners, wood reeves, bailiffs, gamekeepers, and the like, 
-the whole being managed in the most wasteful way conceivable; only the said gardens, etc., are, say, 
-twenty miles away from the factory, out of the smoke, and are kept up for one member of the factory only, 
-the sleeping partner to wit, who may, indeed, double that part by organising its labour (for his own profit), 
-in which case he receives ridiculously disproportionate pay additional.’
-(ends)
+>> Impossible I hear an anti-Socialist say. My friend, please to remember that most factories sustain to-day large 
+>> and handsome gardens; and not seldom parks and woods of many acres in extent; with due appurtenances of 
+>> highly-paid Scotch professional gardeners, wood reeves, bailiffs, gamekeepers, and the like, 
+>> the whole being managed in the most wasteful way conceivable; only the said gardens, etc., are, say, 
+>> twenty miles away from the factory, out of the smoke, and are kept up for one member of the factory only, 
+>> the sleeping partner to wit, who may, indeed, double that part by organising its labour (for his own profit), 
+>> in which case he receives ridiculously disproportionate pay additional.’
 
 (pg 237, marx's ecology)
 detourne it?
+
+{{< cite-book "fosterMarxEcology2000" >}}
 
 ---
 
@@ -67,3 +67,5 @@ system that I am – calculable by it, anticipatable by it. But that unforeseen-
 totally unexpected, perhaps proceeds nevertheleess from what was most expected, expected as the unhoped-for (anelpiston): the improbable, the
 incomparable, and the inestimable – the bifurcating.
 (pg 89-90, Nanjing Lectures)
+
+{{< cite-book "stieglerNanjingLectures201620192020" >}}

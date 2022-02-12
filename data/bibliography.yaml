@@ -59,6 +59,17 @@ references:
   title: Postcapitalist Desire
   type: book
 
+- id: fosterMarxEcology2000
+  author:
+    - family: Foster
+      given: John
+  citation-key: fosterMarxEcology2000
+  issued:
+    - year: 2000
+  publisher: Monthly Review Press
+  title: Marx's Ecology
+  type: book
+
 - id: goesTimeEnoughWorlds2021
   author:
     - family: Goes
@@ -187,6 +198,17 @@ references:
   title: Automatic Society vol 1
   type: book
   volume: '1'
+
+- id: stieglerNanjingLectures201620192020
+  author:
+    - family: Stiegler
+      given: Bernard
+  citation-key: stieglerNanjingLectures201620192020
+  issued:
+    - year: 2020
+  publisher: Open Humanities Press
+  title: Nanjing Lectures (2016-2019)
+  type: book
 
 - id: stieglerNeganthropocene2018
   author:
