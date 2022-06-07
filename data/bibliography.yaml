@@ -32,6 +32,17 @@ references:
   title: The Philosophy of Living Experience
   type: book
 
+- id: bogdanovRedStar1984
+  author:
+    - family: Bogdanov
+      given: Alexander
+  citation-key: bogdanovRedStar1984
+  issued:
+    - year: 1984
+  publisher: Indiana University Press
+  title: Red Star
+  type: book
+
 - id: burnettInterviewAaronHunt2020
   author:
     - family: Burnett
@@ -45,6 +56,16 @@ references:
   type: interview
   URL: >-
     https://mubi.com/notebook/posts/an-incomplete-notion-to-begin-with-a-conversation-with-charles-burnett
+
+- id: feinbergStoneButchBlues1993
+  author:
+    - family: Feinberg
+      given: Leslie
+  citation-key: feinbergStoneButchBlues1993
+  issued:
+    - year: 1993
+  title: Stone Butch Blues
+  type: book
 
 - id: fisherPostcapitalistDesire2020
   author:
@@ -146,6 +167,14 @@ references:
     - year: 2012
   publisher: First Harvard University Press
   title: Our Aesthetic Categories
+  type: book
+
+- id: nietzscheGayScience
+  author:
+    - family: Nietzsche
+      given: Friedrich
+  citation-key: nietzscheGayScience
+  title: The Gay Science
   type: book
 
 - id: QueerNihilism
