@@ -127,7 +127,7 @@ references:
       given: Yuk
   citation-key: huiWritingCosmotechnics
   title: Writing and Cosmotechnics
-  type: article
+  type: document
 
 - id: leeBamboozled2000
   author:
@@ -137,7 +137,7 @@ references:
   issued:
     - year: 2000
   title: Bamboozled
-  type: article
+  type: document
 
 - id: lukacsHistoryClassConciousness
   author:
@@ -272,6 +272,17 @@ references:
   publisher: Stanford University Press
   title: Technics and Time, 3
   type: book
+
+- id: theweleitMaleFantasies1987
+  author:
+    - family: Theweleit
+      given: Klaus
+  citation-key: theweleitMaleFantasies1987
+  issued:
+    - year: 1987
+  title: Male Fantasies
+  type: book
+  volume: '1'
 
 - id: thompsonMakingEnglishWorking1966
   author:
