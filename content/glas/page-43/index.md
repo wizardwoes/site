@@ -1,8 +1,8 @@
 ---
 cite:
 - platoPhaedrus
-- stieglerNanjingLectures201620192020
 - warkTrapMetaphysics2021
+- stieglerNanjingLectures201620192020
 date: 2022-07-19 16:26:24-07:00
 draft: false
 page: '43'

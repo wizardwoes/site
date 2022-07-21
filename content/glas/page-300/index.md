@@ -1,9 +1,9 @@
 ---
 chapter: lord
 cite:
+- lyotardInhuman1988
 - stieglerNeganthropocene2018
 - QueerNihilism
-- lyotardInhuman1988
 date: 2020-09-18 15:20:12-07:00
 description: technology making us legible
 draft: false

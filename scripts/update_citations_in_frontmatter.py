@@ -5,6 +5,23 @@ import sys
 
 import frontmatter
 
+def remove_null_citations(cites):
+    cites = [cite for cite in cites if cite]
+    return cites
+
+def flatten(l):
+    flat_l = []
+    for item in l:
+        if isinstance(item, list):
+            flat_l.extend(item)
+        else:
+            flat_l.append(item)
+
+    return flat_l
+
+def remove_duplicates(l):
+    cites = list(set(l))
+    return cites
 
 def merge_citations(fdir):
     p = Path(fdir)
@@ -12,7 +29,18 @@ def merge_citations(fdir):
 
     fm = [frontmatter.load(f) for f in fnames]
 
+    print(fm)
+
     all_cite = [f.get("cite", None) for f in fm]
+
+    all_cite = remove_null_citations(all_cite)
+
+    # have to flatten list
+    # case: a page contains a list of citations
+    all_cite = flatten(all_cite)
+
+    all_cite = remove_duplicates(all_cite)
+
     return all_cite
 
 
@@ -26,12 +54,6 @@ def get_index(fdir):
     p = Path(fdir)
     index = p / "index.md"
     return index if index.exists() else None
-
-
-def remove_null_citations(cites):
-    cites = [cite for cite in cites if cite]
-    return cites
-
 
 def add_citations_to_index(index, cites):
     fm = frontmatter.load(index)
@@ -57,7 +79,6 @@ if __name__ == "__main__":
         exit(1)
 
     cites = merge_citations(fdir)
-    cites = remove_null_citations(cites)
 
     if not any(cites):
         print(
