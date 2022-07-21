@@ -20,7 +20,11 @@ def flatten(l):
     return flat_l
 
 def remove_duplicates(l):
-    cites = list(set(l))
+    cites = []
+    for item in l:
+        if item not in cites:
+            cites.append(item)
+
     return cites
 
 def merge_citations(fdir):
@@ -28,8 +32,6 @@ def merge_citations(fdir):
     fnames = [f for f in p.glob("*.md") if f.name not in ["index.md"]]
 
     fm = [frontmatter.load(f) for f in fnames]
-
-    print(fm)
 
     all_cite = [f.get("cite", None) for f in fm]
 
@@ -55,8 +57,15 @@ def get_index(fdir):
     index = p / "index.md"
     return index if index.exists() else None
 
+    
 def add_citations_to_index(index, cites):
     fm = frontmatter.load(index)
+    # check if equal
+    # if equal, don't update front matter
+
+    if fm["cite"] == cites:
+        return fm
+
     fm["cite"] = cites
     return fm
 
