@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: derridaGlas1986
 ---
 {{< no-top-bottom >}}
 spirit's relation to self, (2) as the circular path of a return to self. And in the description of the spirit that returns to irself through its own proper product, after it lost itself there, rhere is more than a simple rhetorical convenience in giving to the spirit rhe name father. Likewise, the advent of the Christian Trinity is more rhan an empiric event in the spirit's history.

@@ -5,6 +5,9 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite:
+- QueerNihilism
+- lyotardInhuman1988
 ---
 
 We are captured by the state every time we make ourselves intelligible. Whether demand, political subject, or formal organization, each intelligible form can be recuperated, represented, or annihilated.

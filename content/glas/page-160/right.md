@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: burnettInterviewAaronHunt2020
 ---
 
 circuits / the goal of many white movie actors in blackface was to "pass," to act "black" in a mode believable to white audiences. / assumption that race was a transparent visual sign. 

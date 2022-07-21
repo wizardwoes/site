@@ -21,6 +21,18 @@ references:
   title: Japan's Database Animals
   type: book
 
+- id: benjaminIlluminations1968
+  author:
+    - family: Benjamin
+      given: Walter
+  citation-key: benjaminIlluminations1968
+  issued:
+    - year: 1968
+  publisher: Schocken Books
+  title: Illuminations
+  type: book
+  volume: '1'
+
 - id: bogdanovPhilosophyLivingExperience2016
   author:
     - family: Bogdanov
@@ -56,6 +68,17 @@ references:
   type: interview
   URL: >-
     https://mubi.com/notebook/posts/an-incomplete-notion-to-begin-with-a-conversation-with-charles-burnett
+
+- id: derridaGlas1986
+  author:
+    - family: Derrida
+      given: Jacques
+  citation-key: derridaGlas1986
+  issued:
+    - year: 1986
+  publisher: University of Nebraska Press
+  title: Glas
+  type: book
 
 - id: feinbergStoneButchBlues1993
   author:
@@ -235,6 +258,16 @@ references:
   title: Automatic Society vol 1
   type: book
   volume: '1'
+
+- id: stieglerLementsNeganthropologyAutomatic2021
+  author:
+    - family: Stiegler
+      given: Bernard
+  citation-key: stieglerLementsNeganthropologyAutomatic2021
+  issued:
+    - year: 2021
+  title: lements for a Neganthropology of Automatic Man
+  type: document
 
 - id: stieglerNanjingLectures201620192020
   author:

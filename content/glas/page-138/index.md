@@ -1,11 +1,14 @@
 ---
-title: "page 138"
-date: 2017-08-31T00:09:51-07:00
-description: "literally glas"
+chapter: excellent
+cite:
+- derridaGlas1986
+- derridaGlas1986
+date: 2017-08-31 00:09:51-07:00
+description: literally glas
 draft: false
-type: "page"
-chapter: "excellent"
 page: 138
+title: page 138
+type: page
 ---
 
 {{< glas/display >}}

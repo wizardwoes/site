@@ -1,9 +1,12 @@
 ---
-title: "page 185"
-date: 2022-06-06T16:18:42-07:00
+cite:
+- feinbergStoneButchBlues1993
+- verkerkNietzscheFriendship2019
+date: 2022-06-06 16:18:42-07:00
 draft: false
-type: "page"
-page: "185"
+page: '185'
+title: page 185
+type: page
 ---
 
 {{< glas/display >}}

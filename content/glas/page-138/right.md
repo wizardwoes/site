@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: derridaGlas1986
 ---
 {{< no-top >}}
 denim trousers. This detail might have haunted my

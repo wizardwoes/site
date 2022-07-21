@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: verkerkNietzscheFriendship2019
 ---
 
 was going to draw quotes from Verkerk's *Nietzsche and Friendship* but it doesn't seem right. Yet.

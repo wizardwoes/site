@@ -5,6 +5,9 @@ description: "transvaluation of information / benjamin - houses someone has died
 tags: []
 categories: []
 draft: false
+cite: 
+- benjaminIlluminations1968
+- simondonIndividuationLightNotions2020
 ---
 
 Dying was once a public process in the life of the individual and a most exemplary one; 

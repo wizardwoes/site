@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: derridaGlas1986
 ---
  {{< no-top >}}
 And translate that The Flower, which signifies (symbolizes, metaphorizes, metonymizes, and so on) the phallus, once caught in the syntax of the cuttable-culpable, signifies death, decapitation, decollation? Anthologos signifying the signifier signifying castration?

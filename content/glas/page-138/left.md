@@ -5,6 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: derridaGlas1986
 ---
 {{< no-top >}}
 singularities, an effect and not a middle of the struggle. In the *practical* war between singular forces, the injuries must bring about
