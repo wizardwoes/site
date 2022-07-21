@@ -177,6 +177,14 @@ references:
   title: The Gay Science
   type: book
 
+- id: platoPhaedrus
+  author:
+    - family: Plato
+      given: ''
+  citation-key: platoPhaedrus
+  title: Phaedrus
+  type: book
+
 - id: QueerNihilism
   citation-key: QueerNihilism
   title: Queer Nihilism
@@ -316,4 +324,16 @@ references:
   publisher: semiotext(e)
   title: Reverse Cowgirl
   type: book
+
+- id: warkTrapMetaphysics2021
+  author:
+    - family: Wark
+      given: McKenzie
+  citation-key: warkTrapMetaphysics2021
+  issued:
+    - year: 2021
+  publisher: e-flux Journal
+  title: Trap Metaphysics
+  type: document
+  URL: https://www.e-flux.com/journal/122/429125/trap-metaphysics/
 ...
