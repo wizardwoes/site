@@ -1,2 +1,5 @@
-# i am lazy
+# do single page
+python.exe .\scripts\update_citations_in_frontmatter.py NAME_GOES_HERE
+
+# i am lazy - do everything
 Get-ChildItem -Directory -Path ..\content\glas\ | foreach { python.exe .\update_citations_in_frontmatter.py $_.FullName }
