@@ -7,7 +7,7 @@
   {{ range $left.Params.display }}
     {{ $p := $.Page.Resources.GetMatch . }}
     {{ $p.Content }}
-    {{ with $left.Params.cite }}
+    {{ with $p.Params.cite }}
       {{ $scratch := partial "cite-data.html" . }}
       {{ partial "cite-book.html" $scratch }}
     {{ end }}
@@ -30,7 +30,8 @@
   {{ range $right.Params.display }}
     {{ $p := $.Page.Resources.GetMatch . }}
     {{ $p.Content }}
-    {{ with $right.Params.cite }}
+    {{ with $p.Params.cite }}
+    {{/*  need to get the correct citation per entry  */}}
       {{ $scratch := partial "cite-data.html" . }}
     {{ partial "cite-book.html" $scratch }}
   {{ end }}
