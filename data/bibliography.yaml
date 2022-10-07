@@ -69,6 +69,29 @@ references:
   URL: >-
     https://mubi.com/notebook/posts/an-incomplete-notion-to-begin-with-a-conversation-with-charles-burnett
 
+- id: delanyBlackFutureInterviews1993
+  author:
+    - family: Delany
+      given: Samuel
+  citation-key: delanyBlackFutureInterviews1993
+  issued:
+    - year: 1993
+  title: >-
+    Black to the Future: Interviews with Samuel R. Delany, Greg Tate, and Tricia
+    Rose
+  type: interview
+
+- id: delanyDhalgren2001
+  author:
+    - family: Delany
+      given: Samuel
+  citation-key: delanyDhalgren2001
+  issued:
+    - year: 2001
+  publisher: Vintage; 12th Edition
+  title: Dhalgren
+  type: book
+
 - id: derridaGlas1986
   author:
     - family: Derrida
