@@ -16,6 +16,9 @@ Does this framing mean we have to consider gender (and its many intersectional p
 Not in terms of 'real men (tm) are scarce' (if they ever existed) but, the material resources that enable possible men are scare?
 If a reaction to scarcity is hoarding, [something] producing miserly men?
 
+*I think there is a connection to Fourier here*
+
+
 When does generosity turn into a debt? A feeling of un-payability? Ask your neighbor to borrow a cup of masculinity?
 
 Or does thinking along the lines of masculinity as scarcity just reinforce what we're trying to unseat? 
@@ -23,6 +26,8 @@ Can you be generous with something you do not posess? (You must first posess to 
 Who can posess (or is allowed to posess)? 
 Does a disparity have to exist to be generous?
 What happens to someone who ties their self to an idea of generosity, when generosity is no longer needed?
+
+*or to think a (future) generosity that makes (contemporary) generosity miserly in comparison*
 
 To say only those who are already in possession of masculinity can be generous with masculinity would be to miss something important in *Stone Butch Blues*. The work of Jess's femme lovers show as much.
 

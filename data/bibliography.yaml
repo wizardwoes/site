@@ -137,6 +137,17 @@ references:
   title: Marx's Ecology
   type: book
 
+- id: fourierTheoryFourMovements2008
+  author:
+    - family: Fourier
+      given: Charles
+  citation-key: fourierTheoryFourMovements2008
+  issued:
+    - year: 2008
+  publisher: Cambridge University Press
+  title: The Theory of the Four Movements
+  type: book
+
 - id: goesTimeEnoughWorlds2021
   author:
     - family: Goes
@@ -282,14 +293,14 @@ references:
   type: book
   volume: '1'
 
-- id: stieglerLementsNeganthropologyAutomatic2021
+- id: stieglerElementsNeganthropologyAutomatic2021
   author:
     - family: Stiegler
       given: Bernard
-  citation-key: stieglerLementsNeganthropologyAutomatic2021
+  citation-key: stieglerElementsNeganthropologyAutomatic2021
   issued:
     - year: 2021
-  title: lements for a Neganthropology of Automatic Man
+  title: Elements for a Neganthropology of Automatic Man
   type: document
 
 - id: stieglerNanjingLectures201620192020
