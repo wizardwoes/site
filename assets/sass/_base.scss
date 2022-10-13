@@ -7,9 +7,12 @@
 
 .site-header {
     font-family: cloister_blacklight;
-    line-height: 0px;
     position: relative;
     padding: 0 10px;
+
+    @include for-tablet-portrait-up {
+        line-height: 0px;
+    } 
 }
 
 body,

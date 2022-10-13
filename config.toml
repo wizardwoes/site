@@ -32,8 +32,8 @@ sectionPagesMenu = "main"
 
 [[menu.main]]
   identifier = 'photo-weaves'
-  name = 'photo weaves'
-  title = 'photo weaves'
+  name = 'weaves'
+  title = 'weaves'
   url = '/photo-weaves/'
   weight = 4
 

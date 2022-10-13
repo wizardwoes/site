@@ -7,14 +7,18 @@
 
     @include for-tablet-portrait-up {
         height: 80px;
+        flex-direction: row;
+        padding: 0 20%;
+        margin-bottom: 1%;
     }
 
     background-color: $bg-color;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1%;
+    margin-bottom: 20%;
+
 }
 
 .navbar__entries {
@@ -22,6 +26,8 @@
     align-items: center;
     justify-content: center;
     // margin-bottom: 1%;
+    flex-wrap: wrap;
+    
 
     @include for-tablet-portrait-up {
         position: relative;
@@ -34,7 +40,8 @@
 .navbar__entry {
     padding: 12px 16px;
     text-decoration: none;
-    border-top: 1px solid $color;
+    // this is here for when we have a dropdown menu
+    // border-top: 1px solid $color;
 
     @include for-tablet-portrait-up {
         padding: 0px 4px;
@@ -84,9 +91,9 @@
     display: flex;
     flex-direction: column;
 
-    @include for-tablet-portrait-up {
+   @include for-tablet-portrait-up {
         flex-direction: row;
-    }
+    } 
 }
 
 .flex-container-other {
