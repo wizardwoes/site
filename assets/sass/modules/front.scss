@@ -18,9 +18,29 @@
     }
 }
 
+.posts__recent {
+
+}
+
+.posts__recent__entry {
+    list-style-type: none;
+}
+
+// .posts__recent__entry_link::after {
+//         content: " | ";
+//     }
+
+
+.after__seperator::after {
+    content: " | ";
+}
+
+
 .book {
     margin-bottom: 5em;
 }
+
+
 
 .chapter__contents {
     text-align: right;

@@ -1,0 +1,7 @@
+<div class="posts__recent">
+{{- range (site.RegularPages | first 10 ) }}
+    <li class="posts__recent__entry"><span class="after__seperator"><a class="posts__recent__entry_link" href="{{ .Permalink }}">{{ .Title }}</a></span> 
+        <span class="after__seperator">{{ .Date.Format "January 2, 2006" }}</span> {{ .Type }} </li>
+{{- end}}
+
+</div>
