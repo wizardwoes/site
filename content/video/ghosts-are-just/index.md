@@ -1,8 +1,10 @@
 ---
-title: "ghosts are just. (2016)"
+title: "ghosts are just."
 date: 2022-10-13
 draft: false
 type: video
+released: "2016"
+vimeoid: 174337564
 ---
 
 ![title](./title.png "ghosts are just. title card")

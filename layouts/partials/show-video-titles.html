@@ -1,0 +1,8 @@
+<div class="show-video-titles">
+    {{ $fname := (printf "video-titles/%s.png" (.Page.Title | urlize) ) }}
+    {{$fname}}
+    {{ $src := resources.Get $fname }}
+    {{$src}}
+    <img class="video-title-img" src="{{ $src.RelPermalink }}" alt="">
+
+</div>

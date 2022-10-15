@@ -1,8 +1,10 @@
 ---
-title: "please. wait. (2016)"
+title: "please. wait."
 date: 2022-10-13
 draft: false
 type: video
+released: "2016"
+vimeoid: 171921131
 ---
 
 ![title](./title.png "please wait title card")

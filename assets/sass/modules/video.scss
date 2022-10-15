@@ -1,5 +1,23 @@
 @import "mixins";
 
-.vimeo_link {
-    // align-items: flex-end;
+.show-video-titles {
+}
+
+.video-info {
+    margin-bottom: 10vh;
+    align-self: center;
+}
+
+.video-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-link {
+    text-decoration: none;
+    padding-top: 1vh;
+}
+
+.watch-link {
+    padding-top: 2vh;
 }
