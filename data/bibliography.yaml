@@ -215,6 +215,17 @@ references:
   title: The Inhuman
   type: book
 
+- id: marczewskaThisNotCopy2019
+  author:
+    - family: Marczewska
+      given: Kaja
+  citation-key: marczewskaThisNotCopy2019
+  issued:
+    - year: 2019
+  publisher: Bloomsbury Academic
+  title: 'This Is Not a Copy: Writing at the Iterative Turn'
+  type: book
+
 - id: ngaiOurAestheticCategories2012
   author:
     - family: Ngai
@@ -246,6 +257,17 @@ references:
   citation-key: QueerNihilism
   title: Queer Nihilism
   type: book
+
+- id: rohyHemingwayLiteralismTransgender2011
+  author:
+    - family: Rohy
+      given: Valerie
+  citation-key: rohyHemingwayLiteralismTransgender2011
+  issued:
+    - year: 2011
+  publisher: Duke University Press
+  title: Hemingway, Literalism, and Transgender Reading
+  type: document
 
 - id: simondonIndividuationLightNotions2020
   author:
@@ -348,6 +370,17 @@ references:
   title: Technics and Time, 3
   type: book
 
+- id: stieglerTechnicsTimeFault1998
+  author:
+    - family: Stiegler
+      given: Bernard
+  citation-key: stieglerTechnicsTimeFault1998
+  issued:
+    - year: 1998
+  publisher: Stanford University Press
+  title: 'Technics and Time, 1: The Fault of Epimetheus'
+  type: book
+
 - id: theweleitMaleFantasies1987
   author:
     - family: Theweleit
@@ -379,6 +412,17 @@ references:
     - year: 2019
   publisher: Bloomsbury Academic
   title: Nietzsche and Friendship
+  type: book
+
+- id: warkPhilosophySpidersLow2021
+  author:
+    - family: Wark
+      given: McKenzie
+  citation-key: warkPhilosophySpidersLow2021
+  issued:
+    - year: 2021
+  publisher: Duke University Press
+  title: 'Philosophy for Spiders: On the Low Theory of Kathy Acker'
   type: book
 
 - id: warkReverseCowgirl2020

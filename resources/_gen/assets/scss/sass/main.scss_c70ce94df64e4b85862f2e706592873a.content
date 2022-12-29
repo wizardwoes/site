@@ -236,6 +236,12 @@ img {
   padding-left: 15px;
   border-left: 3px solid #ccc; }
 
+.erase_invisible__text {
+  color: #DCDCDC; }
+
+.erase_visible__text {
+  color: default; }
+
 .twine-link {
   font-size: 55px;
   line-height: 60px;
