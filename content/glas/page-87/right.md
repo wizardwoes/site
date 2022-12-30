@@ -21,7 +21,7 @@ erasures merely replace one set of signs with another equally significant set.�
 erasure, “a gesture effacing the presence of a thing and yet keeping it legible
 [...] always already inhabited by the trace of another sign which never
 appears as such,”<sup>74</sup> then {{< /erase >}}the examples of writing by erasure discussed in
-this chapter become an essence of what writing in general in fact represents.
+{{< erase >}}this{{< /erase >}} chapter become an essence of what writing in general in fact represents.
 {{< erase >}}Turning into an exaggerated form of a Barthesian tissue of quotations,{{< /erase >}}
 writing by erasure enables writers to openly acknowledge the layers of
 influence embedded in any act of writing, {{< erase >}}refuting the Romantic notions
@@ -38,9 +38,9 @@ latency, but rather the relationship between the two palimpsests.”<sup>75</sup
 as Derrida puts it, “reading [and writing] {{< /erase >}}resembles those X-ray {{< erase >}}pictures
 which discover, under the epidermis of the last painting, another hidden
 picture: of the same painter or another painter, no matter.”<sup>76</sup>{{< /erase >}} Moving away
-from the finite nature of writing, authorship, and originality in copyright
+{{< erase >}}from{{< /erase >}} the finite nature of writing, authorship, and originality in copyright
 terms, {{< erase >}}in writing erasure, as in composition *sous rature*,{{< /erase >}} “all conclusions,”
-Spivak writes, “are genuinely provisional and therefore inconclusive, [...] all
+{{< erase >}}Spivak{{< /erase >}} writes, “are genuinely provisional {{< erase >}}and therefore inconclusive, [...]{{< /erase >}} all
 origins are similarly unoriginal.”<sup>77</sup> {{< erase >}}As such {{< /erase >}}erasure{{< erase >}} as a creative technique
 can be seen as {{< /erase >}}an extension of the statement,{{< erase >}} a manifestation of Goldsmith’s
 uncreative writing as an expression of the open, provisional, and infinite
@@ -50,5 +50,5 @@ of its own critique,” as Derrida contends, “a discourse which borrows from
 a heritage the resources necessary for the deconstruction of that heritage
 itself.”<sup>78</sup> The {{< /erase >}}same sense of unoriginality that does not imply a lack of
 originality in aesthetic terms {{< erase >}}but{{< /erase >}} only a removal from an origin of a work or
-a text---{{< erase >}}from its author---reverberates here and in my discussion of iteration
+{{< erase >}}a{{< /erase >}} text---{{< erase >}}from its author---reverberates here and in my discussion of iteration
 in Chapter 1. As a project committed to a reconceptualization of the value{{< /erase >}}
