@@ -5,10 +5,9 @@ description: ""
 tags: []
 categories: []
 draft: false
+cite: Hdboyztheboyzdefined
 ---
 
 ![hdboys](./E1uMLiEUYAs1BzT.jpg "highly defined boyz")
 
-{{% citation %}}
 <a href="http://dismagazine.com/dystopia/22132/hdboyz-the-boyz-defined/">http://dismagazine.com/dystopia/22132/hdboyz-the-boyz-defined/</a>
-{{% /citation %}}

@@ -1,46 +1,59 @@
 <!-- lots of data wrangling -->
 {{ $scratch := . }}
-{{/*  {{ $key := $.Params.cite }}
 
-{{ with $key }}
-    {{ $refs := index $.Site.Data.bibliography.references}}
-    {{ range where $refs "id" $key }}
-    {{ $current := . }}
-        <!-- set title -->
-        {{ if $current.title}}
-            {{ $scratch.Set "title" $current.title }}
-        {{ end }}
-        
-        <!-- set publisher -->
-        {{ if $current.publisher}}
-            {{ $scratch.Set "publisher" $current.publisher }}
-        {{ end }}
-
-        <!-- set author -->
-        {{ if $current.author}}
-            {{ range first 1 $current.author}}
-                {{ $author := (printf "%s, %s" .family .given) }}
-                {{ $scratch.Set "author" $author }}
-            {{ end }}
-        {{ end }}
-
-        <!-- set year -->
-        {{ if $current.issued}}
-            {{ range first 1 $current.issued}}
-                {{ $year := .year }}
-                {{ $scratch.Set "year" $year }}
-            {{ end }}
-        {{ end }}
-
-    {{ end }}
-{{ end }}  */}}
-
-
+{{/*  we set all this in the cite-data partial for some reason  */}}
 
 <!-- here's where the html is generated -->
+
+{{/*  type: book  */}}
+{{ $type := $scratch.Get "type"}}
+{{/*  Last Name, First Name. *Title of Book.* City of Publication, Publisher, Publication Date.  */}}
+{{ if eq $type "book"}}
 <div class="citation">
     {{ with $scratch.Get "author"}}{{.}}.{{ end }}
     {{ with $scratch.Get "title"}}<em>{{.}}</em>.{{ end }}
-    {{ with $scratch.Get "publisher"}}{{.}}.{{ end }}
+    {{ with $scratch.Get "publisher"}}{{.}},{{ end }}
     {{ with $scratch.Get "year"}}{{.}}.{{ end }}
 </div>
+{{ end }}
+
+
+{{/*  type: article-journal  */}}
+{{/*  Author(s). "Title of Article." *Title of Journal*, Volume, Issue, Year, pages.  */}}
+{{ if eq $type "article-journal"}}
+<div class="citation">
+    {{ with $scratch.Get "author"}}{{.}}.{{ end }}
+    {{ with $scratch.Get "title"}}"{{.}}."{{ end }}
+    {{ with $scratch.Get "periodical"}}<em>{{.}}</em>.{{ end }}
+    {{ with $scratch.Get "publisher"}}{{.}}, {{ end }}
+    {{ with $scratch.Get "volume"}}vol. {{.}}, {{ end }}
+    {{ with $scratch.Get "issue"}}no. {{.}},{{ end }}
+    {{ with $scratch.Get "year"}}{{.}},{{ end }}
+    {{ with $scratch.Get "page"}}{{.}}.{{end}}   
+</div>
+{{ end }}
+
+{{/*  type: interview  */}}
+{{/*  Zinkievich, Craig. Interview by Gareth Von Kallenbach. *Skewed & Reviewed*, 27 Apr. 2009, www.arcgames.com/en/games/star-trek-online/news/detail/1056940-skewed-%2526-reviewed-interviews-craig. Accessed 15 May 2009.  */}}
+{{ if eq $type "interview"}}
+<div class="citation">
+    {{ with $scratch.Get "author"}}{{.}}.{{ end }}
+    {{ with $scratch.Get "title"}}{{.}}.{{ end }}
+    {{ with $scratch.Get "sitetitle"}}<em>{{.}}</em>,{{ end }}
+    {{ with $scratch.Get "year"}}{{.}},{{ end }}
+    {{ with $scratch.Get "url"}}<a href="{{.}}">{{.}}</a>. {{ end }}
+    {{ with $scratch.Get "accessed"}} Accessed {{.}}.{{ end }}
+</div>
+{{ end }}
+
+{{/*  type: motion_picture  */}}
+{{/*  Speed Racer. Directed by Lana Wachowski and Lilly Wachowski, performances by Emile Hirsch, Nicholas Elia, Susan Sarandon, Ariel Winter, and John Goodman, Warner Brothers, 2008.  */}}
+{{ if eq $type "motion_picture"}}
+<div class="citation">
+    {{ with $scratch.Get "title"}}<em>{{.}}</em>. {{ end }}
+    {{ with $scratch.Get "director"}}Directed by {{.}},{{ end }}
+    {{ with $scratch.Get "publisher"}}{{.}}, {{ end }}
+    {{ with $scratch.Get "year"}}{{.}}.{{ end }}
+</div>
+{{ end }}
+

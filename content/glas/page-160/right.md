@@ -20,7 +20,3 @@ CHARLES BURNETT: I think what happened with The Glass Shield was that, becaus
 NOTEBOOK: Do you feel that the cultural obligation of making up for the lack of representation and misrepresentation in Black films affects your form? You mentioned that you felt you needed to tackle Killer of Sheep from multiple directions to get at the scope of all the issues you wanted to explore.
 
 CHARLES BURNETT: The thing about making films about people of color is that studios don’t want the depth and dimensions that take place. You try to make it realistic and true to life and then you have people at the door saying, “No. I want it this way or that way.” They have no clue what it was like there. So you’re constantly fighting people who somehow got the ear of these producers, and you’re trying to make these movies that don’t do justice to what’s going on. So it’s constant denial, somehow or another you have to come back to that and squeeze it in, or make it acceptable to them. What happens is we’re the ones who have to answer for it. When you show these films at a festival like the Pan African Film Festival, you’re dealing with a level of intelligence, these audiences know all the history and you can’t try to pull the wool over their eyes. They’ll see right through you. There’s a lot of people in this community who know exactly what happened.
-
-{{% citation %}}
-Burnett, Charles. Interview by Aaron E. Hunt. *Mubi*, 07 Jul. 2020, https://mubi.com/notebook/posts/an-incomplete-notion-to-begin-with-a-conversation-with-charles-burnett
-{{% /citation %}}

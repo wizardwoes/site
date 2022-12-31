@@ -5,7 +5,7 @@ description: ""
 tags: []
 categories: []
 draft: false
-cite: stieglerElementsNeganthropologyAutomatic2021
+cite: stieglerElementsNeganthropologyAutomatic2021a
 ---
 
 Generalized automatization leads to the industrial development of robotics, but

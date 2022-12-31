@@ -56,6 +56,10 @@ references:
   type: book
 
 - id: burnettInterviewAaronHunt2020
+  accessed:
+    - year: 2020
+      month: 9
+      day: 28
   author:
     - family: Burnett
       given: Charles
@@ -64,7 +68,8 @@ references:
     - year: 2020
       month: 7
       day: 7
-  title: Interview by Aaron E. Hunt.
+  title: Interview by Aaron E. Hunt
+  title-short: Mubi
   type: interview
   URL: >-
     https://mubi.com/notebook/posts/an-incomplete-notion-to-begin-with-a-conversation-with-charles-burnett
@@ -102,6 +107,15 @@ references:
   publisher: University of Nebraska Press
   title: Glas
   type: book
+
+- id: disHdboyztheboyzdefined
+  author:
+    - family: DIS
+      given: ''
+  citation-key: disHdboyztheboyzdefined
+  title: hdboyz-the-boyz-defined
+  type: post-weblog
+  URL: http://dismagazine.com/dystopia/22132/hdboyz-the-boyz-defined/
 
 - id: feinbergStoneButchBlues1993
   author:
@@ -163,9 +177,21 @@ references:
       month: 7
       day: 20
   title: 'Time Enough, and Worlds: Interview with Isaac Goes'
+  title-short: Quantity Cinema
   type: interview
   URL: >-
     https://quantitycinema.com/2021/07/20/time-enough-and-worlds-interview-with-isaac-goes
+
+- id: greenHEGOODBOY2016
+  author:
+    - family: Green
+      given: K.C.
+  citation-key: greenHEGOODBOY2016
+  issued:
+    - year: 2016
+  title: HE IS A GOOD BOY
+  type: post-weblog
+  URL: http://hiagb.com/48
 
 - id: huiArtCosmotechnics2021
   author:
@@ -187,14 +213,15 @@ references:
   type: document
 
 - id: leeBamboozled2000
-  author:
+  citation-key: leeBamboozled2000
+  director:
     - family: Lee
       given: Spike
-  citation-key: leeBamboozled2000
   issued:
     - year: 2000
+  publisher: New Line Cinema
   title: Bamboozled
-  type: document
+  type: motion_picture
 
 - id: lukacsHistoryClassConciousness
   author:
@@ -315,15 +342,20 @@ references:
   type: book
   volume: '1'
 
-- id: stieglerElementsNeganthropologyAutomatic2021
+- id: stieglerElementsNeganthropologyAutomatic2021a
   author:
     - family: Stiegler
       given: Bernard
-  citation-key: stieglerElementsNeganthropologyAutomatic2021
+  citation-key: stieglerElementsNeganthropologyAutomatic2021a
+  container-title: Philosophy Today
+  issue: '2'
   issued:
     - year: 2021
+  page: 241-264
   title: Elements for a Neganthropology of Automatic Man
-  type: document
+  type: article-journal
+  URL: https://doi.org/10.5840/philtoday2021414397
+  volume: '65'
 
 - id: stieglerNanjingLectures201620192020
   author:

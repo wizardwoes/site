@@ -6,6 +6,12 @@
     {{ $refs := index site.Data.bibliography.references}}
     {{ range where $refs "id" $key }}
     {{ $current := . }}
+
+        <!-- set type -->
+        {{ if $current.type}}
+            {{ $scratch.Set "type" $current.type }}
+        {{ end }}
+
         <!-- set title -->
         {{ if $current.title}}
             {{ $scratch.Set "title" $current.title }}
@@ -19,8 +25,16 @@
         <!-- set author -->
         {{ if $current.author}}
             {{ range first 1 $current.author}}
-                {{ $author := (printf "%s, %s" .family .given) }}
+                {{ $author := (printf "%s %s" .family .given) }}
                 {{ $scratch.Set "author" $author }}
+            {{ end }}
+        {{ end }}
+
+        <!-- set director -->
+        {{ if $current.director}}
+            {{ range first 1 $current.director}}
+                {{ $director := (printf "%s, %s" .given .family) }}
+                {{ $scratch.Set "director" $director }}
             {{ end }}
         {{ end }}
 
@@ -29,7 +43,42 @@
             {{ range first 1 $current.issued}}
                 {{ $year := .year }}
                 {{ $scratch.Set "year" $year }}
+                {{/*  this is where we would set month and day but im lazy  */}}
             {{ end }}
+        {{ end }}
+
+        <!-- set periodical -->
+        {{/*  go has issues with keys that have '-' in the name  */}}
+        {{/*  so we use index + ""  */}}
+        {{ if index $current "container-title"}}
+            {{ $scratch.Set "periodical" (index $current "container-title") }}
+        {{ end }}
+
+        <!-- set issue number -->
+        {{ if $current.issue}}
+            {{ $scratch.Set "issue" $current.issue }}
+        {{ end }}
+
+        <!-- set volume number -->
+        {{ if $current.volume}}
+            {{ $scratch.Set "volume" $current.volume }}
+        {{ end }}
+
+        <!-- set page -->
+        {{ if $current.page}}
+            {{ $scratch.Set "page" $current.page }}
+        {{ end }}
+
+        <!-- set URL -->
+        {{ if $current.URL}}
+            {{ $scratch.Set "url" $current.URL }}
+        {{ end }}
+
+        <!-- set site name, hack using title-short field -->
+        {{/*  go has issues with keys that have '-' in the name  */}}
+        {{/*  so we use index + ""  */}}
+        {{ if index $current "title-short"}}
+            {{ $scratch.Set "sitetitle" (index $current "title-short") }}
         {{ end }}
 
     {{ end }}
