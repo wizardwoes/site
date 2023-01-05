@@ -9,4 +9,3 @@ title: page 134
 type: page
 ---
 
-{{< glas/display >}}

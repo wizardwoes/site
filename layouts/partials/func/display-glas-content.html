@@ -1,0 +1,24 @@
+{{ $page := .Page.Resources.GetMatch (.Scratch.Get "fname") }}
+{{ $pScratch := .Scratch }}
+
+<div class="flex-column {{ (.Scratch.Get " cname") }}">
+    {{/* not sure why I do it like this */}}
+    {{/* display param only exists on the weird multi-cite pages */}}
+    {{/* if array, loop over it */}}
+    {{ if reflect.IsSlice $page.Params.display}}
+    {{ $list := $page.Params.display }}
+    {{ $len := len $list }}
+    {{ range $i, $e := $list }}
+    {{ $p := $.Page.Resources.GetMatch $e }}
+    {{ $pScratch.Set "resource" $p }}
+    {{ partial "func/display-cited-content" $pScratch }}
+    {{ if ne (add $i 1) $len }}
+    <hr>
+    {{ end }}
+    {{ end }}
+    {{/* otherwise print regular */}}
+    {{ else }}
+    {{ $pScratch.Set "resource" $page}}
+    {{ partial "func/display-cited-content" $pScratch }}
+    {{ end }}
+</div>

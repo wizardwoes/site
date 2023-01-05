@@ -9,5 +9,3 @@ page: 140
 title: page 140
 type: page
 ---
-
-{{< glas/display >}}

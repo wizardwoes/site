@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="flex-container">
+    <div class="flex-container-content">
+        {{/* set up left column variables */}}
+        {{ .Scratch.Set "fname" "left.md" }}
+        {{ .Scratch.Set "cname" "glas--left" }}
+
+        {{/* display left column */}}
+        {{ partial "func/display-glas-content" . }}
+
+        <hr class="glas--divider">
+
+        {{/* set up left column variables */}}
+        {{ .Scratch.Set "fname" "right.md" }}
+        {{ .Scratch.Set "cname" "glas--right" }}
+
+        {{/* display left column */}}
+        {{ partial "func/display-glas-content" . }}
+    </div>
+
+    <div class="flex-container-other">
+        {{ with (.Resources.GetMatch "other.md") }}
+        {{ .Content }}
+        {{ end }}
+    </div>
+</div>
+{{ partial "next-prev" . }}
+{{end}}

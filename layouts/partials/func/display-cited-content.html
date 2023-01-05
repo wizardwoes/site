@@ -1,0 +1,6 @@
+{{ $page := .Get "resource"}}
+{{ $page.Content}}
+{{ with $page.Params.cite }}
+    {{ $scratch := partial "func/cite-data" . }}
+    {{ partial "func/cite-book" $scratch }}
+{{ end }}

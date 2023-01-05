@@ -10,4 +10,3 @@ title: page 185
 type: page
 ---
 
-{{< glas/display >}}

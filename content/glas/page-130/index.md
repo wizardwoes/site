@@ -8,4 +8,3 @@ title: page 130
 type: page
 ---
 
-{{< glas/display >}}

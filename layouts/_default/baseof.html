@@ -1,13 +1,13 @@
 <!-- this is the base of all the pages -->
 <!DOCTYPE html>
 <html>
-{{- partial "head.html" . -}}
+{{ partialCached "head" . }}
 <body>
-    {{- partial "header.html" . -}}
+    {{ partial "header" . }}
     <div id="content">
         {{- block "main" . }}{{- end }}
     </div>
-    {{- partial "footer.html" . -}}
+    {{ partialCached "footer" . }}
 </body>
 
 </html>

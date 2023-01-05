@@ -9,4 +9,3 @@ title: page 303
 type: page
 ---
 
-{{< glas/display >}}

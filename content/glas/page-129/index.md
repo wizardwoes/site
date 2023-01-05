@@ -11,4 +11,3 @@ title: page 129
 type: page
 ---
 
-{{< glas/display >}}

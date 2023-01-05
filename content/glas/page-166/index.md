@@ -9,4 +9,3 @@ title: page 166
 type: page
 ---
 
-{{< glas/display >}}

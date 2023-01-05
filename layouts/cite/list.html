@@ -5,23 +5,23 @@
             <h1>{{.Title}}</h1>
         </header>
         <ul>
-            {{/*  iterate over terms in taxonomy (also our key)  */}}
-        {{ range .Data.Pages }}
-        {{/*  for each term  */}}
-        {{ $citeData := partial "cite-data.html" .Title }}
-        <li>
-            {{ with $citeData.Get "author"}}{{.}} - {{ end }} {{ $citeData.Get "title" }}
-        <ul>
-            {{/*  iterate over all the pages that have this term/citation  */}}
-            {{ range .Pages }}
+            {{/* iterate over terms in taxonomy (also our key) */}}
+            {{ range .Data.Pages }}
+            {{/* for each term */}}
+            {{ $citeData := partial "func/cite-data" .Title }}
             <li>
-                <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Name }}</a>
+                {{ with $citeData.Get "author"}}{{.}} - {{ end }} {{ $citeData.Get "title" }}
+                <ul>
+                    {{/* iterate over all the pages that have this term/citation */}}
+                    {{ range .Pages }}
+                    <li>
+                        <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
             </li>
-        {{ end }}
+            {{ end }}
         </ul>
-        </li>
-        {{ end }}
-    </ul>
     </article>
 </main>
 {{ end }}

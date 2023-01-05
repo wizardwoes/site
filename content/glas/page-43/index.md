@@ -10,4 +10,3 @@ title: page 43
 type: page
 ---
 
-{{< glas/display >}}

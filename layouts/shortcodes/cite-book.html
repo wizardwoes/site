@@ -5,77 +5,75 @@
 {{ $refs := index .Site.Data.bibliography.references}}
 {{ range where $refs "id" $key }}
 {{ $current := . }}
-    <!-- set type -->
-    {{ if $current.type}}
-        {{ $scratch.Set "type" $current.type }}
+     <!-- set type -->
+     {{ with $current.type}}
+        {{ $scratch.Set "type" . }}
     {{ end }}
 
     <!-- set title -->
-    {{ if $current.title}}
-        {{ $scratch.Set "title" $current.title }}
+    {{ with $current.title}}
+        {{ $scratch.Set "title" . }}
     {{ end }}
-
+    
     <!-- set publisher -->
-    {{ if $current.publisher}}
-        {{ $scratch.Set "publisher" $current.publisher }}
+    {{ with $current.publisher}}
+        {{ $scratch.Set "publisher" . }}
     {{ end }}
 
     <!-- set author -->
-    {{ if $current.author}}
-        {{ range first 1 $current.author}}
+    {{ with $current.author}}
+        {{ range . }}
             {{ $author := (printf "%s, %s" .family .given) }}
             {{ $scratch.Set "author" $author }}
         {{ end }}
     {{ end }}
 
     <!-- set director -->
-    {{ if $current.director}}
-        {{ range first 1 $current.director}}
-            {{ $director := (printf "%s %s" .given .family) }}
+    {{ with $current.director}}
+        {{ range . }}
+            {{ $director := (printf "%s, %s" .given .family) }}
             {{ $scratch.Set "director" $director }}
         {{ end }}
     {{ end }}
 
     <!-- set year -->
-    {{ if $current.issued}}
-        {{ range first 1 $current.issued}}
+    {{ with $current.issued}}
+        {{ range . }}
             {{ $year := .year }}
             {{ $scratch.Set "year" $year }}
+            {{/*  this is where we would set month and day but im lazy  */}}
         {{ end }}
     {{ end }}
 
     <!-- set periodical -->
     {{/*  go has issues with keys that have '-' in the name  */}}
     {{/*  so we use index + ""  */}}
-    {{ if index $current "container-title"}}
-        {{ $scratch.Set "periodical" (index $current "container-title") }}
+    {{ with index $current "container-title"}}
+        {{ $scratch.Set "periodical" . }}
     {{ end }}
 
     <!-- set issue number -->
-    {{ if $current.issue}}
-        {{ $scratch.Set "issue" $current.issue }}
+    {{ with $current.issue}}
+        {{ $scratch.Set "issue" . }}
     {{ end }}
 
     <!-- set volume number -->
-    {{ if $current.volume}}
-        {{ $scratch.Set "volume" $current.volume }}
+    {{ with $current.volume}}
+        {{ $scratch.Set "volume" . }}
     {{ end }}
 
     <!-- set page -->
-    {{ if $current.page}}
-        {{ $scratch.Set "page" $current.page }}
+    {{ with $current.page}}
+        {{ $scratch.Set "page" . }}
     {{ end }}
 
     <!-- set URL -->
-    {{ if $current.URL}}
-        {{ $scratch.Set "url" $current.URL }}
+    {{ with $current.URL}}
+        {{ $scratch.Set "url" . }}
     {{ end }}
 
-    <!-- set site name, hack using title-short field -->
-    {{/*  go has issues with keys that have '-' in the name  */}}
-    {{/*  so we use index + ""  */}}
-    {{ if index $current "title-short"}}
-        {{ $scratch.Set "sitetitle" (index $current "title-short") }}
+    {{ with index $current "title-short"}}
+        {{ $scratch.Set "sitetitle" . }}
     {{ end }}
 
 

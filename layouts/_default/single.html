@@ -1,15 +1,11 @@
 {{ define "main" }}
+{{/*  figure out how to make the padding between the content and the next/prev bar gooder  */}}
 <div class="flex-container">
-    <div class="flex-container-content">
+    <div class="flex-column flex-column--centered">
+        <h1>{{.Title}} </h1>
+        <br>
         {{ .Content }}
-    </div>
-
-    <div class="flex-container-other">
-        {{ with (.Resources.GetMatch "other.md") }}
-        {{ .Content }}
-        {{ end }}
     </div>
 </div>
 
-{{- partial "next-prev.html" . -}}
 {{end}}

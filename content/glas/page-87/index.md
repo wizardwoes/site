@@ -6,4 +6,4 @@ type: "page"
 page: "87"
 ---
 
-{{< glas/display >}}
+

@@ -9,4 +9,3 @@ title: page 70
 type: page
 ---
 
-{{< glas/display >}}

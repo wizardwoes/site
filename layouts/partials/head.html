@@ -4,6 +4,6 @@
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ with .Page }}
-        {{ partial "meta-card.html" . }}
+        {{ partialCached "meta-card" . }}
     {{ end }}
 </head>

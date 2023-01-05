@@ -1,10 +1,10 @@
 <!-- this is just the homepage -->
 <!DOCTYPE html>
 <html>
-{{- partial "head.html" . -}}
+{{ partialCached "head" . }}
 
 <body>
-    {{- partial "header.html" . -}}
+    {{ partial "header" . }}
     <div id="main">
         <!-- too lazy to put the content in _index.md and change the css -->
         woe be <br>
@@ -12,13 +12,13 @@
 
         <hr>
 
-        {{- partial "recent-posts.html" . -}}
+        {{ partial "recent-posts" . }}
         {{ $thief := resources.Get "Wizard_Thief.png" }}
         <img class="wizard" src="{{ $thief.RelPermalink }}" alt="">
 
 
     </div>
-    {{- partial "footer.html" . -}}
+    {{ partialCached "footer" . }}
 
 </body>
 

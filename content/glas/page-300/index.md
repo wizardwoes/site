@@ -12,4 +12,3 @@ title: page 300
 type: page
 ---
 
-{{< glas/display >}}
