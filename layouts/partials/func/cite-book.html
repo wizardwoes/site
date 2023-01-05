@@ -1,61 +1,55 @@
 <!-- lots of data wrangling -->
 {{ $scratch := . }}
 
-{{/* we set all this in the func/cite-data partial for some reason */}}
-
 <!-- here's where the html is generated -->
 
-{{/* type: book */}}
-{{ $type := $scratch.Get "type"}}
-{{/* Last Name, First Name. *Title of Book.* City of Publication, Publisher, Publication Date. */}}
-{{ if eq $type "book"}}
-<div class="citation">
-    {{ with $scratch.Get "author"}}{{.}}.{{ end }}
-    {{ with $scratch.Get "title"}}<em>{{.}}</em>.{{ end }}
-    {{ with $scratch.Get "publisher"}}{{.}},{{ end }}
-    {{ with $scratch.Get "year"}}{{.}}.{{ end }}
-</div>
-{{ end }}
+{{ with $scratch.Get "cparams" }}
+    <div class="citation">
+    {{/* type: book */}}
+    {{/* Last Name, First Name. *Title of Book.* City of Publication, Publisher, Publication Date. */}}
+    {{ if eq .type "book"}}
+        {{ with .author }}{{.}}.{{ end }}
+        {{ with .title}}<em>{{.}}</em>.{{ end }}
+        {{ with .publisher}}{{.}},{{ end }}
+        {{ with .year}}{{.}}.{{ end }}
+    {{ end }}
 
 
-{{/* type: article-journal */}}
-{{/* Author(s). "Title of Article." *Title of Journal*, Volume, Issue, Year, pages. */}}
-{{ if eq $type "article-journal"}}
-<div class="citation">
-    {{ with $scratch.Get "author"}}{{.}}.{{ end }}
-    {{ with $scratch.Get "title"}}"{{.}}."{{ end }}
-    {{ with $scratch.Get "periodical"}}<em>{{.}}</em>.{{ end }}
-    {{ with $scratch.Get "publisher"}}{{.}}, {{ end }}
-    {{ with $scratch.Get "volume"}}vol. {{.}}, {{ end }}
-    {{ with $scratch.Get "issue"}}no. {{.}},{{ end }}
-    {{ with $scratch.Get "year"}}{{.}},{{ end }}
-    {{ with $scratch.Get "page"}}{{.}}.{{end}}
-</div>
-{{ end }}
+    {{/* type: article-journal */}}
+    {{/* Author(s). "Title of Article." *Title of Journal*, Volume, Issue, Year, pages. */}}
+    {{ if eq .type "article-journal"}}
+        {{ with .author }}{{.}}.{{ end }}
+        {{ with .title }}"{{.}}."{{ end }}
+        {{ with .periodical }}<em>{{.}}</em>.{{ end }}
+        {{ with .publisher }}{{.}}, {{ end }}
+        {{ with .volume }}vol. {{.}}, {{ end }}
+        {{ with .issue }}no. {{.}},{{ end }}
+        {{ with .year }}{{.}},{{ end }}
+        {{ with .page }}{{.}}.{{end}}
+    {{ end }}
 
-{{/* type: interview */}}
-{{/* Zinkievich, Craig. Interview by Gareth Von Kallenbach. *Skewed & Reviewed*, 27 Apr. 2009,
-www.arcgames.com/en/games/star-trek-online/news/detail/1056940-skewed-%2526-reviewed-interviews-craig. Accessed 15 May
-2009. */}}
-{{ if eq $type "interview"}}
-<div class="citation">
-    {{ with $scratch.Get "author"}}{{.}}.{{ end }}
-    {{ with $scratch.Get "title"}}{{.}}.{{ end }}
-    {{ with $scratch.Get "sitetitle"}}<em>{{.}}</em>,{{ end }}
-    {{ with $scratch.Get "year"}}{{.}},{{ end }}
-    {{ with $scratch.Get "url"}}<a href="{{.}}">{{.}}</a>. {{ end }}
-    {{ with $scratch.Get "accessed"}} Accessed {{.}}.{{ end }}
-</div>
-{{ end }}
+    {{/* type: interview */}}
+    {{/* Zinkievich, Craig. Interview by Gareth Von Kallenbach. *Skewed & Reviewed*, 27 Apr. 2009,
+    www.arcgames.com/en/games/star-trek-online/news/detail/1056940-skewed-%2526-reviewed-interviews-craig. Accessed 15 May
+    2009. */}}
+    {{ if eq .type "interview"}}
+        {{ with .author }}{{.}}.{{ end }}
+        {{ with .title }}{{.}}.{{ end }}
+        {{ with .sitetitle }}<em>{{.}}</em>,{{ end }}
+        {{ with .year }}{{.}},{{ end }}
+        {{ with .url }}<a href="{{.}}">{{.}}</a>. {{ end }}
+        {{ with .accessed }} Accessed {{.}}.{{ end }}
+    {{ end }}
 
-{{/* type: motion_picture */}}
-{{/* Speed Racer. Directed by Lana Wachowski and Lilly Wachowski, performances by Emile Hirsch, Nicholas Elia, Susan
-Sarandon, Ariel Winter, and John Goodman, Warner Brothers, 2008. */}}
-{{ if eq $type "motion_picture"}}
-<div class="citation">
-    {{ with $scratch.Get "title"}}<em>{{.}}</em>. {{ end }}
-    {{ with $scratch.Get "director"}}Directed by {{.}},{{ end }}
-    {{ with $scratch.Get "publisher"}}{{.}}, {{ end }}
-    {{ with $scratch.Get "year"}}{{.}}.{{ end }}
-</div>
+    {{/* type: motion_picture */}}
+    {{/* Speed Racer. Directed by Lana Wachowski and Lilly Wachowski, performances by Emile Hirsch, Nicholas Elia, Susan
+    Sarandon, Ariel Winter, and John Goodman, Warner Brothers, 2008. */}}
+    {{ if eq .type "motion_picture"}}
+        {{ with .title }}<em>{{.}}</em>. {{ end }}
+        {{ with .director }}Directed by {{.}},{{ end }}
+        {{ with .publisher }}{{.}}, {{ end }}
+        {{ with .year }}{{.}}.{{ end }}
+    {{ end }}
+    </div>
+
 {{ end }}

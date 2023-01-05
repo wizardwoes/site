@@ -4,134 +4,76 @@
 
 {{ $refs := index .Site.Data.bibliography.references}}
 {{ range where $refs "id" $key }}
-{{ $current := . }}
-     <!-- set type -->
-     {{ with $current.type}}
-        {{ $scratch.Set "type" . }}
+    {{ with . }}
+        {{ $test := (dict
+            "type" (default "" .type)
+            "title" (default "" .title)
+            "publisher" (default "" .publisher)
+            "author" (delimit (apply .author "partial" "func/transform-author-name" ".") " ")
+            "director" (delimit (apply .director "partial" "func/transform-director-name" ".") " ")
+            "year" (delimit (apply .issued "partial" "func/transform-year" ".") " ")
+            "periodical" (default "" (index . "container-title"))
+            "issue" (default "" .issue)
+            "volume" (default "" .volume)
+            "page" (default "" .page)
+            "url" (default "" .URL)
+            "sitetitle" (default "" (index . "title-short"))
+        )
+        }}
+        {{ $scratch.Set "cparams" $test}}
     {{ end }}
-
-    <!-- set title -->
-    {{ with $current.title}}
-        {{ $scratch.Set "title" . }}
-    {{ end }}
-    
-    <!-- set publisher -->
-    {{ with $current.publisher}}
-        {{ $scratch.Set "publisher" . }}
-    {{ end }}
-
-    <!-- set author -->
-    {{ with $current.author}}
-        {{ range . }}
-            {{ $author := (printf "%s, %s" .family .given) }}
-            {{ $scratch.Set "author" $author }}
-        {{ end }}
-    {{ end }}
-
-    <!-- set director -->
-    {{ with $current.director}}
-        {{ range . }}
-            {{ $director := (printf "%s, %s" .given .family) }}
-            {{ $scratch.Set "director" $director }}
-        {{ end }}
-    {{ end }}
-
-    <!-- set year -->
-    {{ with $current.issued}}
-        {{ range . }}
-            {{ $year := .year }}
-            {{ $scratch.Set "year" $year }}
-            {{/*  this is where we would set month and day but im lazy  */}}
-        {{ end }}
-    {{ end }}
-
-    <!-- set periodical -->
-    {{/*  go has issues with keys that have '-' in the name  */}}
-    {{/*  so we use index + ""  */}}
-    {{ with index $current "container-title"}}
-        {{ $scratch.Set "periodical" . }}
-    {{ end }}
-
-    <!-- set issue number -->
-    {{ with $current.issue}}
-        {{ $scratch.Set "issue" . }}
-    {{ end }}
-
-    <!-- set volume number -->
-    {{ with $current.volume}}
-        {{ $scratch.Set "volume" . }}
-    {{ end }}
-
-    <!-- set page -->
-    {{ with $current.page}}
-        {{ $scratch.Set "page" . }}
-    {{ end }}
-
-    <!-- set URL -->
-    {{ with $current.URL}}
-        {{ $scratch.Set "url" . }}
-    {{ end }}
-
-    {{ with index $current "title-short"}}
-        {{ $scratch.Set "sitetitle" . }}
-    {{ end }}
-
-
-
-{{ end }}
+{{end}}
 
 
 
 <!-- here's where the html is generated -->
-
-{{/*  type: book  */}}
-{{ $type := $scratch.Get "type"}}
-{{/*  Last Name, First Name. *Title of Book.* City of Publication, Publisher, Publication Date.  */}}
-{{ if eq $type "book"}}
-<div class="citation">
-    {{ with $scratch.Get "author"}}{{.}}.{{ end }}
-    {{ with $scratch.Get "title"}}<em>{{.}}</em>.{{ end }}
-    {{ with $scratch.Get "publisher"}}{{.}},{{ end }}
-    {{ with $scratch.Get "year"}}{{.}}.{{ end }}
-</div>
-{{ end }}
+{{ with $scratch.Get "cparams" }}
+    <div class="citation">
+    {{/* type: book */}}
+    {{/* Last Name, First Name. *Title of Book.* City of Publication, Publisher, Publication Date. */}}
+    {{ if eq .type "book"}}
+        {{ with .author }}{{.}}.{{ end }}
+        {{ with .title}}<em>{{.}}</em>.{{ end }}
+        {{ with .publisher}}{{.}},{{ end }}
+        {{ with .year}}{{.}}.{{ end }}
+    {{ end }}
 
 
-{{/*  type: article-journal  */}}
-{{/*  Author(s). "Title of Article." *Title of Journal*, Volume, Issue, Year, pages.  */}}
-{{ if eq $type "article-journal"}}
-<div class="citation">
-    {{ with $scratch.Get "author"}}{{.}}.{{ end }}
-    {{ with $scratch.Get "title"}}"{{.}}."{{ end }}
-    {{ with $scratch.Get "periodical"}}<em>{{.}}</em>.{{ end }}
-    {{ with $scratch.Get "publisher"}}{{.}},{{ end }}
-    {{ with $scratch.Get "volume"}} vol. {{.}},{{ end }}
-    {{ with $scratch.Get "issue"}} no. {{.}},{{ end }}
-    {{ with $scratch.Get "year"}}{{.}},{{ end }}
-    {{ with $scratch.Get "page"}}{{.}}.{{end}}   
-</div>
-{{ end }}
+    {{/* type: article-journal */}}
+    {{/* Author(s). "Title of Article." *Title of Journal*, Volume, Issue, Year, pages. */}}
+    {{ if eq .type "article-journal"}}
+        {{ with .author }}{{.}}.{{ end }}
+        {{ with .title }}"{{.}}."{{ end }}
+        {{ with .periodical }}<em>{{.}}</em>.{{ end }}
+        {{ with .publisher }}{{.}}, {{ end }}
+        {{ with .volume }}vol. {{.}}, {{ end }}
+        {{ with .issue }}no. {{.}},{{ end }}
+        {{ with .year }}{{.}},{{ end }}
+        {{ with .page }}{{.}}.{{end}}
+    {{ end }}
 
-{{/*  type: interview  */}}
-{{/*  Zinkievich, Craig. Interview by Gareth Von Kallenbach. *Skewed & Reviewed*, 27 Apr. 2009, www.arcgames.com/en/games/star-trek-online/news/detail/1056940-skewed-%2526-reviewed-interviews-craig. Accessed 15 May 2009.  */}}
-{{ if eq $type "interview"}}
-<div class="citation">
-    {{ with $scratch.Get "author"}}{{.}}.{{ end }}
-    {{ with $scratch.Get "title"}}{{.}}.{{ end }}
-    {{ with $scratch.Get "sitetitle"}}<em>{{.}}</em>,{{ end }}
-    {{ with $scratch.Get "year"}}{{.}},{{ end }}
-    {{ with $scratch.Get "url"}}<a href="{{.}}">{{.}}</a>. {{ end }}
-    {{ with $scratch.Get "accessed"}} Accessed {{.}}.{{ end }}
-</div>
-{{ end }}
+    {{/* type: interview */}}
+    {{/* Zinkievich, Craig. Interview by Gareth Von Kallenbach. *Skewed & Reviewed*, 27 Apr. 2009,
+    www.arcgames.com/en/games/star-trek-online/news/detail/1056940-skewed-%2526-reviewed-interviews-craig. Accessed 15 May
+    2009. */}}
+    {{ if eq .type "interview"}}
+        {{ with .author }}{{.}}.{{ end }}
+        {{ with .title }}{{.}}.{{ end }}
+        {{ with .sitetitle }}<em>{{.}}</em>,{{ end }}
+        {{ with .year }}{{.}},{{ end }}
+        {{ with .url }}<a href="{{.}}">{{.}}</a>. {{ end }}
+        {{ with .accessed }} Accessed {{.}}.{{ end }}
+    {{ end }}
 
-{{/*  type: motion_picture  */}}
-{{/*  *Speed Racer.* Directed by Lana Wachowski and Lilly Wachowski, performances by Emile Hirsch, Nicholas Elia, Susan Sarandon, Ariel Winter, and John Goodman, Warner Brothers, 2008.  */}}
-{{ if eq $type "motion_picture"}}
-<div class="citation">
-    {{ with $scratch.Get "title"}}<em>{{.}}</em>. {{ end }}
-    {{ with $scratch.Get "director"}}Directed by {{.}},{{ end }}
-    {{ with $scratch.Get "publisher"}}{{.}}, {{ end }}
-    {{ with $scratch.Get "year"}}{{.}}.{{ end }}
-</div>
+    {{/* type: motion_picture */}}
+    {{/* Speed Racer. Directed by Lana Wachowski and Lilly Wachowski, performances by Emile Hirsch, Nicholas Elia, Susan
+    Sarandon, Ariel Winter, and John Goodman, Warner Brothers, 2008. */}}
+    {{ if eq .type "motion_picture"}}
+        {{ with .title }}<em>{{.}}</em>. {{ end }}
+        {{ with .director }}Directed by {{.}},{{ end }}
+        {{ with .publisher }}{{.}}, {{ end }}
+        {{ with .year }}{{.}}.{{ end }}
+    {{ end }}
+    </div>
+
 {{ end }}
