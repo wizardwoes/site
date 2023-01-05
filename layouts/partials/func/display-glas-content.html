@@ -1,7 +1,7 @@
 {{ $page := .Page.Resources.GetMatch (.Scratch.Get "fname") }}
 {{ $pScratch := .Scratch }}
 
-<div class="flex-column {{ (.Scratch.Get " cname") }}">
+<div class="flex-column {{ (.Scratch.Get "cname") }}">
     {{/* not sure why I do it like this */}}
     {{/* display param only exists on the weird multi-cite pages */}}
     {{/* if array, loop over it */}}
