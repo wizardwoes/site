@@ -1,4 +1,4 @@
 public/**
-prebuild/public/**/*.md
+prebuild/public/**
 **/.vscode
 **/__pycache__
