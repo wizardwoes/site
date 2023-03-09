@@ -10,7 +10,7 @@ cite: azumaJapanDatabaseAnimals2009
 
 The otaku themselves are aware of this situation. The otaku search
 engine “TINAMI” launched in 1996 signifies this awareness with an
-actual device (Figure 8). <sup>23</sup> To enable the user to find illustrations from tens of thousands of registered sites, this searchable database classifies
+actual device (Figure 8). To enable the user to find illustrations from tens of thousands of registered sites, this searchable database classifies
 and quantifies various characteristics of otaku illustrations in detail.
 The site is equipped with selectable parameters so that the user can
 search for moe-elements. That is to say, the user can search for the

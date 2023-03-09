@@ -209,8 +209,12 @@ references:
     - family: Hui
       given: Yuk
   citation-key: huiWritingCosmotechnics
+  container-title: Derrida Today
+  issue: '1'
+  page: 17-32
   title: Writing and Cosmotechnics
-  type: document
+  type: article-journal
+  volume: '13'
 
 - id: leeBamboozled2000
   citation-key: leeBamboozled2000
@@ -290,11 +294,14 @@ references:
     - family: Rohy
       given: Valerie
   citation-key: rohyHemingwayLiteralismTransgender2011
+  container-title: Twentieth Century Literature
+  issue: '2'
   issued:
     - year: 2011
-  publisher: Duke University Press
+  page: 148-179
   title: Hemingway, Literalism, and Transgender Reading
-  type: document
+  type: article-journal
+  volume: '57'
 
 - id: simondonIndividuationLightNotions2020
   author:

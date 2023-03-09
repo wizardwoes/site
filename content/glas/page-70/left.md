@@ -22,7 +22,7 @@ they tend, asymptotically, to no longer constitute a *we* but rather a
 watch television (and you necessarily watch it with others, at the
 same time as others), you are led immediately to think the same
 thing as others. I mean to say that television is a process that tends
-to make you conform progressively to an average. In that average <sup>17</sup>
+to make you conform progressively to an average. In that average
 the difference between *I* and *we* is diluted, giving the *they*, that is,
 the loss of individuation of both the *I* and the *we*, at the heart of
 which alone can one individuate oneself.

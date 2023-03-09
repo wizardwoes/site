@@ -25,7 +25,7 @@ Roland Berger, which released a study arguing that 'by 2025, 20% of
 tasks will be automated. And more than three million workers may
 find themselves giving up their jobs to machines. An endless list of
 sectors is involved: agriculture, hospitality, government, the military
-and the police.' <sup>21</sup> To conceal such prospects is a serious mistake,
+and the police.' To conceal such prospects is a serious mistake,
 noted by an associate of Roland Berger, Hakim El Karoui:
 (block quote begins)
 > 'The tax system is not set up to collect part of the wealth generated
