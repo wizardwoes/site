@@ -1,0 +1,16 @@
+<div id="descriptionmodule" class="module toggle-wrap">
+    <div id="descriptionmodule_heading" class="mod-header">
+        <h4 class="toggle-title" id="descriptionmodule-label">Description</h4>
+        <ul class="ops"></ul>
+    </div>
+    <div class="mod-content">
+        <div id="description-val" class="field-ignore-highlight editable-field inactive" title="Click to edit">
+            <div class="user-content-block">
+                {{ with .Params.content }}
+                {{.}}
+                {{ end }}
+            </div>
+            <span class="overlay-icon aui-icon aui-icon-small aui-iconfont-edit"></span>
+        </div>
+    </div>
+</div>

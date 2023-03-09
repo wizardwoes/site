@@ -1,0 +1,35 @@
+<div id="linkingmodule" class="module toggle-wrap">
+    <div id="linkingmodule_heading" class="mod-header">
+        <h4 class="toggle-title" id="linkingmodule-label">Issue Links</h4>
+    </div>
+    <div class="mod-content">
+        <div class="links-container" data-default-link-icon="/images/icons/generic_link_16.png" resolved="">
+            {{ with .Params.related }}
+            <dl class="links-list">
+                <dt title="relates to">relates to</dt>
+                {{ range . }}
+                <dd>
+                    <div class="link-content">
+                        <p>
+                            <img src="" width="16" height="16" title="{{ .type }} - " alt="{{ .type }} - ">
+                            <span title="{{.id}} | {{.title}}">
+                                <a href="/jira/{{.id}}"> {{.id}}</a>
+                                <span class="link-summary">{{.title}}</span>
+                            </span>
+                        </p>
+                        <ul class="link-snapshot">
+                            <li class="priority">
+                                <img src="" width="16" height="16" title="{{ .priority }} - " alt="{{ .priority }} - ">
+                            </li>
+                            <li class="status">
+                                <span>{{ .status }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+                {{ end }}
+                {{ end }}
+            </dl>
+        </div>
+    </div>
+</div>

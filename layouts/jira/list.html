@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main>
+    {{ range first 1 (sort (where .Site.RegularPages "Section" "jira") ".Params.t_num" "desc" ) }}
+    <div class="issue-navigator">
+        <div class="issue-search">
+            <header class="aui-page-header issue-search-header">
+                <div class="aui-page-header-inner">
+                    <div class="aui-group aui-group-split">
+                        <div class="aui-item subnavigation">
+                            <h1><span id="issues-subnavigation-title" class="subnavigator-title">Updated recently</span>
+                            </h1>
+                        </div>
+                        <div class="aui-item">
+                            <div id="full-issue-navigator"><a href="/issues/">View all issues and filters</a></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="aui-group split-view">
+                {{- partial "jira/ticket-issuebar" . -}}
+                {{- partial "jira/detail-panel" . -}}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</main>
+{{ end }}

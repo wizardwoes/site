@@ -1,0 +1,17 @@
+<div class="aui-item detail-panel">
+    <div class="issue-content">
+        {{- partial "jira/ticket-header" . -}}
+        <div class="issue-body-content">
+            <div class="issue-body">
+                <div class="issue-main-column">
+                    {{- partial "jira/ticket-details" . -}}
+                    {{- partial "jira/ticket-description" . -}}
+                    {{/* ticket-related shouldn't show up if there are no related tickets */}}
+                    {{- partial "jira/ticket-related" . -}}
+                    {{- partial "jira/ticket-activity" . -}}
+                </div>
+                {{- partial "jira/ticket-right-sidebar" . -}}
+            </div>
+        </div>
+    </div>
+</div>

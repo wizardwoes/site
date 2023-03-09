@@ -1,0 +1,30 @@
+---
+title: "start of phaedrus"
+project:
+t_num: 2
+resolution: "unresolved"
+tickettype: "epic"
+priority: "blocker"
+assignee: phaedrus
+reporter: socrates
+tbody: "cool."
+---
+Socrates. My dear Phaedrus, whence come you, and whither are you going?
+
+Phaedrus. I come from Lysias the son of Cephalus, and I am going to
+take a walk outside the wall, for I have been sitting with him the
+whole morning; and our common friend Acumenus tells me that it is
+much more refreshing to walk in the open air than to be shut up in
+a cloister. 
+
+Soc. There he is right. Lysias then, I suppose, was in the town?
+
+Phaedr. Yes, he was staying with Epicrates, here at the house of 
+Morychus;
+that house which is near the temple of Olympian Zeus. 
+
+Soc. And how did he entertain you? Can I be wrong in supposing that
+Lysias gave you a feast of discourse? 
+
+Phaedr. You shall hear, if you can spare time to accompany me.
+

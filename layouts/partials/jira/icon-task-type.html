@@ -1,0 +1,3 @@
+{{ with . }}
+    {{ return resources.Get (printf "jira/icons/types/%s.svg" (.))}}
+{{ end }}

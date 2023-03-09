@@ -1,0 +1,19 @@
+---
+assignee: ''
+end page: ''
+labels: ''
+line end: ''
+line start: the art of disputation
+priority: minor
+related: ''
+reporter: ''
+resolution: unresolved
+start page: '469'
+status: ''
+t_num: '262'
+tbody: ''
+tickettype: issue
+title: the rhetorician must know differences
+---
+
+huh

@@ -1,0 +1,9 @@
+{{ with resources.Get "jira/ticket_details.json" }}
+{{ $details := unmarshal .Content }}
+  {{ range $details }}
+    {{ $string := jsonify . }} 
+    {{ $filename := printf "jira/%s.md" (urlize .t_url) }} 
+    {{ $resource := resources.FromString $filename $string }} 
+    {{ $file := $resource.RelPermalink }} 
+  {{ end }}
+{{ end }}

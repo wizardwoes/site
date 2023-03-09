@@ -1,0 +1,72 @@
+---
+assignee: Soc
+end page: '469'
+labels: ''
+line end: very true
+line start: and what are these arguements
+priority: major
+related: ''
+reporter: Phaedr
+resolution: unresolved
+start page: '468'
+status: ''
+t_num: '261'
+tbody: ''
+tickettype: issue
+title: rhetoric an art of enchantment
+---
+
+Phaedr. And what are these arguments, Socrates? Bring them out that
+we may examine them. 
+
+Soc. Come out, fair children, and convince Phaedrus, who is the father
+of similar beauties, that he will never be able to speak about anything
+as he ought to speak unless he have a knowledge of philosophy. And
+let Phaedrus answer you. 
+
+Phaedr. Put the question. 
+
+Soc. Is not rhetoric, taken generally, a universal art of enchanting
+the mind by arguments; which is practised not only in courts and public
+assemblies, but in private houses also, having to do with all matters,
+great as well as small, good and bad alike, and is in all equally
+right, and equally to be esteemed-that is what you have heard?
+
+Phaedr. Nay, not exactly that; I should say rather that I have heard
+the art confined to speaking and writing in lawsuits, and to speaking
+in public assemblies-not extended farther. 
+
+Soc. Then I suppose that you have only heard of the rhetoric of Nestor
+and Odysseus, which they composed in their leisure hours when at Troy,
+and never of the rhetoric of Palamedes? 
+
+Phaedr. No more than of Nestor and Odysseus, unless Gorgias is your
+Nestor, and Thrasymachus or Theodorus your Odysseus. 
+
+Soc. Perhaps that is my meaning. But let us leave them. And do you
+tell me, instead, what are plaintiff and defendant doing in a law
+court-are they not contending? 
+
+Phaedr. Exactly so. 
+
+Soc. About the just and unjust-that is the matter in dispute?
+
+Phaedr. Yes. 
+
+Soc. And a professor of the art will make the same thing appear to
+the same persons to be at one time just, at another time, if he is
+so inclined, to be unjust? 
+
+Phaedr. Exactly. 
+
+Soc. And when he speaks in the assembly, he will make the same things
+seem good to the city at one time, and at another time the reverse
+of good? 
+
+Phaedr. That is true. 
+
+Soc. Have we not heard of the Eleatic Palamedes (Zeno), who has an
+art of speaking by which he makes the same things appear to his hearers
+like and unlike, one and many, at rest and in motion? 
+
+Phaedr. Very true.

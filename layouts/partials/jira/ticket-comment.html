@@ -1,0 +1,14 @@
+<div class="twixi-wrap verbose actionContainer">
+    <div class="action-head">
+        <div class="action-details">
+            <a class="user-hover user-avatar" rel="{{.user.shortname}}" id="commentauthor_1169784_verbose" href=""><span
+                    class="aui-avatar aui-avatar-xsmall"><span class="aui-avatar-inner"><img src="{{.user.avatar.uri}}"
+                            alt="{{.user.shortname}}"></span></span> {{.user.name}}</a>
+            added a comment - <span class="date user-tz" title="{{ .created_on }}"><time class="livestamp"
+                    datetime="{{ .created_on }}">{{ .created_on }}</time></span></a>
+        </div>
+    </div>
+    <div class="action-body flooded">
+        <p>{{ .content }}</p>
+    </div>
+</div>

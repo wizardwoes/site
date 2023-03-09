@@ -1,0 +1,23 @@
+<div class="issue-header-content">
+    <div class="aui-page-header">
+        {{ with .Params }}
+        <div class="aui-page-header-inner">
+            <div class="aui-page-header-image"><span id="15001"
+                    class="aui-avatar aui-avatar-large aui-avatar-project jira-system-avatar"><span
+                        class="aui-avatar-inner"><img id="project-avatar"
+                            alt="Uploaded image for project: 'PROJECT NAME GOES HERE'"
+                            src=""></span></span>
+            </div>
+            <div class="aui-page-header-main">
+                <ol class="aui-nav aui-nav-breadcrumbs" resolved="">
+                    <li><a id="project-name-val" href="/browse/HWE">PROJECT NAME GOES HERE</a></li>
+                    <li><a class="issue-link" data-issue-key="{{.t_url}}" href="/browse/{{.t_url}}" id="key-val"
+                            rel="12412417">{{.t_url}}</a></li>
+                </ol>
+                <h1 id="summary-val" class="editable-field inactive" title="Click to edit">{{.title}}<span
+                        class="overlay-icon aui-icon aui-icon-small aui-iconfont-edit"></span></h1>
+            </div>
+        {{ end }}
+        </div>
+    </div>
+</div>

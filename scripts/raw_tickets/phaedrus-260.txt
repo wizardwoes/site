@@ -1,0 +1,88 @@
+---
+assignee: Soc
+end page: 468 (half way)
+labels: ''
+line end: which is divorced
+line start: let us talk
+priority: critical
+related: ''
+reporter: Phaedr
+resolution: unresolved
+start page: '467'
+status: ''
+t_num: '260'
+tbody: 'hey socrates can you work with Phaedrus on this? '
+tickettype: story
+title: the rules of writing and speech
+---
+
+Phaedr. Let us talk. 
+
+Soc. Shall we discuss the rules of writing and speech as we were 
+proposing?
+
+Phaedr. Very good. 
+
+Soc. In good speaking should not the mind of the speaker know the
+truth of the matter about which he is going to speak? 
+
+Phaedr. And yet, Socrates, I have heard that he who would be an orator
+has nothing to do with true justice, but only with that which is likely
+to be approved by the many who sit in judgment; nor with the truly
+good or honourable, but only with opinion about them, and that from
+opinion comes persuasion, and not from the truth. 
+
+Soc. The words of the wise are not to be set aside; for there is 
+probably
+something in them; and therefore the meaning of this saying is not
+hastily to be dismissed. 
+
+Phaedr. Very true. 
+
+Soc. Let us put the matter thus:-Suppose that I persuaded you to buy
+a horse and go to the wars. Neither of us knew what a horse was like,
+but I knew that you believed a horse to be of tame animals the one
+which has the longest ears. 
+
+Phaedr. That would be ridiculous. 
+
+Soc. There is something more ridiculous coming:-Suppose, further,
+that in sober earnest I, having persuaded you of this, went and composed
+a speech in honour of an ass, whom I entitled a horse beginning: "A
+noble animal and a most useful possession, especially in war, and
+you may get on his back and fight, and he will carry baggage or 
+anything."
+
+Phaedr. How ridiculous! 
+
+Soc. Ridiculous! Yes; but is not even a ridiculous friend better than
+a cunning enemy? 
+
+Phaedr. Certainly. 
+
+Soc. And when the orator instead of putting an ass in the place of
+a horse puts good for evil being himself as ignorant of their true
+nature as the city on which he imposes is ignorant; and having studied
+the notions of the multitude, falsely persuades them not about "the
+shadow of an ass," which he confounds with a horse, but about good
+which he confounds with evily-what will be the harvest which rhetoric
+will be likely to gather after the sowing of that seed? 
+
+Phaedr. The reverse of good. 
+
+Soc. But perhaps rhetoric has been getting too roughly handled by
+us, and she might answer: What amazing nonsense you are talking! As
+if I forced any man to learn to speak in ignorance of the truth! 
+Whatever
+my advice may be worth, I should have told him to arrive at the truth
+first, and then come to me. At the same time I boldly assert that
+mere knowledge of the truth will not give you the art of persuasion.
+
+Phaedr. There is reason in the lady's defence of herself.
+
+Soc. Quite true; if only the other arguments which remain to be brought
+up bear her witness that she is an art at all. But I seem to hear
+them arraying themselves on the opposite side, declaring that she
+speaks falsely, and that rhetoric is a mere routine and trick, not
+an art. Lo! a Spartan appears, and says that there never is nor ever
+will be a real art of speaking which is divorced from the truth.

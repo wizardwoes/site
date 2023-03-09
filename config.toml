@@ -62,3 +62,11 @@ sectionPagesMenu = "main"
       hardWraps = false
       unsafe = true
       xhtml = false
+
+[module]
+[[module.mounts]]
+  source = 'content'
+  target = 'content'
+[[module.mounts]]
+  source = 'prebuild/public/jira'
+  target = 'content/jira'

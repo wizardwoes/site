@@ -1,0 +1,72 @@
+<div class="aui-item list-results-panel" style="width: 250px;">
+    <div>
+        <div class="simple-issue-list">
+            <div class="list-panel" style="height: 482px;">
+                <div class="list-ordering">
+                    <div class="order-by-container">
+                        <div class="order-by-fields"><a href="#" aria-haspopup="true"
+                                class="order-options aui-button aui-style-default jira-aui-dropdown2-trigger"
+                                title="Select the field that issues are ordered by." resolved=""><span>Order by
+                                    Updated</span></a></div>
+                        <div class="order-by-direction"><a href="#" aria-haspopup="false" class="order-by aui-button"
+                                title="Order by Updated" data-field-id="updated" data-direction="DESC" resolved=""><span
+                                    class="aui-icon aui-icon-small aui-iconfont-new-arrow-down">Order by
+                                    Updated</span></a></div>
+                    </div>
+                </div>
+                {{/* can range over page data and fill this out */}}
+                <div class="search-results">
+                    <div class="list-content">
+                        <ol class="issue-list">
+                            {{ range (sort (where .Site.RegularPages "Section" "jira") ".Params.t_num" "desc" ) }}
+                            <li title="{{.Params.title}}" data-key="{{.Params.t_url}}" class="focused">
+                                <a class="splitview-issue-link" href="{{.RelPermalink}}">
+                                    <div>
+                                        <div>
+                                            <img height="16" width="16" alt="{{.Params.tickettype}}"
+                                                title="description of the ticket type" src="">
+                                        </div>
+                                        <div class="issue-content-container">
+                                            <span class="issue-link-key">{{.Params.t_url}}</span>
+                                            <span class="issue-link-summary">{{.Params.title}}</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="end-of-stable-message-container"></div>
+            <div class="inline-issue-create-container">
+                <div class="iic">
+                    <div class="iic-trigger">
+                        <button type="button" class="aui-button aui-button-subtle"
+                            resolved="">Create issue</button>
+                        </div>
+                </div>
+            </div>
+            <div class="aui-group pagination-view count-pagination">
+                <div class="refresh-container aui-item"><a href="#" class="aui-button aui-button-subtle refresh-table"
+                        title="Refresh results" resolved="">
+                        <span
+                            class="aui-icon aui-icon-small aui-iconfont-refresh-small">Refresh results</span></a></div>
+                <div class="pagination-container aui-item">
+                    <nav role="navigation" aria-label="Search pagination">
+                        <div class="pagination" data-displayable-total="173"> <strong title="Issues 1 - 50">1</strong>
+                            <a href="/projects/HWE/issues?startIndex=50" data-page="2" data-start-index="50"
+                                title="Issues 51 - 100">2</a> <a href="/projects/HWE/issues?startIndex=100"
+                                data-page="3" data-start-index="100" title="Issues 101 - 150">3</a> <a
+                                href="/projects/HWE/issues?startIndex=150" data-page="4" data-start-index="150"
+                                title="Issues 151 - 173">4</a><a href="/projects/HWE/issues?startIndex=50"
+                                data-start-index="50" class="nav-next" title="Go to page 2 of 4"><span
+                                    class="aui-icon aui-icon-small aui-iconfont-chevron-right">Next &gt;&gt;</span></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui-sidebar ui-draggable ui-draggable-handle" style="top: 130px; left: 306px; height: 574px;"></div>
+</div>
