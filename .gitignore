@@ -1,4 +1,7 @@
 public/**
+resources/_gen
 prebuild/public/**
+prebuild/resources/_gen
+
 **/.vscode
 **/__pycache__
