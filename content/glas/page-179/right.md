@@ -18,5 +18,4 @@ realizing an idea doesn’t fit and abandoning it goes beyond negation - this re
 
 ---
 
-*Worlds* can be viewed on <a href="http://kinet.media/movies/worlds">Kinet</a>
-
+*Worlds* can be viewed on [Kinet](http://kinet.media/movies/worlds)

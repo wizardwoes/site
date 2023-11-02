@@ -10,4 +10,4 @@ cite: Hdboyztheboyzdefined
 
 ![hdboys](./E1uMLiEUYAs1BzT.jpg "highly defined boyz")
 
-<a href="http://dismagazine.com/dystopia/22132/hdboyz-the-boyz-defined/">http://dismagazine.com/dystopia/22132/hdboyz-the-boyz-defined/</a>
+[http://dismagazine.com/dystopia/22132/hdboyz-the-boyz-defined/](http://dismagazine.com/dystopia/22132/hdboyz-the-boyz-defined/)
