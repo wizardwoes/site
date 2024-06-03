@@ -46,7 +46,7 @@ in Jerusalem, the city of miracles:
 >> became a touchstone to which I would return throughout my
 >> life. I could never discuss such things in a trivial way. Sexual
 >> intercourse without the deepest affection had become something
->> unthinkable. This protected me against flirtations and brothels."
+>> unthinkable. This protected me against flirtations and brothels.
 
 The passage comes from a forty-five-year-old death row inmate. What
 reason would a man like that have for holding anything back? He had
