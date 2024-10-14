@@ -1,6 +1,6 @@
 ---
 title: "page 185 right"
-date: 2022-10-010T16:18:42-07:00
+date: 2022-10-10T16:18:42-07:00
 description: ""
 tags: []
 categories: []
