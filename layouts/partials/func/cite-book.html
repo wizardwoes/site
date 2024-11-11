@@ -5,6 +5,7 @@
 
 {{ with $scratch.Get "cparams" }}
     <div class="citation">
+        <p>
     {{/* type: book */}}
     {{/* Last Name, First Name. *Title of Book.* City of Publication, Publisher, Publication Date. */}}
     {{ if eq .type "book"}}
@@ -50,6 +51,7 @@
         {{ with .publisher }}{{.}}, {{ end }}
         {{ with .year }}{{.}}.{{ end }}
     {{ end }}
+</p>
     </div>
 
 {{ end }}
